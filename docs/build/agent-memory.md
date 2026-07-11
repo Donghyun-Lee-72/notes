@@ -35,6 +35,11 @@ amplifying obsolete facts. Include contradictory updates, deletion requests,
 similar users, long delays, and irrelevant but highly similar records. Measure
 precision of retrieval as well as recall.
 
+## Further Reading
+
+- [Generative Agents](https://arxiv.org/abs/2304.03442)
+- [MemGPT](https://arxiv.org/abs/2310.08560)
+
 ## Related
 
 - [AI Agents](ai-agents.md)

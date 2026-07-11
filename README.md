@@ -1,8 +1,9 @@
 # AI Notes
 
 AI Notes is a public, source-linked guide to language models, agents, retrieval,
-and evaluation. The site is maintained by Donghyun Lee and published as a
-static GitHub Pages site.
+and evaluation. English is the canonical source; reviewed Korean translations
+are published alongside it. The site is maintained by Donghyun Lee and
+published as a static GitHub Pages site.
 
 Only reviewed public-facing material belongs in this repository. Private notes,
 project records, source archives, internal paths, and operational details are
@@ -26,6 +27,6 @@ Unless a page states otherwise, the written content is available under the
 ## Local Preview
 
 ```bash
-python -m pip install mkdocs-material
+python -m pip install mkdocs-material mkdocs-static-i18n
 mkdocs serve
 ```

@@ -24,6 +24,8 @@ individual pages explain which claim or design question it supports.
 
 - Yao et al. (2022), [ReAct](https://arxiv.org/abs/2210.03629)
 - Schick et al. (2023), [Toolformer](https://arxiv.org/abs/2302.04761)
+- Park et al. (2023), [Generative Agents](https://arxiv.org/abs/2304.03442)
+- Packer et al. (2023), [MemGPT](https://arxiv.org/abs/2310.08560)
 - [LangChain documentation](https://python.langchain.com/docs/)
 - [LangGraph documentation](https://langchain-ai.github.io/langgraph/)
 - [Pydantic documentation](https://docs.pydantic.dev/)
@@ -37,6 +39,8 @@ individual pages explain which claim or design question it supports.
 - Es et al. (2023), [RAGAS](https://arxiv.org/abs/2309.15217)
 - Saad-Falcon et al. (2023), [ARES](https://arxiv.org/abs/2311.09476)
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- Malkov and Yashunin (2016), [Hierarchical Navigable Small World Graphs](https://arxiv.org/abs/1603.09320)
+- Schulhoff et al. (2023), [Ignore This Title and HackAPrompt](https://arxiv.org/abs/2311.16119)
 
 ## Reference Policy
 

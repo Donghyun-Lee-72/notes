@@ -44,6 +44,10 @@ recall compares approximate results with exact nearest neighbors; task recall
 compares results with human relevance judgments. Both can matter, but they
 answer different questions.
 
+## Further Reading
+
+- [Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs](https://arxiv.org/abs/1603.09320)
+
 ## Related
 
 - [Embeddings](../learn/embeddings.md)

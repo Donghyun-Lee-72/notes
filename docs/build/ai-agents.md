@@ -10,8 +10,8 @@ part of the decision policy, but a model call by itself is not an agent.
 2. Select an allowed action or produce a final response.
 3. Validate and authorize the proposed action.
 4. Execute it outside the model.
-5. convert the result into an observation;
-6. update state and test a stopping condition.
+5. Convert the result into an observation.
+6. Update state and test a stopping condition.
 
 The application, not the model, owns permissions and execution. This separation
 is essential because generated tool arguments can be incomplete, incorrect, or

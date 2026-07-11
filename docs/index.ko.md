@@ -1,0 +1,33 @@
+# AI Notes
+
+AI Notes는 언어 모델 애플리케이션의 핵심 개념과 설계 패턴을 설명하는 공개 가이드입니다. 특정 모델이나 프레임워크의 새 소식을 모두 모으기보다, 구현이 바뀌어도 오래 남는 원리인 토큰과 어텐션, 컨텍스트와 검색, 도구와 상태, 검증과 평가를 체계적으로 연결합니다.
+
+## 학습 경로
+
+### 모델 계층 이해하기
+
+[대규모 언어 모델](learn/large-language-models.md)에서 시작해 [토큰화](learn/tokenization.md), [Transformer](learn/transformers.md), [컨텍스트 윈도](learn/context-windows.md)를 읽으세요. 모델이 무엇을 입력으로 받고, 정보를 어떻게 혼합하며, 애플리케이션이 왜 컨텍스트를 관리해야 하는지 설명합니다.
+
+### 근거 기반 애플리케이션 구축하기
+
+[임베딩](learn/embeddings.md), [검색 증강 생성](build/retrieval-augmented-generation.md), [벡터 데이터베이스](tools/vector-databases.md)를 읽은 뒤, 검색 기술을 선택하기 전에 [RAG 평가](evaluate/rag-evaluation.md)를 확인하세요.
+
+### 통제 가능한 Agent 구축하기
+
+[AI Agent](build/ai-agents.md), [도구 사용과 함수 호출](build/tool-use-and-function-calling.md), [구조화 출력](build/structured-output.md)을 연결해 읽으세요. LLM은 행동을 제안할 수 있지만 검증, 권한 부여, 실행, 종료는 애플리케이션 코드가 담당해야 합니다.
+
+### 신뢰성 측정하기
+
+[근거성과 환각](evaluate/grounding-and-hallucination.md)은 증거 문제를 설명합니다. [LLM 평가](evaluate/llm-evaluation.md)는 계층별 평가 전략을, [RAG 평가](evaluate/rag-evaluation.md)는 검색 실패와 생성 실패를 구분하는 방법을 다룹니다.
+
+## 문서 읽는 법
+
+각 문서는 다섯 질문에 답하는 것을 목표로 합니다.
+
+1. 이 개념은 무엇인가?
+2. 어떻게 작동하는가?
+3. 어떤 설계 선택이 중요한가?
+4. 어떻게 실패하는가?
+5. 어떻게 평가해야 하는가?
+
+빠른 정의는 [용어집](glossary.md), 원 논문과 공식 문서는 [참고문헌](references.md)을 이용하세요. 영어 문서가 canonical 원문이며 한국어판은 검수된 번역입니다.

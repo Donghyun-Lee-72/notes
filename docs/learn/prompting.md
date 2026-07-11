@@ -36,6 +36,10 @@ ambiguous, adversarial, and unanswerable inputs. Measure task quality, format
 validity, refusal behavior, latency, and token use. Re-run evaluation when the
 model or surrounding context changes.
 
+## Further Reading
+
+- [Ignore This Title and HackAPrompt](https://arxiv.org/abs/2311.16119)
+
 ## Related
 
 - [Context Windows](context-windows.md)
