@@ -76,6 +76,10 @@ extra_css:
 extra_javascript:
   - assets/javascripts/navigation.js
   - assets/javascripts/site-analytics.js
+extra:
+  analytics:
+    provider: google
+    property: G-6Z3WTNQ64Q
 nav:
   - Start: index.md
   - Foundations:
