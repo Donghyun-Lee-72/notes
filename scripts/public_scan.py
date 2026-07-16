@@ -43,6 +43,10 @@ def main() -> int:
             continue
         for line_number, line in enumerate(path.read_text(errors="replace").splitlines(), 1):
             for label, pattern in PATTERNS.items():
+                # robots.txt legitimately names crawler user agents such as
+                # ChatGPT-User; this is not private conversation provenance.
+                if relative.as_posix() == "docs/robots.txt" and label == "private platform":
+                    continue
                 if pattern.search(line):
                     findings.append(f"{relative}:{line_number}: {label}: {line.strip()[:160]}")
     if findings:
