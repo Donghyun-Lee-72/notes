@@ -1,5 +1,5 @@
-site_name: AI Notes
-site_description: Clear, source-linked notes on language models, agents, retrieval, and evaluation.
+site_name: Knowledge Notes
+site_description: Clear, source-linked notes on AI, materials science, and scientific instrumentation.
 site_url: https://ai-notes.donghyunlee.me/
 repo_url: https://github.com/Donghyun-Lee-72/ai-notes
 site_author: Donghyun Lee
@@ -35,6 +35,8 @@ plugins:
           build: true
           nav_translations:
             Start: 시작
+            AI and AI4Science: AI와 AI4Science
+            AI and AI4Science Overview: AI와 AI4Science 개요
             Foundations: 기초
             Large Language Models: 대규모 언어 모델
             Tokenization: 토큰화
@@ -42,6 +44,9 @@ plugins:
             Transformers: Transformer
             Embeddings: 임베딩
             Prompting: 프롬프팅
+            Materials Science and Engineering: 재료과학·공학
+            MSE Overview: MSE 개요
+            "Electron Microscopy: SEM and TEM": "전자현미경: SEM과 TEM"
             Build: 구축
             AI Agents: AI Agent
             Workflows and Agents: Workflow와 Agent
@@ -82,28 +87,33 @@ extra:
     property: G-6Z3WTNQ64Q
 nav:
   - Start: index.md
-  - Foundations:
-      - Large Language Models: learn/large-language-models.md
-      - Tokenization: learn/tokenization.md
-      - Transformers: learn/transformers.md
-      - Context Windows: learn/context-windows.md
-      - Embeddings: learn/embeddings.md
-      - Prompting: learn/prompting.md
-  - Build:
-      - AI Agents: build/ai-agents.md
-      - Workflows and Agents: build/workflows-and-agents.md
-      - Agent Memory: build/agent-memory.md
-      - Tool Use and Function Calling: build/tool-use-and-function-calling.md
-      - Structured Output: build/structured-output.md
-      - Retrieval-Augmented Generation: build/retrieval-augmented-generation.md
-      - Reranking: build/reranking.md
-      - Pydantic: tools/pydantic.md
-      - LangChain and LangGraph: tools/langchain-langgraph.md
-      - Vector Databases: tools/vector-databases.md
-  - Evaluate:
-      - Grounding and Hallucination: evaluate/grounding-and-hallucination.md
-      - LLM Evaluation: evaluate/llm-evaluation.md
-      - RAG Evaluation: evaluate/rag-evaluation.md
+  - AI and AI4Science:
+      - AI and AI4Science Overview: ai-ai4science/index.md
+      - Foundations:
+          - Large Language Models: learn/large-language-models.md
+          - Tokenization: learn/tokenization.md
+          - Transformers: learn/transformers.md
+          - Context Windows: learn/context-windows.md
+          - Embeddings: learn/embeddings.md
+          - Prompting: learn/prompting.md
+      - Build:
+          - AI Agents: build/ai-agents.md
+          - Workflows and Agents: build/workflows-and-agents.md
+          - Agent Memory: build/agent-memory.md
+          - Tool Use and Function Calling: build/tool-use-and-function-calling.md
+          - Structured Output: build/structured-output.md
+          - Retrieval-Augmented Generation: build/retrieval-augmented-generation.md
+          - Reranking: build/reranking.md
+          - Pydantic: tools/pydantic.md
+          - LangChain and LangGraph: tools/langchain-langgraph.md
+          - Vector Databases: tools/vector-databases.md
+      - Evaluate:
+          - Grounding and Hallucination: evaluate/grounding-and-hallucination.md
+          - LLM Evaluation: evaluate/llm-evaluation.md
+          - RAG Evaluation: evaluate/rag-evaluation.md
+  - Materials Science and Engineering:
+      - MSE Overview: materials-science/index.md
+      - "Electron Microscopy: SEM and TEM": learn/electron-microscopy-sem-tem.md
   - Reference:
       - Glossary: glossary.md
       - References: references.md

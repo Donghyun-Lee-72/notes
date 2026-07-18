@@ -1,6 +1,6 @@
 # References
 
-AI Notes prioritizes public primary papers, benchmark papers, standards, and
+Knowledge Notes prioritizes public primary papers, benchmark papers, standards, and
 official project documentation. A reference indicates useful further reading;
 individual pages explain which claim or design question it supports.
 

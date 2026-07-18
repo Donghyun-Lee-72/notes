@@ -1,7 +1,7 @@
-# AI Notes
+# Knowledge Notes
 
-AI Notes is a public, source-linked guide to language models, agents, retrieval,
-and evaluation. English is the canonical source; reviewed Korean translations
+Knowledge Notes is a public, source-linked guide organized into AI & AI4Science
+and Materials Science & Engineering. English is the canonical source; reviewed Korean translations
 are published alongside it. The site is maintained by Donghyun Lee and
 published as a static GitHub Pages site.
 

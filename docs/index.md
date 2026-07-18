@@ -1,12 +1,18 @@
-# AI Notes
+# Knowledge Notes
 
-AI Notes is a public guide to the concepts and engineering patterns behind
-language-model applications. The goal is not to collect every new framework or
-model release. It is to build a durable map of the ideas that remain useful
-across implementations: tokens and attention, context and retrieval, tools and
-state, validation and evaluation.
+Knowledge Notes is a public guide to durable concepts in artificial intelligence and
+the scientific domains in which those systems are used. It connects language-
+model engineering with source-linked notes in materials science and scientific
+instrumentation rather than collecting every new framework or model release.
 
 ## Choose a Learning Path
+
+The library is organized around two knowledge domains:
+
+- **[AI & AI4Science](ai-ai4science/index.md):** model foundations, retrieval,
+  agents, evaluation, and the use of these systems in scientific work.
+- **[Materials Science & Engineering](materials-science/index.md):** structure,
+  processing, properties, characterization, and scientific instrumentation.
 
 ### Understand the model layer
 
@@ -38,6 +44,14 @@ execution, and stopping.
 the evidence problem. [LLM Evaluation](evaluate/llm-evaluation.md) introduces a
 layered evaluation strategy, while [RAG Evaluation](evaluate/rag-evaluation.md)
 separates retrieval failures from generation failures.
+
+### Study materials science and instrumentation
+
+Use the [Materials Science](materials-science/index.md) section for domain
+foundations. The first detailed guide, [Electron Microscopy: SEM and TEM](learn/electron-microscopy-sem-tem.md),
+connects electron–matter interactions to image contrast, diffraction, and
+spectroscopy while separating direct measurements from common visual
+shortcuts such as the “3D SEM image” description.
 
 ## How to Read These Notes
 

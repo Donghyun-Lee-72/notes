@@ -1,7 +1,7 @@
-# About AI Notes
+# About Knowledge Notes
 
-AI Notes is a public, source-linked collection of explanations about language
-models, AI agents, retrieval-augmented generation, and evaluation. It is
+Knowledge Notes is a public, source-linked collection covering AI & AI4Science
+and Materials Science & Engineering. It is
 maintained by Donghyun Lee as an educational resource and an evolving record of
 technical study.
 
@@ -21,7 +21,7 @@ important claims at their source.
 
 ## Scope
 
-The current scope covers LLM fundamentals, agent and RAG patterns, common
-implementation tools, and evaluation. Personal notes, private project records,
+The current scope covers LLM fundamentals, agent and RAG patterns, evaluation,
+scientific AI, and materials characterization. Personal notes, private project records,
 raw source archives, and operational material are outside the scope of this
 site.
