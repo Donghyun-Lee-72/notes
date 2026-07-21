@@ -1,8 +1,9 @@
 # References
 
-Knowledge Notes prioritizes public primary papers, benchmark papers, standards, and
-official project documentation. A reference indicates useful further reading;
-individual pages explain which claim or design question it supports.
+Notes uses public primary papers, benchmark papers, standards, and official
+documentation when they help readers verify a claim or continue learning. Not
+every page needs a reference list; internal links are often the shortest route
+to a related explanation.
 
 ## Language Models and Transformers
 
@@ -44,7 +45,6 @@ individual pages explain which claim or design question it supports.
 
 ## Reference Policy
 
-References must be public and independently accessible. Private archives,
-working conversations, and unpublished internal material are not accepted as
-public citations. Pages should distinguish a source-backed statement from an
+When references are included, they should be public and independently
+accessible. Pages should distinguish a source-backed statement from an
 editorial recommendation or engineering heuristic.

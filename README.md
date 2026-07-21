@@ -1,9 +1,10 @@
-# Knowledge Notes
+# Notes
 
-Knowledge Notes is a public, source-linked guide organized into AI & AI4Science
-and Materials Science & Engineering. English is the canonical source; reviewed Korean translations
-are published alongside it. The site is maintained by Donghyun Lee and
-published as a static GitHub Pages site.
+Notes is a public guide organized into AI and Materials Science & Chemistry.
+AI4Science is a bridge from AI methods to scientific applications. English is
+the published language; Korean source files are retained but are not currently
+built into the site. The site is maintained by Donghyun Lee and published as a
+static GitHub Pages site.
 
 Only reviewed public-facing material belongs in this repository. Private notes,
 project records, source archives, internal paths, and operational details are
@@ -27,6 +28,6 @@ Unless a page states otherwise, the written content is available under the
 ## Local Preview
 
 ```bash
-python -m pip install mkdocs-material mkdocs-static-i18n
+python -m pip install mkdocs==1.6.1 mkdocs-material==9.7.6 mkdocs-static-i18n==1.3.1 mkdocs-redirects==1.2.2
 mkdocs serve
 ```

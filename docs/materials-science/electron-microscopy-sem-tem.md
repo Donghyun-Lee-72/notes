@@ -84,3 +84,8 @@ Report the microscope and source, accelerating voltage, probe current or apertur
 - Goldstein, J. I., et al. (2018). *Scanning Electron Microscopy and X-Ray Microanalysis* (4th ed.). Springer. <https://doi.org/10.1007/978-1-4939-6676-9>
 - Williams, D. B., & Carter, C. B. (2009). *Transmission Electron Microscopy* (2nd ed.). Springer. <https://doi.org/10.1007/978-0-387-76501-3>
 
+## Related notes
+
+- [Materials Science & Chemistry](index.md)
+- [Chemistry](chemistry.md)
+- [AI4Science](../ai4science/index.md)

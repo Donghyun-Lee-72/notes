@@ -1,18 +1,18 @@
-# Knowledge Notes
+# Notes
 
-Knowledge Notes is a public guide to durable concepts in artificial intelligence and
-the scientific domains in which those systems are used. It connects language-
-model engineering with source-linked notes in materials science and scientific
-instrumentation rather than collecting every new framework or model release.
+Notes is a compact guide to durable concepts in artificial intelligence,
+materials science, and chemistry. It connects related ideas across pages rather
+than collecting every new framework, model release, or isolated definition.
 
 ## Choose a Learning Path
 
 The library is organized around two knowledge domains:
 
-- **[AI & AI4Science](ai-ai4science/index.md):** model foundations, retrieval,
-  agents, evaluation, and the use of these systems in scientific work.
-- **[Materials Science & Engineering](materials-science/index.md):** structure,
-  processing, properties, characterization, and scientific instrumentation.
+- **[AI](ai/index.md):** model foundations, retrieval, agents,
+  evaluation, and an AI4Science area for scientific applications.
+- **[Materials Science & Chemistry](materials-science/index.md):** structure,
+  processing, properties, reactions, characterization, and scientific
+  instrumentation.
 
 ### Understand the model layer
 
@@ -45,23 +45,30 @@ the evidence problem. [LLM Evaluation](evaluate/llm-evaluation.md) introduces a
 layered evaluation strategy, while [RAG Evaluation](evaluate/rag-evaluation.md)
 separates retrieval failures from generation failures.
 
-### Study materials science and instrumentation
+### Apply AI to science
 
-Use the [Materials Science](materials-science/index.md) section for domain
-foundations. The first detailed guide, [Electron Microscopy: SEM and TEM](learn/electron-microscopy-sem-tem.md),
+Use [AI4Science](ai4science/index.md) to connect evidence,
+tools, workflows, uncertainty, and evaluation to scientific discovery,
+simulation, experiment planning, literature synthesis, and data analysis.
+
+### Study materials science, chemistry, and instrumentation
+
+Use the [Materials Science & Chemistry](materials-science/index.md) section for
+domain foundations. The first detailed guide, [Electron Microscopy: SEM and TEM](materials-science/electron-microscopy-sem-tem.md),
 connects electron–matter interactions to image contrast, diffraction, and
 spectroscopy while separating direct measurements from common visual
 shortcuts such as the “3D SEM image” description.
 
 ## How to Read These Notes
 
-Each page aims to answer five questions:
+Pages are designed to make five things easy to find:
 
-1. What is the concept?
+1. What is the idea or method?
 2. How does it work?
-3. Which design choices matter?
-4. How does it fail?
-5. How should it be evaluated?
+3. Which choices or conditions matter?
+4. What can fail or mislead?
+5. Which related note should come next?
 
 Use the [Glossary](glossary.md) for quick definitions and
-[References](references.md) for primary papers and official documentation.
+[References](references.md) when a topic benefits from primary papers or
+official documentation.
