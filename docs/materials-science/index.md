@@ -12,12 +12,19 @@ supports synthesis, characterization, and the design of functional matter.
   electron–matter interactions, scattering and signal generation, imaging,
   diffraction, spectroscopy, specimen preparation, artifacts, and method
   selection.
+- [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md) —
+  reciprocal-lattice points, diffraction spots, wavevectors, the Ewald sphere,
+  Fourier transforms, structure factors, and diffuse scattering.
 
 ## Chemistry
 
 The [Chemistry Overview](chemistry.md) maps atomic and molecular structure,
 thermodynamics, kinetics, reactions, synthesis, and analysis within the shared
 section.
+
+[MOF Topology and Up–Down Design](mof-topology-up-down-design.md) distinguishes
+topology from ontology and uses a 2024 *Nature Synthesis* study as a case study
+in topology-guided Zr-based MOF discovery.
 
 ## Planned map
 
@@ -38,3 +45,5 @@ not published or redistributed.
 - [AI4Science](../ai4science/index.md)
 - [Chemistry](chemistry.md)
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md)
+- [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md)
+- [MOF Topology and Up–Down Design](mof-topology-up-down-design.md)

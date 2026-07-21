@@ -16,8 +16,16 @@ materials are synthesized, characterized, changed, and used.
 These topics connect directly to the processing–structure–properties–performance
 framework used in materials science.
 
+## Case study
+
+- [MOF Topology and Up–Down Design](mof-topology-up-down-design.md) — how a
+  framework net, building-unit orientation, and linker geometry guide the search
+  for new Zr-based metal–organic frameworks.
+
 ## Related notes
 
 - [Materials Science & Chemistry](index.md)
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md)
+- [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md)
+- [MOF Topology and Up–Down Design](mof-topology-up-down-design.md)
 - [AI4Science](../ai4science/index.md)

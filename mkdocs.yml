@@ -55,6 +55,8 @@ plugins:
             Chemistry: 화학
             Chemistry Overview: 화학 개요
             "Electron Microscopy: SEM and TEM": "전자현미경: SEM과 TEM"
+            "Crystal Diffraction, Reciprocal Space, and Disorder": "결정 회절, 역공간과 무질서"
+            "MOF Topology and Up–Down Design": "MOF topology와 up–down 설계"
             Build: 구축
             AI Agents: AI Agent
             Workflows and Agents: Workflow와 Agent
@@ -123,7 +125,9 @@ nav:
   - Materials Science and Chemistry:
       - materials-science/index.md
       - "Electron Microscopy: SEM and TEM": materials-science/electron-microscopy-sem-tem.md
+      - "Crystal Diffraction, Reciprocal Space, and Disorder": materials-science/crystal-diffraction-reciprocal-space.md
       - Chemistry: materials-science/chemistry.md
+      - "MOF Topology and Up–Down Design": materials-science/mof-topology-up-down-design.md
   - Reference:
       - Glossary: glossary.md
       - References: references.md
