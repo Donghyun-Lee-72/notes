@@ -56,6 +56,10 @@ plugins:
             Chemistry Overview: 화학 개요
             "Electron Microscopy: SEM and TEM": "전자현미경: SEM과 TEM"
             "Crystal Diffraction, Reciprocal Space, and Disorder": "결정 회절, 역공간과 무질서"
+            "Powder X-ray Diffraction": "분말 X선 회절"
+            "PXRD Simulation and Rietveld Refinement": "PXRD 시뮬레이션과 Rietveld 정련"
+            "Computing PXRD Patterns with pymatgen": "pymatgen으로 PXRD 패턴 계산하기"
+            "Choosing PXRD Software": "PXRD 소프트웨어 선택"
             "MOF Topology and Up–Down Design": "MOF topology와 up–down 설계"
             Build: 구축
             AI Agents: AI Agent
@@ -126,6 +130,10 @@ nav:
       - materials-science/index.md
       - "Electron Microscopy: SEM and TEM": materials-science/electron-microscopy-sem-tem.md
       - "Crystal Diffraction, Reciprocal Space, and Disorder": materials-science/crystal-diffraction-reciprocal-space.md
+      - "Powder X-ray Diffraction": materials-science/powder-x-ray-diffraction.md
+      - "PXRD Simulation and Rietveld Refinement": materials-science/pxrd-simulation-and-refinement.md
+      - "Computing PXRD Patterns with pymatgen": materials-science/pymatgen-pxrd.md
+      - "Choosing PXRD Software": materials-science/pxrd-software-selection.md
       - Chemistry: materials-science/chemistry.md
       - "MOF Topology and Up–Down Design": materials-science/mof-topology-up-down-design.md
   - Reference:

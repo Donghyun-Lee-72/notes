@@ -15,6 +15,18 @@ supports synthesis, characterization, and the design of functional matter.
 - [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md) —
   reciprocal-lattice points, diffraction spots, wavevectors, the Ewald sphere,
   Fourier transforms, structure factors, and diffuse scattering.
+- [Powder X-ray Diffraction](powder-x-ray-diffraction.md) — how a powder pattern
+  is formed, what peak position, intensity, and width reveal, and where
+  interpretation can fail.
+- [PXRD Simulation and Rietveld Refinement](pxrd-simulation-and-refinement.md) —
+  ideal reflections, full-profile simulation, whole-pattern fitting, and a
+  defensible comparison workflow.
+- [Computing PXRD Patterns with pymatgen](pymatgen-pxrd.md) — a reproducible
+  Python workflow, its outputs, and why a parsed CIF is not proof of a correct
+  structure.
+- [Choosing PXRD Software](pxrd-software-selection.md) — the roles, access
+  models, and limits of pymatgen, Mercury, VESTA, Dans_Diffraction, GSAS-II,
+  FullProf, TOPAS, and HighScore Plus.
 
 ## Chemistry
 
@@ -31,7 +43,7 @@ in topology-guided Zr-based MOF discovery.
 - Atomic structure, bonding, defects, and diffusion
 - Phase equilibria, phase diagrams, and materials thermodynamics
 - Mechanical, electronic, optical, magnetic, and thermal properties
-- X-ray diffraction, reciprocal space, structure factors, and pair correlations
+- Pair distribution functions and total-scattering analysis
 - Surfaces, interfaces, thin films, and nanostructures
 - Chemical bonding, molecular structure, reaction mechanisms, and synthesis
 - Analytical chemistry, spectroscopy, electrochemistry, and interfacial chemistry
@@ -46,4 +58,8 @@ not published or redistributed.
 - [Chemistry](chemistry.md)
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md)
 - [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md)
+- [Powder X-ray Diffraction](powder-x-ray-diffraction.md)
+- [PXRD Simulation and Rietveld Refinement](pxrd-simulation-and-refinement.md)
+- [Computing PXRD Patterns with pymatgen](pymatgen-pxrd.md)
+- [Choosing PXRD Software](pxrd-software-selection.md)
 - [MOF Topology and Up–Down Design](mof-topology-up-down-design.md)

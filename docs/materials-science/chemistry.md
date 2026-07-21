@@ -27,5 +27,7 @@ framework used in materials science.
 - [Materials Science & Chemistry](index.md)
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md)
 - [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md)
+- [Powder X-ray Diffraction](powder-x-ray-diffraction.md)
+- [PXRD Simulation and Rietveld Refinement](pxrd-simulation-and-refinement.md)
 - [MOF Topology and Up–Down Design](mof-topology-up-down-design.md)
 - [AI4Science](../ai4science/index.md)
