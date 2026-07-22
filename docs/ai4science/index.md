@@ -13,16 +13,22 @@ systems need traceable sources, explicit units and conditions, uncertainty,
 reproducible tools, and evaluation against scientific observations or accepted
 ground truth.
 
-## Connections to domain knowledge
+## Automated experimentation
 
-Future pages will connect these system requirements to materials science,
-chemistry, scientific instruments, simulation, and automated experimentation.
-The corresponding domain concepts remain organized in the
-[Materials Science & Chemistry](../materials-science/index.md) section.
+[Self-Driving Laboratories](self-driving-laboratories.md) explains how
+scientific objectives, experimental data, predictive models, sequential
+decisions, instruments, and verification form a closed experimental loop. It
+also distinguishes the data and modeling prerequisites from end-to-end
+laboratory autonomy.
+
+The corresponding scientific concepts remain organized in the
+[Materials Science & Chemistry](../materials-science/index.md) section rather
+than being duplicated here.
 
 ## Related notes
 
 - [AI](../ai/index.md)
+- [Self-Driving Laboratories](self-driving-laboratories.md)
 - [Retrieval-Augmented Generation](../build/retrieval-augmented-generation.md)
 - [AI Agents](../build/ai-agents.md)
 - [LLM Evaluation](../evaluate/llm-evaluation.md)

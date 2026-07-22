@@ -45,6 +45,7 @@ plugins:
             AI: AI
             AI Overview: AI 개요
             AI4Science Overview: AI4Science 개요
+            Self-Driving Laboratories: 자율실험실
             Foundations: 기초
             Large Language Models: 대규모 언어 모델
             Tokenization: 토큰화
@@ -129,7 +130,9 @@ nav:
           - Grounding and Hallucination: evaluate/grounding-and-hallucination.md
           - LLM Evaluation: evaluate/llm-evaluation.md
           - RAG Evaluation: evaluate/rag-evaluation.md
-      - AI4Science: ai4science/index.md
+      - AI4Science:
+          - Overview: ai4science/index.md
+          - Self-Driving Laboratories: ai4science/self-driving-laboratories.md
   - Materials Science and Chemistry:
       - materials-science/index.md
       - "Electron Microscopy: SEM and TEM": materials-science/electron-microscopy-sem-tem.md

@@ -55,6 +55,7 @@ not published or redistributed.
 ## Related notes
 
 - [AI4Science](../ai4science/index.md)
+- [Self-Driving Laboratories](../ai4science/self-driving-laboratories.md)
 - [Chemistry](chemistry.md)
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md)
 - [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md)
