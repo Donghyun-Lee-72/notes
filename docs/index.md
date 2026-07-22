@@ -1,65 +1,45 @@
 # Notes
 
-Notes is a compact guide to durable concepts in artificial intelligence,
-materials science, and chemistry. It connects related ideas across pages rather
-than collecting every new framework, model release, or isolated definition.
+Notes is a public, wiki-like collection of durable concepts in artificial
+intelligence, materials science, and chemistry. It connects related ideas
+across pages rather than organizing them as a course or collecting every new
+framework, model release, or isolated definition.
 
-## Choose a Learning Path
+## Browse by Domain
 
-The library is organized around two knowledge domains:
+The wiki is organized around two knowledge domains.
 
-- **[AI](ai/index.md):** model foundations, retrieval, agents,
-  evaluation, and an AI4Science area for scientific applications.
-- **[Materials Science & Chemistry](materials-science/index.md):** structure,
-  processing, properties, reactions, characterization, and scientific
-  instrumentation.
+### AI
 
-### Understand the model layer
+The [AI](ai/index.md) domain connects four areas:
 
-Start with [Large Language Models](learn/large-language-models.md), then read
-[Tokenization](learn/tokenization.md), [Transformers](learn/transformers.md),
-and [Context Windows](learn/context-windows.md). These pages explain what the
-model consumes, how it mixes information, and why application-level context
-management matters.
+- **Foundations:** language models, tokenization, transformers, context windows,
+  embeddings, and prompting.
+- **Systems and tools:** retrieval, reranking, structured output, tool use,
+  memory, workflows, agents, validation libraries, and vector databases.
+- **Evaluation:** grounding, hallucination, LLM evaluation, and RAG evaluation.
+- **[AI4Science](ai4science/index.md):** a bridge from the AI methods above to
+  scientific discovery, simulation, experiment planning, literature synthesis,
+  and data analysis.
 
-### Build a grounded application
+AI4Science remains within AI because it reuses the same model, retrieval,
+tool-use, workflow, and evaluation foundations. It links outward to relevant
+scientific domain notes instead of becoming a third top-level domain or
+duplicating materials-science and chemistry content.
 
-Read [Embeddings](learn/embeddings.md),
-[Retrieval-Augmented Generation](build/retrieval-augmented-generation.md), and
-[Vector Databases](tools/vector-databases.md). Follow with
-[RAG Evaluation](evaluate/rag-evaluation.md) before choosing an indexing or
-retrieval stack.
+### Materials Science & Chemistry
 
-### Build a controlled agent
+The [Materials Science & Chemistry](materials-science/index.md) domain currently
+connects:
 
-Begin with [AI Agents](build/ai-agents.md), then connect
-[Tool Use and Function Calling](build/tool-use-and-function-calling.md) with
-[Structured Output](build/structured-output.md). The key theme is that an LLM
-may propose actions, but application code owns validation, authorization,
-execution, and stopping.
+- **Characterization:** electron microscopy, reciprocal space, powder
+  diffraction, PXRD simulation and refinement, software selection, and
+  reproducible computation.
+- **Chemistry:** atomic and molecular structure, thermodynamics, kinetics,
+  reactions, synthesis, analysis, MOF topology, and topology-guided structural
+  design.
 
-### Measure reliability
-
-[Grounding and Hallucination](evaluate/grounding-and-hallucination.md) explains
-the evidence problem. [LLM Evaluation](evaluate/llm-evaluation.md) introduces a
-layered evaluation strategy, while [RAG Evaluation](evaluate/rag-evaluation.md)
-separates retrieval failures from generation failures.
-
-### Apply AI to science
-
-Use [AI4Science](ai4science/index.md) to connect evidence,
-tools, workflows, uncertainty, and evaluation to scientific discovery,
-simulation, experiment planning, literature synthesis, and data analysis.
-
-### Study materials science, chemistry, and instrumentation
-
-Use the [Materials Science & Chemistry](materials-science/index.md) section for
-domain foundations. The first detailed guide, [Electron Microscopy: SEM and TEM](materials-science/electron-microscopy-sem-tem.md),
-connects electron–matter interactions to image contrast, diffraction, and
-spectroscopy while separating direct measurements from common visual
-shortcuts such as the “3D SEM image” description.
-
-## How to Read These Notes
+## How This Wiki Is Organized
 
 Pages are designed to make five things easy to find:
 
@@ -69,6 +49,8 @@ Pages are designed to make five things easy to find:
 4. What can fail or mislead?
 5. Which related note should come next?
 
-Use the [Glossary](glossary.md) for quick definitions and
+Use the top navigation or the two domain overview pages to browse. Cross-links
+connect methods and concepts without changing which domain owns the underlying
+topic. Use the [Glossary](glossary.md) for quick definitions and
 [References](references.md) when a topic benefits from primary papers or
 official documentation.
