@@ -6,6 +6,7 @@ site_author: Donghyun Lee
 copyright: Maintained by Donghyun Lee
 theme:
   name: material
+  custom_dir: overrides
   language: en
   features:
     - navigation.tabs

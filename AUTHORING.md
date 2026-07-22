@@ -87,6 +87,28 @@ official documentation for tool behavior and public primary or review sources
 for scientific claims. Do not add a ceremonial reference list that does not
 help explain or verify the page.
 
+## Quotations and excerpts
+
+Prefer a paraphrase supported by a citation. Use a direct quotation only when
+the source's exact wording is itself important. Keep it brief, reproduce it
+exactly, format it as a Markdown blockquote, and place the source immediately
+after it.
+
+For a book, identify the author, title, edition, and page. For a blog or web
+page, identify the author or organization, title, publication date when
+available, and public URL. Clearly mark omissions or editorial insertions.
+Never reconstruct a quotation from memory or an AI summary, quote inaccessible
+private or unpublished material, or reproduce a long copyrighted passage.
+Verify every direct quotation against the cited source during both model
+reviews.
+
+## AI-assisted content notice
+
+The theme renders a quiet AI-assisted-content notice at both the top and bottom
+of every page. Do not copy the notice into individual notes. Add a separate,
+topic-specific warning only when a page has a stronger safety or uncertainty
+requirement.
+
 ## Connections and navigation
 
 Use ordinary relative Markdown links. Check both directions when two pages are

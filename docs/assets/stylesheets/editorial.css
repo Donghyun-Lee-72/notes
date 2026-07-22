@@ -320,6 +320,29 @@
 }
 
 /* --------------------------------------------------------------------------
+   AI-assisted-content notice — visible context, never an interruptive alert
+   -------------------------------------------------------------------------- */
+
+.ai-content-notice {
+  max-width: var(--ed-measure);
+  color: var(--ed-ink-soft);
+  font-family: var(--ed-sans);
+  font-size: 0.68rem;
+  line-height: 1.5;
+  opacity: 0.78;
+}
+
+.ai-content-notice--top {
+  margin: 0 0 1.6rem;
+}
+
+.ai-content-notice--bottom {
+  margin: 2.5rem 0 0.5rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--ed-rule);
+}
+
+/* --------------------------------------------------------------------------
    Focus visibility — WCAG-oriented keyboard affordance across all controls
    -------------------------------------------------------------------------- */
 

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <p class="ai-content-notice ai-content-notice--top">
+    AI-assisted note: Portions may be generated or summarized with AI. Content is reviewed, but complete factual accuracy is not guaranteed. Verify important details against cited primary or official sources.
+  </p>
+  {{ super() }}
+  <p class="ai-content-notice ai-content-notice--bottom">
+    AI-assisted note: Portions may be generated or summarized with AI. Content is reviewed, but complete factual accuracy is not guaranteed. Verify important details against cited primary or official sources.
+  </p>
+{% endblock %}

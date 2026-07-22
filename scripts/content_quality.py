@@ -18,6 +18,7 @@ EXPECTED = {
     "site_url": "https://notes.donghyunlee.me/",
     "repo_url": "https://github.com/Donghyun-Lee-72/notes",
 }
+AI_NOTICE = "AI-assisted note:"
 
 
 def local_target(source: Path, raw: str) -> Path | None:
@@ -41,6 +42,19 @@ def main() -> int:
         match = re.search(rf"^{key}:\s*(.+?)\s*$", config, re.M)
         if not match or match.group(1) != expected:
             errors.append(f"mkdocs.yml: expected {key}: {expected}")
+    if not re.search(r"^\s*custom_dir:\s*overrides\s*$", config, re.M):
+        errors.append("mkdocs.yml: expected theme custom_dir: overrides")
+
+    override = root / "overrides" / "main.html"
+    if not override.exists():
+        errors.append("overrides/main.html: missing site-wide AI notice template")
+    else:
+        override_text = override.read_text()
+        if override_text.count(AI_NOTICE) != 2:
+            errors.append("overrides/main.html: expected AI notice at top and bottom")
+        for placement in ("top", "bottom"):
+            if f"ai-content-notice--{placement}" not in override_text:
+                errors.append(f"overrides/main.html: missing {placement} AI notice")
     if (docs / "CNAME").read_text().strip() != "notes.donghyunlee.me":
         errors.append("docs/CNAME: expected notes.donghyunlee.me")
 
@@ -55,6 +69,8 @@ def main() -> int:
     for page in pages:
         rel = page.relative_to(root)
         text = page.read_text(errors="replace")
+        if AI_NOTICE in text:
+            errors.append(f"{rel}: duplicate site-wide AI notice in page content")
         headings = HEADING.findall(text)
         if headings.count("#") != 1:
             errors.append(f"{rel}: expected exactly one level-1 heading")
