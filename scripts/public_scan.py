@@ -12,7 +12,10 @@ PATTERNS = {
     "internal project": re.compile(r"\b(IMMS|CP3)\b", re.I),
     "local path": re.compile(r"(/data/|/home/|/mnt/|~/|C:\\\\)", re.I),
     "private platform": re.compile(
-        r"ChatGPT|Slack|Discord|Notion|source snapshot|email snapshot", re.I
+        r"ChatGPT(?:\s+(?:(?:chat\s+)?(?:export|conversation|transcript|session|log)|share\s+link)"
+        r"|\s+said\s*:|\s*[:—-])|(?:chatgpt\.com|chat\.openai\.com)/(?:share|c)/"
+        r"|Slack|Discord|Notion|source snapshot|email snapshot",
+        re.I,
     ),
     "secret material": re.compile(
         r"\b(access token|auth token|bearer token|secret|credential|password|api[_ -]?key|private repo|ssh key)\b",
