@@ -50,6 +50,35 @@ evaluation when those concerns apply. Scientific pages should distinguish
 observation from inference and state relevant units, conditions, uncertainty,
 measurement limits, and safety considerations.
 
+## Visual design, readability, and accessibility
+
+Presentation must make long technical notes easier to read rather than add
+decoration. Keep prose near 60–75 characters per line, use a clear heading
+hierarchy and consistent vertical rhythm, and avoid repetitive card grids or
+ornament that competes with the content. Body text must remain comfortably
+readable without zoom on both desktop and 320–390 px mobile viewports.
+
+- Meet WCAG AA contrast for normal text. Do not communicate state by color
+  alone.
+- Preserve visible keyboard focus, logical tab order, and Escape behavior for
+  dismissible navigation. Interactive targets should be about 44 px where the
+  layout permits.
+- Let wide tables, code blocks, and equations scroll within their container;
+  they must not force horizontal page overflow.
+- Give informative images meaningful alternative text. Give equations an
+  accessible text equivalent, and never ship raw markup that the configured
+  Markdown renderer cannot display.
+- Respect `prefers-reduced-motion`; animation must not be required to understand
+  or operate the site.
+- Inspect the rendered home page and at least one representative long page on
+  desktop and 320–390 px mobile sizes. For relevant changes, also inspect a
+  table, code block, figure, equation, keyboard navigation, and focus state.
+
+New visual patterns require a recorded rationale and independent render review
+under the dual-model gate. Reuse the established editorial typography,
+spacing, accent, and navigation behavior unless a verified usability problem
+justifies changing them.
+
 ## References
 
 References are optional. Include them when a claim is quantitative, contested,
@@ -152,4 +181,7 @@ Before publishing a change:
    Claude Code under the dual-model publication gate.
 6. Confirm navigation and relative links resolve.
 7. Run the public-content scan and strict site build.
-8. Inspect the page in context, including its section overview and related notes.
+8. Run `python3 scripts/content_quality.py .` to check page structure, local
+   links, images, navigation coverage, and canonical identity.
+9. Inspect the page in context, including its section overview and related notes,
+   on desktop and mobile when presentation can change.

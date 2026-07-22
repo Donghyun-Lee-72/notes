@@ -6,9 +6,10 @@ Transformer는 attention과 position-wise transformation을 중심으로 한 신
 
 각 토큰 표현에서 학습된 projection으로 query, key, value를 만듭니다. query와 key의 유사도로 attention weight를 구하고, value의 가중합으로 해당 위치의 문맥 표현을 만듭니다.
 
-\[
-\operatorname{Attention}(Q,K,V)=\operatorname{softmax}(QK^T/\sqrt{d_k})V
-\]
+<div class="display-equation" role="math" aria-label="Q, K, V의 attention은 Q K 전치를 d 아래 첨자 k의 제곱근으로 나눈 값에 softmax를 적용한 뒤 V를 곱한 값입니다.">
+  Attention(<var>Q</var>, <var>K</var>, <var>V</var>) =
+  softmax(<var>QK</var><sup>T</sup> / √<var>d</var><sub>k</sub>)<var>V</var>
+</div>
 
 Multi-head attention은 서로 다른 projection으로 이 연산을 반복합니다. 순서 정보는 positional representation으로 추가하며, 자기회귀 decoder는 미래 출력 토큰을 볼 수 없도록 causal mask를 사용합니다. 생성 시에는 이전 key와 value를 cache해 prefix 전체를 매번 다시 계산하는 비용을 줄입니다.
 

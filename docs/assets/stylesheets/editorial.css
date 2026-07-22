@@ -1,0 +1,372 @@
+/*
+ * Editorial reading system for Notes.
+ *
+ * Goal: a restrained technical-notebook look with excellent long-form
+ * readability. Serif prose at a controlled measure, sans chrome and headings,
+ * deliberate vertical rhythm, and quiet, functional accents. Structure and
+ * factual content are unchanged; this file only governs presentation.
+ */
+
+:root {
+  /* Prose is the serif set loaded through theme.font.text; chrome and
+     headings use a zero-network system sans for scannability and contrast. */
+  --ed-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  /* Reading measures. The root font is 20px (html 125%), so these rem values
+     resolve larger than usual: 34rem is ~680px, about 68-72 characters of the
+     serif body. The column runs a little wider so tables and code have room. */
+  --ed-measure: 34rem;
+  --ed-column: 41rem;
+
+  /* Ink and accent. Deep teal keeps continuity with the prior teal accent
+     while meeting WCAG AA on white for body-size text. */
+  --ed-ink: #16191c;
+  --ed-ink-soft: #3d454c;
+  --ed-rule: #e4e7ea;
+  --ed-rule-strong: #cfd4d9;
+  --ed-accent: #0f6a6a;
+  --ed-accent-strong: #0b5252;
+  --ed-accent-tint: rgba(15, 106, 106, 0.09);
+
+  --md-accent-fg-color: var(--ed-accent);
+  --md-accent-fg-color--transparent: var(--ed-accent-tint);
+  --md-typeset-a-color: var(--ed-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Typography and vertical rhythm
+   -------------------------------------------------------------------------- */
+
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.72;
+  color: var(--ed-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+/* Bound line length even on pages without a table-of-contents sidebar,
+   while keeping the reading column aligned to the navigation on the left. */
+.md-content__inner {
+  max-width: var(--ed-column);
+}
+
+.md-typeset > p,
+.md-typeset > ul,
+.md-typeset > ol,
+.md-typeset > dl,
+.md-typeset > blockquote,
+.md-typeset > h1,
+.md-typeset > h2,
+.md-typeset > h3,
+.md-typeset > h4 {
+  max-width: var(--ed-measure);
+}
+
+/* Headings: sans, tight, with more space above than below so each section
+   reads as a deliberate break rather than floating text. */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: var(--ed-sans);
+  color: var(--ed-ink);
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+.md-typeset h1 {
+  font-size: 1.72rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.7rem;
+}
+
+/* First paragraph after the title reads as a standfirst: distinctly larger
+   with open leading, an editorial lead-in without changing any wording. */
+.md-typeset h1 + p {
+  font-size: 1.14rem;
+  line-height: 1.55;
+  color: var(--ed-ink-soft);
+  margin-bottom: 1.5rem;
+}
+
+/* Emphasis inside prose must stay below heading weight so section breaks win. */
+.md-typeset strong {
+  font-weight: 600;
+}
+
+.md-typeset h2 {
+  font-size: 1.24rem;
+  margin-top: 2.4rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--ed-rule);
+}
+
+.md-typeset h3 {
+  font-size: 1.02rem;
+  margin-top: 1.8rem;
+}
+
+.md-typeset h4 {
+  font-size: 0.86rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ed-ink-soft);
+  margin-top: 1.5rem;
+}
+
+.md-typeset p,
+.md-typeset li {
+  hyphens: none;
+}
+
+.md-typeset ul li,
+.md-typeset ol li {
+  margin-bottom: 0.35rem;
+}
+
+/* --------------------------------------------------------------------------
+   Links
+   -------------------------------------------------------------------------- */
+
+.md-typeset a {
+  color: var(--ed-accent);
+  text-decoration: underline;
+  text-decoration-color: var(--ed-rule-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+  transition: color 0.12s, text-decoration-color 0.12s;
+}
+
+.md-typeset a:hover,
+.md-typeset a:focus {
+  color: var(--ed-accent-strong);
+  text-decoration-color: currentColor;
+}
+
+/* --------------------------------------------------------------------------
+   Tables — editorial ruling instead of boxed cells
+   -------------------------------------------------------------------------- */
+
+.md-typeset table:not([class]) {
+  font-size: 0.76rem;
+  border: none;
+  border-top: 2px solid var(--ed-rule-strong);
+  border-bottom: 2px solid var(--ed-rule-strong);
+  box-shadow: none;
+}
+
+.md-typeset table:not([class]) th {
+  font-family: var(--ed-sans);
+  font-weight: 650;
+  color: var(--ed-ink);
+  background: transparent;
+  border-bottom: 1px solid var(--ed-rule-strong);
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 1px solid var(--ed-rule);
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background: var(--ed-accent-tint);
+}
+
+/* --------------------------------------------------------------------------
+   Code
+   -------------------------------------------------------------------------- */
+
+.md-typeset code {
+  font-size: 0.82em;
+  background: var(--ed-accent-tint);
+  border-radius: 0.2rem;
+  padding: 0.1em 0.34em;
+}
+
+.md-typeset pre > code {
+  background: transparent;
+  padding: 0.72rem 0.9rem;
+}
+
+.md-typeset .highlight,
+.md-typeset pre {
+  border: 1px solid var(--ed-rule);
+  border-radius: 0.35rem;
+}
+
+.md-typeset .highlight code {
+  font-size: 0.74rem;
+  line-height: 1.6;
+}
+
+/* Accessible replacement for display equations that should remain readable
+   even when JavaScript or a math-rendering extension is unavailable. */
+.md-typeset .display-equation {
+  max-width: var(--ed-measure);
+  margin: 1.4rem 0;
+  padding: 0.8rem 1rem;
+  overflow-x: auto;
+  color: var(--ed-ink);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  white-space: nowrap;
+  background: var(--ed-accent-tint);
+  border-left: 3px solid var(--ed-accent);
+}
+
+/* --------------------------------------------------------------------------
+   Blockquotes and admonitions — quiet left rule, no heavy fills
+   -------------------------------------------------------------------------- */
+
+.md-typeset blockquote {
+  color: var(--ed-ink-soft);
+  border-left: 2px solid var(--ed-rule-strong);
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  max-width: var(--ed-column);
+  font-size: 0.78rem;
+  border: 1px solid var(--ed-rule);
+  border-left-width: 3px;
+  border-radius: 0.3rem;
+  box-shadow: none;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-family: var(--ed-sans);
+  background: transparent;
+}
+
+/* --------------------------------------------------------------------------
+   Navigation chrome — sans, calm, clear current-page state
+   -------------------------------------------------------------------------- */
+
+.md-header,
+.md-tabs,
+.md-nav {
+  font-family: var(--ed-sans);
+}
+
+.md-nav {
+  font-size: 0.7rem;
+}
+
+.md-nav__link {
+  border-radius: 0.2rem;
+}
+
+/* Current page: accent bar + weight instead of colour alone (not colour-only). */
+.md-nav__link--active,
+.md-nav__item--active > .md-nav__link {
+  color: var(--ed-accent);
+  font-weight: 650;
+}
+
+.md-nav--secondary .md-nav__link--active {
+  box-shadow: inset 2px 0 0 var(--ed-accent);
+  padding-left: 0.6rem;
+}
+
+.md-tabs__link {
+  opacity: 0.85;
+  font-weight: 500;
+}
+
+.md-tabs__item:hover .md-tabs__link {
+  opacity: 1;
+}
+
+/* Current section: an accent underline answers "where am I" beyond weight. */
+.md-tabs__link--active {
+  opacity: 1;
+  font-weight: 650;
+  box-shadow: inset 0 -2px 0 currentColor;
+}
+
+/* Table-of-contents: label plus links lifted from the default faint grey so
+   the rail registers as navigation. */
+.md-nav--secondary .md-nav__title {
+  font-family: var(--ed-sans);
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ed-ink-soft);
+}
+
+.md-nav--secondary .md-nav__link {
+  color: var(--ed-ink-soft);
+}
+
+/* --------------------------------------------------------------------------
+   Search
+   -------------------------------------------------------------------------- */
+
+.md-search__form {
+  border-radius: 0.3rem;
+}
+
+.md-search-result__link:hover,
+.md-search-result__link[data-md-state="active"] {
+  background: var(--ed-accent-tint);
+}
+
+/* --------------------------------------------------------------------------
+   Focus visibility — WCAG-oriented keyboard affordance across all controls
+   -------------------------------------------------------------------------- */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+summary:focus-visible,
+.md-nav__link:focus-visible,
+.md-tabs__link:focus-visible,
+.ai-tab-menu a:focus-visible {
+  outline: 2px solid var(--ed-accent);
+  outline-offset: 2px;
+  border-radius: 0.15rem;
+}
+
+/* --------------------------------------------------------------------------
+   Small screens (320 / 390px): comfortable gutters and measure
+   -------------------------------------------------------------------------- */
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset {
+    font-size: 0.84rem;
+  }
+
+  .md-typeset h1 {
+    font-size: 1.5rem;
+  }
+
+  .md-typeset h2 {
+    font-size: 1.15rem;
+    margin-top: 2rem;
+  }
+
+  .md-content__inner {
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Reduced motion
+   -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset a,
+  .ai-tab-menu,
+  .ai-tab-menu a {
+    transition: none !important;
+  }
+}

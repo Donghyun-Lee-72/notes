@@ -30,7 +30,7 @@ PATTERNS = {
 }
 
 EXTENSIONS = {".md", ".yml", ".yaml", ".json", ".js", ".css", ".html", ".txt"}
-SKIP = {"site", ".git", ".venv", "__pycache__"}
+SKIP = {"site", ".git", ".venv", ".omd", "__pycache__"}
 
 
 def main() -> int:

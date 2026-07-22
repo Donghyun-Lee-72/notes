@@ -24,10 +24,12 @@
     display: none;
     min-width: 16rem;
     margin: 0;
-    padding: 0.45rem;
+    padding: 0.4rem;
     list-style: none;
+    font-family: var(--ed-sans, sans-serif);
     background: var(--md-default-bg-color);
-    border: 1px solid var(--md-default-fg-color--lightest);
+    border: 1px solid var(--ed-rule, rgba(0, 0, 0, 0.12));
+    border-top: 2px solid var(--ed-accent, currentColor);
     border-radius: 0 0 0.35rem 0.35rem;
     box-shadow: var(--md-shadow-z2);
   }
@@ -42,25 +44,45 @@
     break-inside: avoid;
   }
 
+  /* Reveal on hover for pointer users and on focus for keyboard users.
+     Because the tab link is a descendant of the item, focusing it triggers
+     :focus-within, so the page list is reachable with the Tab key alone. */
   .md-tabs__item:hover .ai-tab-menu,
   .md-tabs__item:focus-within .ai-tab-menu {
     display: block;
   }
 
+  /* Escape collapses the dropdown even while its tab link keeps focus. */
+  .md-tabs__item:focus-within .ai-tab-menu--collapsed {
+    display: none;
+  }
+
   .ai-tab-menu a {
     display: block;
-    padding: 0.55rem 0.7rem;
+    padding: 0.5rem 0.7rem;
     color: var(--md-default-fg-color);
     font-size: 0.72rem;
     line-height: 1.3;
     white-space: nowrap;
     border-radius: 0.2rem;
+    transition: color 0.12s, background-color 0.12s;
   }
 
   .ai-tab-menu a:hover,
   .ai-tab-menu a:focus-visible {
-    color: var(--md-accent-fg-color);
-    background: var(--md-accent-fg-color--transparent);
+    color: var(--ed-accent, currentColor);
+    background: var(--ed-accent-tint, rgba(0, 0, 0, 0.05));
     outline: none;
+  }
+
+  .ai-tab-menu a:focus-visible {
+    outline: 2px solid var(--ed-accent, currentColor);
+    outline-offset: -2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ai-tab-menu a {
+      transition: none;
+    }
   }
 }

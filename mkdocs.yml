@@ -1,7 +1,7 @@
 site_name: Notes
 site_description: Concise, connected notes on AI, materials science, and chemistry.
-site_url: https://note.donghyunlee.me/
-repo_url: https://github.com/Donghyun-Lee-72/note
+site_url: https://notes.donghyunlee.me/
+repo_url: https://github.com/Donghyun-Lee-72/notes
 site_author: Donghyun Lee
 copyright: Maintained by Donghyun Lee
 theme:
@@ -15,6 +15,9 @@ theme:
     - content.code.copy
     - search.suggest
     - search.highlight
+  font:
+    text: Source Serif 4
+    code: JetBrains Mono
   palette:
     - scheme: default
       primary: blue grey
@@ -91,6 +94,7 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
 extra_css:
+  - assets/stylesheets/editorial.css
   - assets/stylesheets/navigation.css
 extra_javascript:
   - assets/javascripts/navigation.js

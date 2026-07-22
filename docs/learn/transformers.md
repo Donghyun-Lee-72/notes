@@ -12,9 +12,10 @@ value. Similarity between a query and keys determines attention weights; the
 weighted combination of values becomes context-dependent information for that
 position. In scaled dot-product attention:
 
-\[
-\operatorname{Attention}(Q,K,V)=\operatorname{softmax}(QK^T/\sqrt{d_k})V
-\]
+<div class="display-equation" role="math" aria-label="Attention of Q, K, and V equals softmax of Q K transpose divided by the square root of d sub k, multiplied by V.">
+  Attention(<var>Q</var>, <var>K</var>, <var>V</var>) =
+  softmax(<var>QK</var><sup>T</sup> / √<var>d</var><sub>k</sub>)<var>V</var>
+</div>
 
 Multi-head attention repeats this operation with different learned projections,
 allowing different heads to represent different interaction patterns. Residual

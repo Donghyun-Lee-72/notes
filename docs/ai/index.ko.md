@@ -16,4 +16,4 @@ RAG, 재순위화, 구조화 출력, 도구 사용, Agent memory, workflow, AI A
 
 ## AI4Science
 
-[AI4Science](ai4science.md) 영역에서는 앞의 기초, 시스템 구축 방식, 평가 방법을 과학적 발견, 시뮬레이션, 실험 계획, 문헌 종합, 데이터 분석에 적용합니다.
+[AI4Science](../ai4science/index.md) 영역에서는 앞의 기초, 시스템 구축 방식, 평가 방법을 과학적 발견, 시뮬레이션, 실험 계획, 문헌 종합, 데이터 분석에 적용합니다.

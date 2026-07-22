@@ -4,7 +4,12 @@
 
 ## 분석법
 
-- [전자현미경: SEM과 TEM](../learn/electron-microscopy-sem-tem.md) — 전자–물질 상호작용, 산란과 신호 생성, 영상, 회절, 분광, 시료 준비, artifact, 장비 선택을 설명합니다.
+- [전자현미경: SEM과 TEM](electron-microscopy-sem-tem.md) — 전자–물질 상호작용, 산란과 신호 생성, 영상, 회절, 분광, 시료 준비, artifact, 장비 선택을 설명합니다.
+- [결정 회절, 역공간과 무질서](crystal-diffraction-reciprocal-space.md)
+- [분말 X선 회절](powder-x-ray-diffraction.md)
+- [PXRD 시뮬레이션과 Rietveld 정련](pxrd-simulation-and-refinement.md)
+- [pymatgen으로 PXRD 패턴 계산하기](pymatgen-pxrd.md)
+- [PXRD 소프트웨어 선택](pxrd-software-selection.md)
 
 ## 화학
 

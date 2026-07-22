@@ -1,10 +1,10 @@
-# Knowledge Notes
+# Notes
 
-Knowledge Notes는 인공지능, 재료과학, 화학의 오래가는 개념을 설명하는 공개 가이드입니다. 특정 모델이나 프레임워크의 새 소식을 모두 모으기보다, 언어 모델 공학과 AI4Science를 출처 기반 도메인 노트에 연결합니다.
+Notes는 인공지능, 재료과학, 화학의 오래가는 개념을 설명하는 공개 가이드입니다. 특정 모델이나 프레임워크의 새 소식을 모두 모으기보다, 언어 모델 공학과 AI4Science를 출처 기반 도메인 노트에 연결합니다.
 
 지식은 두 영역으로 분류합니다.
 
-- **[AI](ai-ai4science/index.md):** 모델 기초, 검색, Agent, 평가와 하위 AI4Science 영역
+- **[AI](ai/index.md):** 모델 기초, 검색, Agent, 평가와 하위 AI4Science 영역
 - **[재료과학·화학](materials-science/index.md):** 구조, 공정, 물성, 반응, 분석법과 과학 계측
 
 ## 학습 경로
@@ -27,11 +27,11 @@ Knowledge Notes는 인공지능, 재료과학, 화학의 오래가는 개념을 
 
 ### 과학에 AI 적용하기
 
-[AI4Science](ai-ai4science/ai4science.md) 영역에서는 근거, 도구, workflow, 불확실성, 평가를 과학적 발견, 시뮬레이션, 실험 계획, 문헌 종합, 데이터 분석과 연결합니다.
+[AI4Science](ai4science/index.md) 영역에서는 근거, 도구, workflow, 불확실성, 평가를 과학적 발견, 시뮬레이션, 실험 계획, 문헌 종합, 데이터 분석과 연결합니다.
 
 ### 재료과학·화학과 분석 장비 공부하기
 
-[재료과학·화학](materials-science/index.md) 섹션에서 분야 기초를 찾을 수 있습니다. 첫 상세 문서인 [전자현미경: SEM과 TEM](learn/electron-microscopy-sem-tem.md)은 전자–물질 상호작용을 영상 대비, 회절, 분광과 연결하고, 흔히 말하는 “3D SEM 영상”과 실제 높이 측정을 구분합니다.
+[재료과학·화학](materials-science/index.md) 섹션에서 분야 기초를 찾을 수 있습니다. 첫 상세 문서인 [전자현미경: SEM과 TEM](materials-science/electron-microscopy-sem-tem.md)은 전자–물질 상호작용을 영상 대비, 회절, 분광과 연결하고, 흔히 말하는 “3D SEM 영상”과 실제 높이 측정을 구분합니다.
 
 ## 문서 읽는 법
 
@@ -43,4 +43,4 @@ Knowledge Notes는 인공지능, 재료과학, 화학의 오래가는 개념을 
 4. 어떻게 실패하는가?
 5. 어떻게 평가해야 하는가?
 
-빠른 정의는 [용어집](glossary.md), 원 논문과 공식 문서는 [참고문헌](references.md)을 이용하세요. 영어 문서가 canonical 원문이며 한국어판은 검수된 번역입니다.
+빠른 정의는 [용어집](glossary.md), 원 논문과 공식 문서는 [참고문헌](references.md)을 이용하세요. 영어 문서가 canonical 원문이며 한국어 파일은 보관 중이고 현재 공개 빌드에서는 제외됩니다.

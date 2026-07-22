@@ -25,4 +25,4 @@ Disallow: /
 User-agent: Perplexity-User
 Disallow: /
 
-Sitemap: https://note.donghyunlee.me/sitemap.xml
+Sitemap: https://notes.donghyunlee.me/sitemap.xml
