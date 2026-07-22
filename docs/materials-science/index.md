@@ -6,6 +6,13 @@ properties, and performance**; chemistry explains composition, bonding,
 reaction, energetics, and molecular transformation. Their shared foundation
 supports synthesis, characterization, and the design of functional matter.
 
+## Orientation
+
+- [Materials Science and Engineering Framework](materials-science-engineering-framework.md) —
+  how composition and environment enter a processing–structure–properties–
+  performance dependency map, how evidence supports each link, and why component
+  performance cannot be inferred from a material name or one property value.
+
 ## Characterization
 
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md) —
@@ -40,22 +47,24 @@ in topology-guided Zr-based MOF discovery.
 
 ## Planned map
 
-- Atomic structure, bonding, defects, and diffusion
+- Material classes, selection, constraints, and failure criteria
+- Atomic structure, bonding, defects, interfaces, and diffusion
 - Phase equilibria, phase diagrams, and materials thermodynamics
 - Mechanical, electronic, optical, magnetic, and thermal properties
 - Pair distribution functions and total-scattering analysis
 - Surfaces, interfaces, thin films, and nanostructures
+- Processing, degradation, computation, life-cycle assessment, and sustainability
 - Chemical bonding, molecular structure, reaction mechanisms, and synthesis
 - Analytical chemistry, spectroscopy, electrochemistry, and interfacial chemistry
 
-Pages in this section use public, independently checkable references. Private
-textbook copies may guide topic selection and page-level verification, but are
-not published or redistributed.
+Pages in this section use public, independently checkable references and
+distinguish observations from model-dependent inferences.
 
 ## Related notes
 
 - [AI4Science](../ai4science/index.md)
 - [Self-Driving Laboratories](../ai4science/self-driving-laboratories.md)
+- [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
 - [Chemistry](chemistry.md)
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md)
 - [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md)

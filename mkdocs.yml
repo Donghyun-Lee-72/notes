@@ -57,6 +57,7 @@ plugins:
             Materials Science and Chemistry: 재료과학·화학
             Materials Science and Chemistry Overview: 재료과학·화학 개요
             Materials Science: 재료과학
+            "Materials Science and Engineering Framework": "재료과학·공학의 기본 틀"
             Chemistry: 화학
             Chemistry Overview: 화학 개요
             "Electron Microscopy: SEM and TEM": "전자현미경: SEM과 TEM"
@@ -137,6 +138,7 @@ nav:
           - Self-Driving Laboratories: ai4science/self-driving-laboratories.md
   - Materials Science and Chemistry:
       - materials-science/index.md
+      - "Materials Science and Engineering Framework": materials-science/materials-science-engineering-framework.md
       - "Electron Microscopy: SEM and TEM": materials-science/electron-microscopy-sem-tem.md
       - "Crystal Diffraction, Reciprocal Space, and Disorder": materials-science/crystal-diffraction-reciprocal-space.md
       - "Powder X-ray Diffraction": materials-science/powder-x-ray-diffraction.md
