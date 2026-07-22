@@ -87,20 +87,28 @@ official documentation for tool behavior and public primary or review sources
 for scientific claims. Do not add a ceremonial reference list that does not
 help explain or verify the page.
 
-## Quotations and excerpts
+## No-quotation and fact-verification policy
 
-Prefer a paraphrase supported by a citation. Use a direct quotation only when
-the source's exact wording is itself important. Keep it brief, reproduce it
-exactly, format it as a Markdown blockquote, and place the source immediately
-after it.
+Do not publish direct quotations or source-distinctive wording from books,
+blogs, papers, documentation, or other works. Do not use Markdown blockquotes
+for sourced prose. This prohibition also covers close translation, light
+rewriting, stitched excerpts, and wording reconstructed from memory or an AI
+summary. A source's title may appear in an ordinary citation or reference; that
+does not make the note a quotation.
 
-For a book, identify the author, title, edition, and page. For a blog or web
-page, identify the author or organization, title, publication date when
-available, and public URL. Clearly mark omissions or editorial insertions.
-Never reconstruct a quotation from memory or an AI summary, quote inaccessible
-private or unpublished material, or reproduce a long copyrighted passage.
-Verify every direct quotation against the cited source during both model
-reviews.
+Extract the underlying claim, understand it, and explain it independently in
+the note's own structure and language. Then verify the claim against a
+locatable primary, official, or authoritative review source. Where practical,
+cross-check consequential claims against more than one independent source. A
+citation shows how a claim was checked; it does not license copying the
+source's expression or require labeling the note as quoted from that source.
+
+During both model reviews, check for direct quotation, close paraphrase, and
+source-shaped structure as well as factual accuracy. Spot-check representative
+prose against the sources used for verification. If exact wording is genuinely
+indispensable, do not publish it under the current policy. An explicit
+owner-approved policy exception must define the rights basis, necessity,
+semantic format, and automated-check allowlist before the quoted text is added.
 
 ## AI-assisted content notice
 
@@ -177,9 +185,11 @@ for every dimension. A `not applicable` verdict must include a reason.
 A bare approval is not a review. Each reviewer must identify the draft or diff
 reviewed, give a verdict for every dimension, cite the source location for each
 challenged or material factual claim, and list required fixes separately from
-optional improvements. Retain both review records and the automated check
-results in the working task, pull request, or other private audit trail; do not
-publish private review transcripts on the site.
+optional improvements. For the no-quotation check, each reviewer must name the
+specific source and note passage spot-checked for close paraphrase or
+source-shaped structure and record the outcome. Retain both review records and
+the automated check results in the working task, pull request, or other private
+audit trail; do not publish private review transcripts on the site.
 
 For a material change, publication requires both reviewers to pass every
 applicable dimension and the automated checks to pass. Any `fail` or
@@ -198,7 +208,9 @@ Before publishing a change:
 1. Confirm the page belongs to one of the two content domains or Reference.
 2. Check that the opening is understandable without specialist context.
 3. Remove duplicated explanations and add useful internal links.
-4. Verify claims, examples, units, limitations, and citations as applicable.
+4. Verify claims, examples, units, limitations, and citations as applicable;
+   confirm that sourced facts are independently written rather than quoted or
+   closely paraphrased.
 5. For a material change, obtain independent, complete passes from ChatGPT and
    Claude Code under the dual-model publication gate.
 6. Confirm navigation and relative links resolve.

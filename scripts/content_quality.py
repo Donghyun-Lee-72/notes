@@ -12,6 +12,7 @@ from urllib.parse import unquote, urlsplit
 LINK = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 HEADING = re.compile(r"^(#{1,6})\s+\S", re.M)
+BLOCKQUOTE = re.compile(r"^\s*>\s", re.M)
 NAV_MD = re.compile(r"(?:^|:\s+|-\s+)([A-Za-z0-9_./-]+\.md)\s*$", re.M)
 EXPECTED = {
     "site_name": "Notes",
@@ -71,6 +72,8 @@ def main() -> int:
         text = page.read_text(errors="replace")
         if AI_NOTICE in text:
             errors.append(f"{rel}: duplicate site-wide AI notice in page content")
+        if BLOCKQUOTE.search(text):
+            errors.append(f"{rel}: Markdown blockquotes are prohibited by the no-quotation policy")
         headings = HEADING.findall(text)
         if headings.count("#") != 1:
             errors.append(f"{rel}: expected exactly one level-1 heading")
