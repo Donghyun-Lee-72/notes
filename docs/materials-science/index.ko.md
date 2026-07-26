@@ -1,46 +1,54 @@
 # 재료과학·화학
 
-이 섹션은 재료과학과 화학을 하나의 연결된 지식 영역으로 다룹니다. 재료과학은 **공정–구조–물성–성능**의 관계를 중심으로 지식을 구성하고, 화학은 조성, 결합, 반응, 에너지와 분자 변환을 설명합니다. 두 관점을 연결해 물질의 합성, 분석과 기능 설계를 다룹니다.
+이 섹션은 **물질이 무엇인지**에서 출발해 **어떻게 측정하고 변화시키는지**,
+그리고 **실제 환경에서 제대로 작동하는지**까지 연결합니다. 공통 기본 틀을
+먼저 읽고, 자신의 질문에 맞는 경로를 선택하면 됩니다.
 
-## 길잡이
+## 여기서 시작합니다
 
-- [재료과학·공학의 기본 틀](materials-science-engineering-framework.md) — 조성과
-  환경이 공정–구조–물성–성능의 의존성 지도에 어떻게 들어가는지, 각 연결을
-  어떤 근거로 검증하는지, 재료명이나 물성값 하나만으로 부품 성능을 판단할 수
-  없는 이유를 설명합니다.
+1. [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)은
+   공정–구조–물성–성능의 지도와 각 연결을 근거로 시험하는 방법을
+   설명합니다.
+2. [화학 개요](chemistry.md)는 조성, 결합, 에너지, 반응, 합성을 이 지도
+   안에 배치합니다.
+3. 구조, 조성 또는 응답을 실험으로 확인하려면 아래의 특성분석 경로를
+   선택합니다.
 
-## 분석법
+## 특성분석 경로
 
-- [전자현미경: SEM과 TEM](electron-microscopy-sem-tem.md) — 전자–물질 상호작용, 산란과 신호 생성, 영상, 회절, 분광, 시료 준비, artifact, 장비 선택을 설명합니다.
-- [결정 회절, 역공간과 무질서](crystal-diffraction-reciprocal-space.md)
-- [분말 X선 회절](powder-x-ray-diffraction.md)
-- [PXRD 시뮬레이션과 Rietveld 정련](pxrd-simulation-and-refinement.md)
-- [pymatgen으로 PXRD 패턴 계산하기](pymatgen-pxrd.md)
-- [PXRD 소프트웨어 선택](pxrd-software-selection.md)
+### 영상, 국소 구조, 조성
 
-## 화학
+- [전자현미경: SEM과 TEM](electron-microscopy-sem-tem.md)은 전자–물질
+  상호작용, 영상 형성, 회절, 분광, 시료 준비 과정의 인공 흔적, 장비 선택을
+  설명합니다.
 
-[화학 개요](chemistry.md)는 원자·분자 구조, 열역학, 속도론, 반응, 합성과 분석을 이 공동 섹션 안에서 연결합니다.
+### 결정과 상 구조
 
-## 확장 예정 지도
+- [결정 회절, 역공간과 무질서](crystal-diffraction-reciprocal-space.md)는
+  회절의 기하학적·푸리에 해석을 설명합니다.
+- [분말 X선 회절](powder-x-ray-diffraction.md)은 피크 위치, 세기, 폭으로
+  판단할 수 있는 것과 없는 것을 구분합니다.
+- [PXRD 시뮬레이션과 Rietveld 정련](pxrd-simulation-and-refinement.md)은
+  이상적 반사, 프로파일 시뮬레이션, 전 패턴 피팅을 구분합니다.
 
-- 재료 분류, 선택, 제약 조건, 고장 기준
-- 원자구조, 결합, 결함, 계면, 확산
-- 상평형, 상태도, 재료 열역학
-- 기계적·전자적·광학적·자기적·열적 물성
-- X선 회절, 역공간, 구조인자, 쌍상관
-- 표면, 계면, 박막, 나노구조
-- 공정, 열화, 계산, 전과정평가, 지속가능성
-- 화학 결합, 분자구조, 반응 메커니즘, 합성
-- 분석화학, 분광학, 전기화학, 계면화학
+### 실용적인 분말 X선 회절(PXRD) 도구
 
-이 섹션은 공개적으로 독립 검증 가능한 참고문헌을 사용하고, 관찰과 모델에
-의존하는 추론을 구분합니다.
+- [pymatgen으로 PXRD 패턴 계산하기](pymatgen-pxrd.md)는 재현 가능한
+  Python 작업 흐름과 검증 항목을 제공합니다.
+- [PXRD 소프트웨어 선택](pxrd-software-selection.md)은 프로그램의 역할,
+  접근 방식, 한계를 비교합니다.
 
-## 관련 노트
+## 응용 사례
 
-- [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)
-- [화학](chemistry.md)
-- [전자현미경: SEM과 TEM](electron-microscopy-sem-tem.md)
-- [결정 회절, 역공간과 무질서](crystal-diffraction-reciprocal-space.md)
-- [분말 X선 회절](powder-x-ray-diffraction.md)
+- [MOF topology와 up–down 설계](mof-topology-up-down-design.md)는 topology,
+  구성 단위의 방향, linker 기하가 새로운 Zr 기반 금속–유기 골격체 탐색을
+  어떻게 이끄는지 보여 줍니다.
+
+## 다음에 추가할 내용
+
+재료과학의 다음 기초 순서는 원자구조와 결합, 결함과 확산, 열역학과 상평형,
+구조–물성 관계, 열화, 공정, 재료 선택입니다. 화학은 화학량론, 분자구조,
+반응, 평형, 속도론, 전기화학, 합성, 분석을 의존성 순서로 다룹니다.
+
+현재 공개된 문서는 위에 링크했습니다. 예정 주제를 완성된 노트처럼 표시하지
+않습니다.

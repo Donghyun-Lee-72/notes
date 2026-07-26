@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 820" role="img" aria-labelledby="title desc">
+  <title id="title">Mobile materials science and engineering dependency map</title>
+  <desc id="desc">Composition and environment constrain four connected stages from processing to performance. The chain sits inside an evidence-testing zone, and service results feed back to processing.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4f6770"/>
+    </marker>
+    <marker id="feedback-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a5b31"/>
+    </marker>
+    <style>
+      .edge{fill:none;stroke:#4f6770;stroke-width:4;marker-end:url(#arrow)}
+      .feedback{fill:none;stroke:#8a5b31;stroke-width:3.5;stroke-dasharray:10 8;marker-end:url(#feedback-arrow)}
+      .constraint{fill:none;stroke:#74868e;stroke-width:2.5;stroke-dasharray:6 7}
+      .zone{fill:#f8fafb;stroke:#74868e;stroke-width:2.5;stroke-dasharray:7 7}
+      .node{stroke:#37535d;stroke-width:2.5}
+      .input{fill:#dcecef}.process{fill:#e7ecef}.response{fill:#e4eee7}.outcome{fill:#f3e9d8}
+      .label{font:600 30px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#17252b;text-anchor:middle}
+      .small{font:25px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#3f535b;text-anchor:middle}
+      .zone-label{font:600 23px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#3f535b;text-anchor:middle}
+      .rail-label{font:600 22px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#5c4b3d;text-anchor:middle}
+    </style>
+  </defs>
+
+  <rect class="zone" x="55" y="180" width="270" height="625" rx="22"/>
+  <path class="constraint" d="M40 142 V730"/>
+  <path class="constraint" d="M40 270 H70"/>
+  <path class="constraint" d="M40 415 H70"/>
+  <path class="constraint" d="M40 560 H70"/>
+  <path class="constraint" d="M40 705 H70"/>
+  <path class="edge" d="M190 325 V360"/>
+  <path class="edge" d="M190 470 V505"/>
+  <path class="edge" d="M190 615 V650"/>
+  <path class="feedback" d="M310 705 C352 705 352 270 322 270"/>
+  <rect x="58" y="188" width="264" height="34" fill="#f8fafb"/>
+
+  <rect class="node input" x="20" y="22" width="340" height="120" rx="18"/>
+  <text class="label" x="190" y="58">Composition +</text>
+  <text class="label" x="190" y="90">environment</text>
+  <text class="small" x="190" y="122">constrain every stage</text>
+
+  <text class="zone-label" x="190" y="212">Evidence checks links</text>
+
+  <rect class="node process" x="70" y="225" width="240" height="100" rx="18"/>
+  <text class="label" x="190" y="268">Processing</text>
+  <text class="small" x="190" y="301">history + conditions</text>
+
+  <rect class="node process" x="70" y="370" width="240" height="100" rx="18"/>
+  <text class="label" x="190" y="413">Structure</text>
+  <text class="small" x="190" y="446">many scales</text>
+
+  <rect class="node response" x="70" y="515" width="240" height="100" rx="18"/>
+  <text class="label" x="190" y="558">Properties</text>
+  <text class="small" x="190" y="591">conditional response</text>
+
+  <rect class="node outcome" x="70" y="660" width="240" height="100" rx="18"/>
+  <text class="label" x="190" y="703">Performance</text>
+  <text class="small" x="190" y="736">works in service?</text>
+
+  <text class="rail-label" x="18" y="432" transform="rotate(-90 18 432)">constraints</text>
+  <text class="rail-label" x="350" y="486" transform="rotate(90 350 486)">feedback</text>
+</svg>

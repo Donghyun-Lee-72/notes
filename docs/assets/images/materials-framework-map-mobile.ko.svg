@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 820" role="img" aria-labelledby="title desc">
+  <title id="title">모바일용 재료과학·공학 의존성 지도</title>
+  <desc id="desc">조성과 환경이 공정에서 성능으로 이어지는 네 단계를 제한합니다. 전체 경로는 근거 검증 영역 안에 있고, 사용 결과는 공정으로 되먹임됩니다.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4f6770"/>
+    </marker>
+    <marker id="feedback-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a5b31"/>
+    </marker>
+    <style>
+      .edge{fill:none;stroke:#4f6770;stroke-width:4;marker-end:url(#arrow)}
+      .feedback{fill:none;stroke:#8a5b31;stroke-width:3.5;stroke-dasharray:10 8;marker-end:url(#feedback-arrow)}
+      .constraint{fill:none;stroke:#74868e;stroke-width:2.5;stroke-dasharray:6 7}
+      .zone{fill:#f8fafb;stroke:#74868e;stroke-width:2.5;stroke-dasharray:7 7}
+      .node{stroke:#37535d;stroke-width:2.5}
+      .input{fill:#dcecef}.process{fill:#e7ecef}.response{fill:#e4eee7}.outcome{fill:#f3e9d8}
+      .label{font:600 30px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#17252b;text-anchor:middle}
+      .small{font:25px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#3f535b;text-anchor:middle}
+      .zone-label{font:600 23px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#3f535b;text-anchor:middle}
+      .rail-label{font:600 22px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#5c4b3d;text-anchor:middle}
+    </style>
+  </defs>
+
+  <rect class="zone" x="55" y="180" width="270" height="625" rx="22"/>
+  <path class="constraint" d="M40 142 V730"/>
+  <path class="constraint" d="M40 270 H70"/>
+  <path class="constraint" d="M40 415 H70"/>
+  <path class="constraint" d="M40 560 H70"/>
+  <path class="constraint" d="M40 705 H70"/>
+  <path class="edge" d="M190 325 V360"/>
+  <path class="edge" d="M190 470 V505"/>
+  <path class="edge" d="M190 615 V650"/>
+  <path class="feedback" d="M310 705 C352 705 352 270 322 270"/>
+  <rect x="58" y="188" width="264" height="34" fill="#f8fafb"/>
+
+  <rect class="node input" x="20" y="22" width="340" height="120" rx="18"/>
+  <text class="label" x="190" y="73">조성 + 환경</text>
+  <text class="small" x="190" y="113">모든 단계를 제한합니다</text>
+
+  <text class="zone-label" x="190" y="212">근거로 연결을 검증합니다</text>
+
+  <rect class="node process" x="70" y="225" width="240" height="100" rx="18"/>
+  <text class="label" x="190" y="268">공정</text>
+  <text class="small" x="190" y="301">전체 이력 + 조건</text>
+
+  <rect class="node process" x="70" y="370" width="240" height="100" rx="18"/>
+  <text class="label" x="190" y="413">구조</text>
+  <text class="small" x="190" y="446">여러 길이 척도</text>
+
+  <rect class="node response" x="70" y="515" width="240" height="100" rx="18"/>
+  <text class="label" x="190" y="558">물성</text>
+  <text class="small" x="190" y="591">조건이 붙은 응답</text>
+
+  <rect class="node outcome" x="70" y="660" width="240" height="100" rx="18"/>
+  <text class="label" x="190" y="703">성능</text>
+  <text class="small" x="190" y="736">사용 중 작동하는가?</text>
+
+  <text class="rail-label" x="18" y="432" transform="rotate(-90 18 432)">제약</text>
+  <text class="rail-label" x="350" y="486" transform="rotate(90 350 486)">되먹임</text>
+</svg>

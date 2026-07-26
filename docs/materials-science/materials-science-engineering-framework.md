@@ -1,197 +1,161 @@
 # Materials Science and Engineering Framework
 
-Materials science and engineering (MSE) explains how a material's history and
-internal organization produce useful responses, then uses that knowledge to
-design materials and applications. Its central framework connects **processing,
-structure and composition, properties, and performance**. This note makes
-composition and service environment explicit around that established
-four-element framework, while characterization and computation provide evidence
-about the connections.
+Materials science and engineering connects a material's **history** to its
+**structure, properties, and real-world performance**. Composition and
+environment constrain the entire chain.
 
-This framework matters because a material name alone rarely determines whether
-a component will work. Two objects with nominally the same composition can have
-different phases, pores, grain structures, molecular arrangements, or residual
-stresses because they were processed differently. A property measured on a
-small specimen also does not, by itself, establish the lifetime or safety of a
-finished component.
+## Start with the map
 
-## The four linked questions
+<figure class="concept-figure">
+  <picture>
+    <source media="(max-width: 719px)"
+            srcset="../../assets/images/materials-framework-map-mobile.svg">
+    <img src="../../assets/images/materials-framework-map.svg"
+         alt="Composition and environment constrain a path from processing through structure and properties to performance. Service feedback returns to processing, and characterization and computation test every link.">
+  </picture>
+  <figcaption>
+    A reasoning map, not a one-way physical law. Each arrow is a claim that
+    measurements or models must test.
+  </figcaption>
+</figure>
 
-The National Research Council described MSE as an interdisciplinary endeavor,
-organized the field around synthesis and processing, structure and composition,
-properties, and performance, and represented their mutual relationships as a
-tetrahedron (National Research Council, 1989, Summary, pp. 2, 6). This note uses
-an editorial dependency map—not a replacement for that framework—to turn the
-elements into four practical questions:
+The National Research Council organized the field around these four mutually
+related elements and represented them as a tetrahedron (National Research
+Council, 1989, Summary, pp. 2, 6). The linear path in the figure is a simpler
+reading aid:
 
-1. **Processing:** What thermal, mechanical, chemical, or manufacturing history
-   did the material experience?
-2. **Structure:** What arrangement of matter resulted, from electronic and
-   atomic order to microstructure and component-scale architecture?
-3. **Properties:** How does the material respond to a specified stimulus under
-   specified measurement conditions?
-4. **Performance:** Does the manufactured component satisfy its function,
-   reliability, lifetime, safety, cost, and environmental constraints in its
-   service context?
+1. **Processing:** What history did the material experience?
+2. **Structure:** What arrangement of matter resulted?
+3. **Properties:** How does it respond under stated test conditions?
+4. **Performance:** Does the manufactured component work in its intended
+   service?
 
-One simplified dependency path is
+The arrows also run backward. A failed component can reveal a missing property
+test, an overlooked structural feature, or an unsuitable process.
 
-**Processing history → structure → properties → performance.**
-
-This path is a reasoning aid, not a complete physical law or a privileged
-one-way order. **Composition** constrains the structures and responses that are
-possible. **Environment** and
-time can change structure during service through corrosion, oxidation, ageing,
-swelling, irradiation, fatigue, or other processes. Component geometry and
-manufacturing defects can also affect performance even when small-specimen
-properties appear satisfactory. Real design therefore contains feedback loops:
-performance tests expose failure modes, and the result may require a different
-composition, process, structure, or component design.
-
-## What each term includes
-
-The definitions below are operational definitions for this knowledge base. They
-expand the report's compact map so that later notes can state scale, conditions,
-evidence, and failure criteria explicitly.
+## Read each link as a testable claim
 
 ### Processing is the complete history
 
-Processing includes synthesis and all later operations that can change the
-material. Examples include melting and solidification, deformation, heat
-treatment, sintering, polymerization and curing, deposition, machining, joining,
-and surface treatment. Cooling rate, atmosphere, pressure, sequence, and prior
-history may matter as much as the named operation.
+Processing includes synthesis and every later operation that can change a
+material: solidification, deformation, heat treatment, sintering (heating
+powder so it bonds and densifies), curing (hardening by reaction), deposition
+(building a layer on a surface), machining, joining, and surface treatment. A
+process name alone is not enough. Temperature, time, atmosphere, pressure,
+rate, sequence, and prior history often determine the outcome.
 
-A process description is incomplete if it gives only an equipment label. A
-reproducible description states the variables that control the outcome and how
-they were measured. The relevant variables depend on the process; temperature,
-time, composition, strain, rate, atmosphere, thickness, and energy input are
-common examples.
+### Structure exists at several scales
 
-### Structure spans several length scales
-
-Structure means the spatial arrangement and state of a material, not only its
-crystal structure. Depending on the question, it can include:
+Structure is more than crystal symmetry (repeating geometric order). The
+relevant scale may be:
 
 - electronic states and interatomic bonding;
-- atomic order, molecular conformation, and crystal symmetry;
-- point defects, dislocations, interfaces, precipitates, pores, and phase
-  distributions;
-- grain size, texture, fibre orientation, layers, and other microstructural or
-  mesoscopic organization; and
-- component-scale architecture, gradients, joints, and residual stress.
+- atomic order, molecular shape, and atomic-scale defects;
+- dislocations (line defects), interfaces (boundaries between regions),
+  precipitates (small particles of a distinct solid region), pores, grains
+  (individual crystalline regions), and distributions of phases with different
+  structures or compositions; or
+- component-scale layers, gradual changes across position, joints, geometry,
+  and stress left behind by manufacturing.
 
-No single scale is automatically the correct one. The useful description is
-the smallest set of structural features that explains the response of interest
-without hiding an important failure mechanism.
+The useful description is the smallest set of features that explains the
+response without hiding an important failure mechanism.
 
 ### A property is a conditional response
 
-A property relates a stimulus or state to a material response. Elastic modulus,
-electrical conductivity, thermal expansion, magnetic susceptibility, optical
-absorption, and corrosion rate are examples from different property families.
-The value is meaningful only with its units, method, temperature, frequency,
-loading rate, atmosphere, orientation, and other relevant conditions.
+A property connects a stimulus or state to a response. Examples include
+stiffness, ability to carry electrical current, size change with temperature,
+fraction of light absorbed, and material loss during corrosion. A number is
+meaningful only with its units, method, temperature, frequency or loading rate,
+atmosphere, orientation, and relevant uncertainty.
 
-Properties are often defined to reduce dependence on specimen geometry, but
-they are not universal constants under every condition. Direction dependence
-(anisotropy), microstructure, phase changes, rate dependence, and measurement
-uncertainty can all alter the reported response.
+Properties are designed to be less dependent on specimen geometry than
+component-level measurements, but they are not universal constants under every
+condition. Internal organization, anisotropy (direction-dependent response),
+phase changes, and rate dependence can change the result.
 
-### Performance is application- and service-specific
+### Performance belongs to an application
 
-Performance asks whether a material, device, or component is useful under its
-actual application conditions (National Research Council, 1989, Summary, pp.
-6, 12). It can combine material properties with geometry, interfaces, loads,
-manufacturing variability, environment, inspection, and time. A high strength
-value, for example, does not alone establish resistance to fatigue, fracture,
-creep, wear, or environmental attack. The relevant performance criterion must
-be stated before a property can be called "good."
+Performance asks whether the finished system meets defined service
+requirements without crossing its failure limits. This makes it a separate
+element of the framework, not another name for a property (National Research
+Council, 1989, Summary, pp. 6, 12). It combines properties with geometry,
+interfaces, loads, manufacturing variability, environment, inspection, and
+time. High strength, for example, does not by itself establish resistance to
+fatigue (damage from repeated loading), sudden crack-driven breakage, creep
+(slow deformation under sustained load), wear (surface loss during contact),
+or corrosion.
 
-## A worked reasoning example
+## Follow one example
 
-Consider a heat-treated alloy component required to carry repeated loads in a
-warm, chemically active environment.
+Consider a heat-treated alloy component that carries repeated loads in a warm,
+chemically active environment.
 
-1. The **composition and heat-treatment schedule** limit which phases and
-   defects can form.
-2. The resulting **structure** may contain grains, precipitates, dislocations,
-   interfaces, residual stress, and surface changes.
-3. Those features influence measured **properties**, such as elastic response,
-   yield strength, fracture resistance, and corrosion behavior under defined
-   test conditions.
-4. The component's **performance** depends additionally on its shape, surface
-   finish, joints, load spectrum, temperature history, environment, and
+1. **Processing and composition** limit which phases and defects can form.
+2. The resulting **structure** includes crystalline regions, second-phase
+   particles, line defects, interfaces, manufacturing stress, and surface
+   condition.
+3. Those features influence measured **properties**, including the stress where
+   permanent deformation begins, resistance to crack growth, and corrosion rate
+   under defined conditions.
+4. The component's **performance** also depends on shape, surface finish,
+   joints, the sequence and size of repeated loads, temperature history, and
    inspection interval.
 
-This example does not predict the best treatment. It shows what evidence is
-needed: verify the processing record, observe the relevant structure, measure
-properties under representative conditions, and test the component or a valid
-surrogate against explicit acceptance criteria.
+This chain does not predict the best heat treatment. It tells us what must be
+checked: preserve the process record, observe the relevant structure, measure
+properties under representative conditions, and test the component—or a
+justified representative substitute—against an explicit acceptance criterion.
 
-## Evidence is not the same as the material
+## Keep evidence separate from interpretation
 
-Characterization methods produce signals from which structure, composition, or
-response is inferred. A diffraction pattern, micrograph, spectrum, or
-stress–strain curve is an observation shaped by sampling, calibration,
-resolution, preparation, and the measurement model. It is not an unfiltered
-view of the material. Claims should therefore separate:
+Instruments do not deliver structure or mechanism directly. A micrograph,
+diffraction pattern, spectrum, or curve relating applied stress to deformation
+is a signal shaped by sampling, calibration, resolution, preparation, and a
+measurement model. Reliable reasoning keeps four layers distinct:
 
-- **observation:** what the instrument or test recorded;
-- **inference:** the structural or mechanistic interpretation;
-- **model:** the assumptions connecting observation to inference; and
-- **validation:** independent measurements, standards, controls, or predictions
-  that could expose an incorrect interpretation.
+- **Observation:** what the instrument or test recorded.
+- **Inference:** the structural or mechanistic interpretation.
+- **Model:** the assumptions that connect observation and inference.
+- **Validation:** an independent measurement, control, standard, benchmark, or
+  prediction that could reveal an incorrect interpretation.
 
-Computation has the same discipline. Electronic-structure calculations,
-atomistic simulation, thermodynamic models, models of evolving microstructure,
-and component-scale analysis describe different scales and assumptions. Their
-outputs become engineering evidence only after inputs, uncertainty, and
-applicability are checked against suitable experiments or benchmark data.
+Computation follows the same rule. A model may describe electrons, interactions
+among atoms, equilibrium between phases, changes in internal structure, or
+stresses in a whole component. Each description has different inputs and a
+different validity range. Digital evidence can move between tools and scales
+only when another user can interpret the record, judge its quality, and connect
+models without losing their assumptions. NIST includes standards and shared
+infrastructure for these transfers in its Materials Genome Initiative work
+(NIST, n.d.). Faster development is the goal, not proof that an individual
+result is valid.
 
-The Materials Genome Initiative illustrates this integrated approach at the
-infrastructure level. NIST describes work on materials-data and model exchange,
-data quality, multiscale simulation interoperability, and integration intended
-to accelerate materials development (NIST, n.d.). This does not make a database
-entry or simulation self-validating; interoperability and quality assessment
-remain explicit parts of the programme.
+## Use the framework in five moves
 
-## A defensible materials workflow
+1. **Define service and failure.** State the function, loads, environment,
+   lifetime, safety, cost, and end-of-life constraints.
+2. **Choose measurable responses.** Identify the properties and degradation
+   rates that represent those requirements.
+3. **Propose the causal chain.** Connect candidate composition and processing
+   to expected structure, properties, and performance.
+4. **Test the links.** Record where each specimen and data set came from, along
+   with process variables; use calibrated methods, controls, representative
+   conditions, and uncertainty estimates.
+5. **Validate and iterate.** Test components or representative substitutes
+   justified by evidence across realistic variability, and preserve failures as
+   evidence about the model.
 
-1. **Define service and failure criteria.** State function, loads, environment,
-   lifetime, safety margin, manufacturability, cost, and end-of-life constraints.
-2. **Translate criteria into measurable responses.** Identify the properties
-   and degradation rates that are relevant under representative conditions.
-3. **Propose candidate compositions, structures, and processes.** Make the
-   assumed causal links explicit rather than selecting by material name alone.
-4. **Create and document specimens.** Record process variables, provenance,
-   sampling, and deviations.
-5. **Measure structure and properties.** Use calibrated methods, controls, and
-   uncertainty estimates at the scales required by the proposed mechanism.
-6. **Validate performance.** Test components or justified surrogates under a
-   service-relevant range, including variability and plausible failure modes.
-7. **Iterate and preserve the evidence trail.** A failed prediction is
-   information about the assumed links, not merely a result to discard.
+## Avoid four shortcuts
 
-The framework is most useful as a map of dependencies. Later notes examine the
-individual links—bonding, defects, diffusion, phase equilibria,
-transformations, properties, processing, degradation, characterization, and
-selection—in enough detail to test them.
+- A material does not have one useful structure; different scales answer
+  different questions.
+- A tabulated property does not automatically predict a component.
+- Processing changes internal organization, not only external shape.
+- A clear image or successful simulation does not prove a unique mechanism.
 
-## Common misinterpretations
-
-- **"A material has one structure."** Different scales reveal different
-  structural variables, and processing can create spatial gradients.
-- **"A tabulated property predicts a component."** Tables rarely reproduce the
-  component's microstructure, orientation, environment, geometry, or loading
-  history.
-- **"Processing affects only shape."** Processing can change phases, defects,
-  porosity, texture, interfaces, molecular organization, and residual stress.
-- **"A clear image proves a mechanism."** Image contrast is a measurement
-  signal; preparation artifacts and non-unique interpretations must be tested.
-- **"The four elements form a one-way pipeline."** Service changes materials,
-  performance tests revise design assumptions, and process choices may be
-  constrained by cost, scale, safety, and sustainability.
+The framework is therefore a map of questions and evidence. Later notes develop
+individual links such as bonding, defects, diffusion, phase equilibria,
+properties, processing, degradation, and characterization.
 
 ## References
 
@@ -203,9 +167,10 @@ selection—in enough detail to test them.
 - National Institute of Standards and Technology (NIST). (n.d.). *Materials
   Genome Initiative*. Accessed July 22, 2026. <https://www.nist.gov/mgi>
 
-## Related notes
+## Read next
 
-- [Materials Science & Chemistry](index.md)
-- [Chemistry](chemistry.md)
-- [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md)
-- [Powder X-ray Diffraction](powder-x-ray-diffraction.md)
+- [Chemistry](chemistry.md) — composition, bonding, energy, and transformation.
+- [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md) — how
+  observations become structural evidence.
+- [Powder X-ray Diffraction](powder-x-ray-diffraction.md) — how diffraction
+  constrains phase and structure claims.

@@ -90,10 +90,11 @@
 /* First paragraph after the title reads as a standfirst: distinctly larger
    with open leading, an editorial lead-in without changing any wording. */
 .md-typeset h1 + p {
-  font-size: 1.14rem;
-  line-height: 1.55;
+  font-family: var(--ed-sans);
+  font-size: 1.02rem;
+  line-height: 1.5;
   color: var(--ed-ink-soft);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.35rem;
 }
 
 /* Emphasis inside prose must stay below heading weight so section breaks win. */
@@ -129,6 +130,31 @@
 .md-typeset ul li,
 .md-typeset ol li {
   margin-bottom: 0.35rem;
+}
+
+/* Concept figures carry explanatory structure, not decoration. */
+.md-typeset .concept-figure {
+  max-width: var(--ed-column);
+  margin: 1.4rem 0 1.8rem;
+}
+
+.md-typeset .concept-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0.55rem;
+  border: 1px solid var(--ed-rule);
+  border-radius: 0.35rem;
+  background: #f8fafb;
+}
+
+.md-typeset .concept-figure figcaption {
+  max-width: var(--ed-measure);
+  margin-top: 0.55rem;
+  font-family: var(--ed-sans);
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--ed-ink-soft);
 }
 
 /* --------------------------------------------------------------------------
@@ -371,6 +397,11 @@ summary:focus-visible,
     font-size: 1.5rem;
   }
 
+  .md-typeset h1 + p {
+    font-size: 0.96rem;
+    line-height: 1.48;
+  }
+
   .md-typeset h2 {
     font-size: 1.15rem;
     margin-top: 2rem;
@@ -379,6 +410,14 @@ summary:focus-visible,
   .md-content__inner {
     margin-left: 0.9rem;
     margin-right: 0.9rem;
+  }
+
+  .md-typeset .concept-figure {
+    margin: 1.1rem 0 1.5rem;
+  }
+
+  .md-typeset .concept-figure img {
+    padding: 0.25rem;
   }
 }
 

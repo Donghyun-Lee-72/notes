@@ -1,75 +1,56 @@
 # Materials Science & Chemistry
 
-This section treats materials science and chemistry as one connected domain.
-Materials science organizes knowledge through **processing, structure,
-properties, and performance**; chemistry explains composition, bonding,
-reaction, energetics, and molecular transformation. Their shared foundation
-supports synthesis, characterization, and the design of functional matter.
+Use this section to move from **what matter is**, through **how we measure and
+change it**, to **whether a material works in practice**. Start with the shared
+framework, then follow the route that matches your question.
 
-## Orientation
+## Start here
 
-- [Materials Science and Engineering Framework](materials-science-engineering-framework.md) —
-  how composition and environment enter a processing–structure–properties–
-  performance dependency map, how evidence supports each link, and why component
-  performance cannot be inferred from a material name or one property value.
+1. [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
+   introduces the processing–structure–properties–performance map and explains
+   how evidence tests each link.
+2. [Chemistry Overview](chemistry.md) places composition, bonding, energy,
+   reaction, and synthesis inside that map.
+3. Choose a characterization route below when you need to determine structure,
+   composition, or response experimentally.
 
-## Characterization
+## Characterization routes
 
-- [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md) —
-  electron–matter interactions, scattering and signal generation, imaging,
-  diffraction, spectroscopy, specimen preparation, artifacts, and method
-  selection.
-- [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md) —
-  reciprocal-lattice points, diffraction spots, wavevectors, the Ewald sphere,
-  Fourier transforms, structure factors, and diffuse scattering.
-- [Powder X-ray Diffraction](powder-x-ray-diffraction.md) — how a powder pattern
-  is formed, what peak position, intensity, and width reveal, and where
-  interpretation can fail.
-- [PXRD Simulation and Rietveld Refinement](pxrd-simulation-and-refinement.md) —
-  ideal reflections, full-profile simulation, whole-pattern fitting, and a
-  defensible comparison workflow.
-- [Computing PXRD Patterns with pymatgen](pymatgen-pxrd.md) — a reproducible
-  Python workflow, its outputs, and why a parsed CIF is not proof of a correct
-  structure.
-- [Choosing PXRD Software](pxrd-software-selection.md) — the roles, access
-  models, and limits of pymatgen, Mercury, VESTA, Dans_Diffraction, GSAS-II,
-  FullProf, TOPAS, and HighScore Plus.
+### Images, local structure, and composition
 
-## Chemistry
+- [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md) explains
+  electron–matter interactions, image formation, diffraction, spectroscopy,
+  preparation artifacts, and when to choose each instrument.
 
-The [Chemistry Overview](chemistry.md) maps atomic and molecular structure,
-thermodynamics, kinetics, reactions, synthesis, and analysis within the shared
-section.
+### Crystal and phase structure
 
-[MOF Topology and Up–Down Design](mof-topology-up-down-design.md) distinguishes
-topology from ontology and uses a 2024 *Nature Synthesis* study as a case study
-in topology-guided Zr-based MOF discovery.
-
-## Planned map
-
-- Material classes, selection, constraints, and failure criteria
-- Atomic structure, bonding, defects, interfaces, and diffusion
-- Phase equilibria, phase diagrams, and materials thermodynamics
-- Mechanical, electronic, optical, magnetic, and thermal properties
-- Pair distribution functions and total-scattering analysis
-- Surfaces, interfaces, thin films, and nanostructures
-- Processing, degradation, computation, life-cycle assessment, and sustainability
-- Chemical bonding, molecular structure, reaction mechanisms, and synthesis
-- Analytical chemistry, spectroscopy, electrochemistry, and interfacial chemistry
-
-Pages in this section use public, independently checkable references and
-distinguish observations from model-dependent inferences.
-
-## Related notes
-
-- [AI4Science](../ai4science/index.md)
-- [Self-Driving Laboratories](../ai4science/self-driving-laboratories.md)
-- [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
-- [Chemistry](chemistry.md)
-- [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md)
 - [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md)
-- [Powder X-ray Diffraction](powder-x-ray-diffraction.md)
+  builds the geometric and Fourier picture behind diffraction.
+- [Powder X-ray Diffraction](powder-x-ray-diffraction.md) explains what peak
+  position, intensity, and width can—and cannot—tell us.
 - [PXRD Simulation and Rietveld Refinement](pxrd-simulation-and-refinement.md)
-- [Computing PXRD Patterns with pymatgen](pymatgen-pxrd.md)
-- [Choosing PXRD Software](pxrd-software-selection.md)
-- [MOF Topology and Up–Down Design](mof-topology-up-down-design.md)
+  separates ideal reflections, profile simulation, and whole-pattern fitting.
+
+### Practical powder X-ray diffraction (PXRD) tools
+
+- [Computing PXRD Patterns with pymatgen](pymatgen-pxrd.md) gives a reproducible
+  Python workflow and validation checks.
+- [Choosing PXRD Software](pxrd-software-selection.md) compares software roles,
+  access models, and limitations.
+
+## Applied case study
+
+- [MOF Topology and Up–Down Design](mof-topology-up-down-design.md) shows how
+  topology, building-unit orientation, and linker geometry guide the search for
+  new zirconium-based metal–organic frameworks.
+
+## What is coming next
+
+The next foundation sequence will cover atomic structure and bonding, defects
+and diffusion, thermodynamics and phase equilibria, structure–property
+relations, degradation, processing, and materials selection. Chemistry notes
+will develop stoichiometry, molecular structure, reactions, equilibrium,
+kinetics, electrochemistry, synthesis, and analysis in dependency order.
+
+Published pages are linked above. Planned topics are not presented as completed
+notes.
