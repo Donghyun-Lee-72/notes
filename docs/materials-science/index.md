@@ -9,8 +9,9 @@ framework, then follow the route that matches your question.
 1. [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
    introduces the processing–structure–properties–performance map and explains
    how evidence tests each link.
-2. [Chemistry Overview](chemistry.md) places composition, bonding, energy,
-   reaction, and synthesis inside that map.
+2. [General Chemistry Map and Learning Path](chemistry.md) organizes
+   composition, bonding, energy, and reaction concepts by prerequisite and
+   connects them to that map.
 3. Choose a characterization route below when you need to determine structure,
    composition, or response experimentally.
 

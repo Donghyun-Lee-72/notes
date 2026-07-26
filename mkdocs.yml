@@ -60,6 +60,7 @@ plugins:
             "Materials Science and Engineering Framework": "재료과학·공학의 기본 틀"
             Chemistry: 화학
             Chemistry Overview: 화학 개요
+            "General Chemistry Map and Learning Path": "일반화학 지도와 학습 경로"
             "Electron Microscopy: SEM and TEM": "전자현미경: SEM과 TEM"
             "Crystal Diffraction, Reciprocal Space, and Disorder": "결정 회절, 역공간과 무질서"
             "Powder X-ray Diffraction": "분말 X선 회절"
@@ -145,7 +146,7 @@ nav:
       - "PXRD Simulation and Rietveld Refinement": materials-science/pxrd-simulation-and-refinement.md
       - "Computing PXRD Patterns with pymatgen": materials-science/pymatgen-pxrd.md
       - "Choosing PXRD Software": materials-science/pxrd-software-selection.md
-      - Chemistry: materials-science/chemistry.md
+      - "General Chemistry Map and Learning Path": materials-science/chemistry.md
       - "MOF Topology and Up–Down Design": materials-science/mof-topology-up-down-design.md
   - Reference:
       - Glossary: glossary.md

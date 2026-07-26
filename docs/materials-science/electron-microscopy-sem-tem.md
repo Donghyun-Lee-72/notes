@@ -87,5 +87,5 @@ Report the microscope and source, accelerating voltage, probe current or apertur
 ## Related notes
 
 - [Materials Science & Chemistry](index.md)
-- [Chemistry](chemistry.md)
+- [General Chemistry Map and Learning Path](chemistry.md)
 - [AI4Science](../ai4science/index.md)

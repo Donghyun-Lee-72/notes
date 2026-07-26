@@ -68,9 +68,9 @@ links to completed notes.
 The order is a route through prerequisites, not a claim that every learner must
 move in a straight line. The broader general-chemistry curriculum will also
 need states of matter, solutions, descriptive inorganic chemistry,
-introductory organic chemistry, and nuclear chemistry. The first ten clusters
-prioritize the shared foundation and the shortest coherent route to redox and
-electrochemistry.
+introductory organic chemistry, nuclear chemistry, synthesis, and analytical
+measurement. The first ten clusters prioritize the shared foundation and the
+shortest coherent route to redox and electrochemistry.
 
 ## How to use this map
 

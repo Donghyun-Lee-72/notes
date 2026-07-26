@@ -169,7 +169,8 @@ properties, processing, degradation, and characterization.
 
 ## Read next
 
-- [Chemistry](chemistry.md) — composition, bonding, energy, and transformation.
+- [General Chemistry Map and Learning Path](chemistry.md) — composition,
+  bonding, energy, and transformation.
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md) — how
   observations become structural evidence.
 - [Powder X-ray Diffraction](powder-x-ray-diffraction.md) — how diffraction

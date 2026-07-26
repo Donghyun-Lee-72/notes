@@ -69,5 +69,5 @@ the authors.
 ## Related notes
 
 - [Materials Science & Chemistry](index.md)
-- [Chemistry](chemistry.md)
+- [General Chemistry Map and Learning Path](chemistry.md)
 - [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md)

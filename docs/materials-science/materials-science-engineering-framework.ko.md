@@ -152,7 +152,7 @@ Initiative 관련 작업에서 이런 전달을 위한 표준과 공동 기반�
 
 ## 다음에 읽을 노트
 
-- [화학](chemistry.md) — 조성, 결합, 에너지, 변환
+- [일반화학 지도와 학습 경로](chemistry.md) — 조성, 결합, 에너지, 변환
 - [전자현미경: SEM과 TEM](electron-microscopy-sem-tem.md) — 관찰을 구조
   근거로 바꾸는 방법
 - [분말 X선 회절](powder-x-ray-diffraction.md) — 회절로 상과 구조 주장을
