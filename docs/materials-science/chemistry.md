@@ -21,9 +21,10 @@ Equilibrium and reaction rate answer different questions, but both require a
 clear description of reactions and energy. Electrochemistry then combines
 reaction bookkeeping, thermodynamics, equilibrium, and charge transfer.
 
-The sequence below is the programme's own prerequisite-based structure. Its
-breadth has been checked against an openly available two-semester general
-chemistry text ([OpenStax, *Chemistry 2e*, Preface](https://openstax.org/books/chemistry-2e/pages/preface))
+The sequence below is an independently constructed prerequisite-based
+structure for this learning path. Its breadth has been checked against an
+openly available two-semester general chemistry text
+([OpenStax, *Chemistry 2e*, Preface](https://openstax.org/books/chemistry-2e/pages/preface))
 and its progression against an independent first-year course that develops
 atomic structure, bonding, thermodynamics, equilibrium, redox chemistry, and
 kinetics through lectures and problems
