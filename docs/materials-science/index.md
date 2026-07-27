@@ -12,7 +12,10 @@ framework, then follow the route that matches your question.
 2. [General Chemistry Map and Learning Path](chemistry.md) organizes
    composition, bonding, energy, and reaction concepts by prerequisite and
    connects them to that map.
-3. Choose a characterization route below when you need to determine structure,
+3. [Chemical Language, the Mole, and
+   Stoichiometry](chemical-language-mole-stoichiometry.md) connects formulae
+   and balanced equations to amounts, masses, yields, and solution volumes.
+4. Choose a characterization route below when you need to determine structure,
    composition, or response experimentally.
 
 ## Characterization routes
@@ -49,8 +52,8 @@ framework, then follow the route that matches your question.
 
 The next foundation sequence will cover atomic structure and bonding, defects
 and diffusion, thermodynamics and phase equilibria, structure–property
-relations, degradation, processing, and materials selection. Chemistry notes
-will develop stoichiometry, molecular structure, reactions, equilibrium,
+relations, degradation, processing, and materials selection. Remaining
+chemistry notes will develop molecular structure, reactions, equilibrium,
 kinetics, electrochemistry, synthesis, and analysis in dependency order.
 
 Published pages are linked above. Planned topics are not presented as completed

@@ -35,13 +35,13 @@ wording of this roadmap.
 
 ## The ten topic clusters
 
-Only **1. General Chemistry Map and Learning Path**—this page—is currently
-published in the general-chemistry sequence. Items 2–10 are planned topics, not
+The first two clusters are now available. Items 3–10 are planned topics, not
 links to completed notes.
 
 1. **General Chemistry Map and Learning Path** — locate the major concepts,
    their prerequisites, and their materials-science uses.
-2. **Chemical Language, the Mole, and Stoichiometry** *(planned)* — represent
+2. [**Chemical Language, the Mole, and
+   Stoichiometry**](chemical-language-mole-stoichiometry.md) — represent
    substances and reactions, relate particle-scale descriptions to measurable
    amounts, and track matter through a reaction.
 3. **Atomic Structure and Periodic Trends** *(planned)* — connect electronic
@@ -117,15 +117,18 @@ component's corrosion rate or lifetime.
 
 ## Published now and planned later
 
-This map is the currently published general-chemistry foundation. The
+This map and [Chemical Language, the Mole, and
+Stoichiometry](chemical-language-mole-stoichiometry.md) are the currently
+published general-chemistry foundation. The
 [MOF Topology and Up–Down Design](mof-topology-up-down-design.md) case study is
 also published in this section and shows chemistry and structure guiding a
 materials-design question, but it is not one of the ten foundation clusters.
-Detailed notes for clusters 2–10 remain planned; their titles above describe
+Detailed notes for clusters 3–10 remain planned; their titles above describe
 intended scope, not available content or a publication schedule.
 
 ## Related notes
 
 - [Materials Science & Chemistry](index.md)
+- [Chemical Language, the Mole, and Stoichiometry](chemical-language-mole-stoichiometry.md)
 - [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
 - [MOF Topology and Up–Down Design](mof-topology-up-down-design.md)
