@@ -150,7 +150,7 @@ The **actual yield** is the experimentally isolated product mass, here
 `= (18.7 g / 21.1491... g) × 100% = 88.4%`
 
 The limiting-reactant choice used unrounded amounts. Both input masses have
-three significant figures, so `21.2 g` theoretical yield and `88.4%` percent
+three significant figures, so `21.1 g` theoretical yield and `88.4%` percent
 yield are appropriately reported to three significant figures. A yield below
 100% can reflect incomplete conversion, competing reactions, or loss during
 isolation. A value above 100% does not create matter; it signals that an
