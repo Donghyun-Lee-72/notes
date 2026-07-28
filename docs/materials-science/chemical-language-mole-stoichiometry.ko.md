@@ -216,6 +216,7 @@ Ca `1 = 1`, Cl `2 = 2`입니다. 화학식 단위도 중성입니다.
 ## 관련 문서
 
 - [일반화학 지도와 학습 경로](chemistry.md)
+- [원자구조와 주기적 경향](atomic-structure-periodic-trends.md)
 - [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)
 - [재료과학·화학](index.md)
 

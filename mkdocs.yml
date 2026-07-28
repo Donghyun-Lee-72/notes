@@ -62,6 +62,7 @@ plugins:
             Chemistry Overview: 화학 개요
             "General Chemistry Map and Learning Path": "일반화학 지도와 학습 경로"
             "Chemical Language, the Mole, and Stoichiometry": "화학 언어, 몰, 화학량론"
+            "Atomic Structure and Periodic Trends": "원자구조와 주기적 경향"
             "Electron Microscopy: SEM and TEM": "전자현미경: SEM과 TEM"
             "Crystal Diffraction, Reciprocal Space, and Disorder": "결정 회절, 역공간과 무질서"
             "Powder X-ray Diffraction": "분말 X선 회절"
@@ -149,6 +150,7 @@ nav:
       - "Choosing PXRD Software": materials-science/pxrd-software-selection.md
       - "General Chemistry Map and Learning Path": materials-science/chemistry.md
       - "Chemical Language, the Mole, and Stoichiometry": materials-science/chemical-language-mole-stoichiometry.md
+      - "Atomic Structure and Periodic Trends": materials-science/atomic-structure-periodic-trends.md
       - "MOF Topology and Up–Down Design": materials-science/mof-topology-up-down-design.md
   - Reference:
       - Glossary: glossary.md

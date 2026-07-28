@@ -15,7 +15,10 @@ framework, then follow the route that matches your question.
 3. [Chemical Language, the Mole, and
    Stoichiometry](chemical-language-mole-stoichiometry.md) connects formulae
    and balanced equations to amounts, masses, yields, and solution volumes.
-4. Choose a characterization route below when you need to determine structure,
+4. [Atomic Structure and Periodic
+   Trends](atomic-structure-periodic-trends.md) connects nuclear identity and
+   electron configurations to qualified trends in atomic properties.
+5. Choose a characterization route below when you need to determine structure,
    composition, or response experimentally.
 
 ## Characterization routes
@@ -50,11 +53,11 @@ framework, then follow the route that matches your question.
 
 ## What is coming next
 
-The next foundation sequence will cover atomic structure and bonding, defects
+The next foundation sequence will cover bonding, defects
 and diffusion, thermodynamics and phase equilibria, structure–property
 relations, degradation, processing, and materials selection. Remaining
 chemistry notes will develop molecular structure, reactions, equilibrium,
 kinetics, electrochemistry, synthesis, and analysis in dependency order.
 
-Published pages are linked above. Planned topics are not presented as completed
-notes.
+Pages available in this section are linked above. Planned topics are not
+presented as completed notes.

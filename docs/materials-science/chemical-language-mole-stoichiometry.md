@@ -225,6 +225,7 @@ mechanism, or proceeds quickly.
 ## Related notes
 
 - [General Chemistry Map and Learning Path](chemistry.md)
+- [Atomic Structure and Periodic Trends](atomic-structure-periodic-trends.md)
 - [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
 - [Materials Science & Chemistry](index.md)
 
