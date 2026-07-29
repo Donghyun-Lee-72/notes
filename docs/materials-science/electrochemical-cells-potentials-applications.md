@@ -323,16 +323,19 @@ standard-potential table alone is not a design method.
 
 This note is not an experimental procedure. Batteries and electrolysis cells
 can combine large current with caustic electrolytes, toxic metals, or hazardous
-gases. Never create an intentional short circuit or open a cell. Charge only
-with the device-specific method approved by its manufacturer. Disposal rules
-depend on battery chemistry and jurisdiction: identify the chemistry, follow
-the manufacturer's instructions and local collection or recycling rules, and
-do not place a battery in household trash where those rules prohibit it
-([FAA, “PackSafe: Lithium Batteries”](https://www.faa.gov/hazmat/packsafe/lithium-batteries);
-[US EPA, “Used Household Batteries”](https://www.epa.gov/recycle/used-household-batteries)).
-Electrolysis requires
-identified products, compatible electrodes and containment, ventilation, and
-appropriate separation of products before power is applied
+gases. Never create an intentional battery short circuit. Do not open or
+disassemble a sealed battery cell outside manufacturer-approved service
+instructions. This note does not provide a charging or service procedure;
+follow the instructions for the specific device and battery
+([FAA, “PackSafe: Lithium Batteries”](https://www.faa.gov/hazmat/packsafe/lithium-batteries)).
+Disposal rules depend on battery chemistry and jurisdiction: identify the
+chemistry, follow the manufacturer's instructions and local collection or
+recycling rules, and do not place a battery in household trash where those
+rules prohibit it
+([US EPA, “Used Household Batteries”](https://www.epa.gov/recycle/used-household-batteries)).
+Electrolysis products can depend on competing electrode reactions and on
+whether the cell keeps products in separate compartments. Identify the
+intended half-reactions and cell arrangement before interpreting the result
 ([OpenStax, *Chemistry 2e*, §17.7](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)).
 Corrosion-control decisions for infrastructure require environment-specific
 measurements, applicable codes, inspection, and qualified engineering review.

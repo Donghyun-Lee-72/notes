@@ -304,14 +304,17 @@ Callister and Rethwisch, 5th ed., Chapter 16, §16.9, p. 738).
 
 이 문서는 실험 절차가 아닙니다. 전지와 전기분해 전지는 큰 전류를 부식성
 전해질, 독성 금속 또는 유해 기체와 함께 다룰 수 있습니다. 전지를
-의도적으로 단락시키거나 열지 마십시오. 충전은 제조사가 해당 기기에 승인한
-방법으로만 하십시오. 폐기 규칙은 전지 화학과 지역에 따라 다릅니다. 전지
-종류를 확인하고 제조사 지침과 지역 수거·재활용 규정을 따르며, 해당 규정이
-금지하는 전지는 생활 쓰레기에 넣지 마십시오
-([FAA, “PackSafe: Lithium Batteries”](https://www.faa.gov/hazmat/packsafe/lithium-batteries);
-[US EPA, “Used Household Batteries”](https://www.epa.gov/recycle/used-household-batteries)).
-전기분해는 전원을 켜기 전에 생성물을
-식별하고, 호환되는 전극과 용기, 환기, 적절한 생성물 분리를 갖춰야 합니다
+의도적으로 단락시키지 마십시오. 제조사가 승인한 정비 지침이 없다면 밀봉된
+배터리 셀을 열거나 분해하지 마십시오. 이 문서는 충전·정비 절차를 제공하지
+않으므로 해당 기기와 배터리의 지침을 따르십시오
+([FAA, “PackSafe: Lithium Batteries”](https://www.faa.gov/hazmat/packsafe/lithium-batteries)).
+폐기 규칙은 전지 화학과 지역에 따라 다릅니다. 전지 종류를 확인하고 제조사
+지침과 지역 수거·재활용 규정을 따르며, 해당 규정이 금지하는 전지는 생활
+쓰레기에 넣지 마십시오
+([US EPA, “Used Household Batteries”](https://www.epa.gov/recycle/used-household-batteries)).
+전기분해 생성물은 서로 경쟁하는 전극 반응과 전지가 생성물을 분리된 구획에
+유지하는지에 따라 달라질 수 있습니다. 결과를 해석하기 전에 의도한 반쪽
+반응과 전지 구성을 확인하십시오
 ([OpenStax, *Chemistry 2e*, §17.7](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)).
 기반시설의 부식 제어 결정에는 환경별 측정, 적용 법규와 규격, 검사, 자격을
 갖춘 공학 검토가 필요합니다.
