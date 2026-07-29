@@ -152,8 +152,11 @@ Initiative 관련 작업에서 이런 전달을 위한 표준과 공동 기반�
 
 ## 다음에 읽을 노트
 
+- [재료의 분류와 선택](materials-classification-and-selection.md) — 재료군
+  이름으로 범위를 줄이되 최종 후보를 단정하지 않는 방법
+- [재료의 원자구조와 원자 사이
+  결합](atomic-structure-and-interatomic-bonding.md) — 상호작용 모형이
+  구조와 물성 경향을 제약하는 방법
 - [일반화학 지도와 학습 경로](chemistry.md) — 조성, 결합, 에너지, 변환
 - [전자현미경: SEM과 TEM](electron-microscopy-sem-tem.md) — 관찰을 구조
   근거로 바꾸는 방법
-- [분말 X선 회절](powder-x-ray-diffraction.md) — 회절로 상과 구조 주장을
-  제한하는 방법

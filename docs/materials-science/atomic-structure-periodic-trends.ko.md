@@ -196,11 +196,12 @@ Bohr 모형은 수소와 같은 1전자 화학종의 전자를 에너지가 고�
 ## 모형을 다음 단계로 가져가되 범위를 넘지 않기
 
 원자가전자 배치, 크기, 이온화 에너지, 전자친화도는 원자가 전자 밀도를 잃거나
-얻거나 공유할 가능성을 따지는 출발점입니다. 다음 결합 주제에서는 이 원자적
-출발점과 원자 사이 상호작용을 결합합니다. 또한 고립된 기체 원자에 전자가
+얻거나 공유할 가능성을 따지는 출발점입니다. [재료의 원자구조와 원자 사이
+결합](atomic-structure-and-interatomic-bonding.md)은 이 원자적 출발점과
+원자 사이 상호작용을 결합합니다. 전기음성도는 고립된 기체 원자에 전자가
 붙는 과정을 나타내는 전자친화도와 달리 결합 맥락에서 전자를 끌어당기는
-정도를 나타내는 전기음성도를 도입합니다. MIT의 대학 1학년 과정도 원자 상태와
-전자배치에서 주기적 경향을 거쳐 결합으로 진행합니다
+정도를 나타냅니다. MIT의 대학 1학년 과정도 원자 상태와 전자배치에서 주기적
+경향을 거쳐 결합으로 진행합니다
 ([MIT OCW 5.111SC 강의계획서](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/syllabus/);
 [학습 자료 목록](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/resource-index/)).
 
@@ -213,9 +214,9 @@ Bohr 모형은 수소와 같은 1전자 화학종의 전자를 에너지가 고�
 ## 관련 문서
 
 - [화학 언어, 몰, 화학량론](chemical-language-mole-stoichiometry.md)
+- [재료의 원자구조와 원자 사이 결합](atomic-structure-and-interatomic-bonding.md)
 - [일반화학 지도와 학습 경로](chemistry.md)
 - [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)
-- [재료과학·화학](index.md)
 
 ## 참고문헌
 

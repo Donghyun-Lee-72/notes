@@ -210,9 +210,10 @@ alone.
 ## Carry the model forward, not beyond its range
 
 Valence configuration, size, ionization energy, and electron affinity help
-frame whether atoms may lose, gain, or share electron density. The next
-bonding topic will combine those atomic starting points with interactions
-between atoms; it will also introduce electronegativity, which describes
+frame whether atoms may lose, gain, or share electron density. [Atomic
+Structure and Interatomic Bonding in
+Materials](atomic-structure-and-interatomic-bonding.md) combines those atomic
+starting points with interactions between atoms. Electronegativity describes
 electron attraction in a bonding context rather than electron attachment to an
 isolated gas-phase atom. MIT's first-year sequence likewise moves from atomic
 states and configurations into periodic trends and then bonding
@@ -229,9 +230,9 @@ by itself select a material or establish its performance.
 ## Related notes
 
 - [Chemical Language, the Mole, and Stoichiometry](chemical-language-mole-stoichiometry.md)
+- [Atomic Structure and Interatomic Bonding in Materials](atomic-structure-and-interatomic-bonding.md)
 - [General Chemistry Map and Learning Path](chemistry.md)
 - [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
-- [Materials Science & Chemistry](index.md)
 
 ## References
 

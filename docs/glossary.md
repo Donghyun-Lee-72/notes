@@ -10,6 +10,13 @@ stopping conditions. See [AI Agents](build/ai-agents.md).
 A mechanism that computes context-dependent combinations of value vectors using
 weights derived from query-key similarity. See [Transformers](learn/transformers.md).
 
+## Bond Energy
+
+The energy required to separate a bonded pair relative to a stated reference
+state. In a pair-potential model, it is the well depth, not a bulk elastic
+modulus. See [Atomic Structure and Interatomic Bonding in
+Materials](materials-science/atomic-structure-and-interatomic-bonding.md).
+
 ## Chunk
 
 A retrievable unit created from a larger document. Chunk boundaries affect both
@@ -38,6 +45,13 @@ Fluent output that is false, unsupported, or misleading in its use context.
 
 A neural model trained to estimate distributions over token sequences. See
 [Large Language Models](learn/large-language-models.md).
+
+## Material Property
+
+A measured or modeled response to a specified stimulus under stated material
+and test conditions. It is not the same as the performance of a manufactured
+part. See [Materials Classification and
+Selection](materials-science/materials-classification-and-selection.md).
 
 ## Prompt
 
