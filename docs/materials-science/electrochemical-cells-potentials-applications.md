@@ -34,7 +34,7 @@ In a galvanic cell, oxidation releases electrons at the anode, so that
 electrode is the electron source and is negative relative to the cathode. In
 an electrolytic cell, the power supply removes electrons from the anode and
 delivers them to the cathode; the signs therefore reverse
-([IUPAC Gold Book, “galvanic cell”](https://goldbook.iupac.org/terms/view/09066);
+([IUPAC Gold Book, “electrochemical cell”](https://goldbook.iupac.org/terms/view/09058);
 [“electrolytic cell”](https://goldbook.iupac.org/terms/view/09062);
 [OpenStax, §17.7](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)).
 
@@ -144,23 +144,27 @@ so
 `E°_cell = (R T / n F) ln K`
 
 Here `n` is the number of moles of electrons transferred per mole of the
-balanced reaction as written, and `F` is the Faraday constant, approximately
-`9.6485 × 10^4 C mol^-1`. Since `1 V = 1 J C^-1`, the units in `nFE` reduce to
-energy per mole of reaction
+balanced reaction as written, `F` is the Faraday constant
+(`9.6485 × 10^4 C mol^-1`), `R` is the molar gas constant, `T` is absolute
+temperature, and `K` is the dimensionless thermodynamic equilibrium constant
+for that balanced reaction at the same temperature and standard-state
+convention. Since `1 V = 1 J C^-1`, the units in `nFE` reduce to energy per
+mole of reaction
 ([IUPAC Gold Book, “Faraday constant”](https://goldbook.iupac.org/terms/view/F02325);
 [OpenStax, §17.4](https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium)).
 
-For the zinc–nickel reaction, `n = 2`. Using the unrounded potential above,
+For the zinc–nickel reaction, `n = 2`. Using the displayed
+`E°_cell = 0.5048 V` estimate from the tabulated electrode values,
 
 `ΔG° = -(2 mol e^- mol^-1 reaction)(96485 C mol^-1 e^-)(0.5048 J C^-1)`
 
 `ΔG° = -9.741 × 10^4 J mol^-1 = -97.4 kJ mol^-1`
 
-At `298.15 K`, with `R = 8.314 J mol^-1 K^-1`,
+At `T = 298.15 K`, with `R = 8.314 J mol^-1 K^-1`,
 
-`ln K = n F E°_cell/(R T) = 39.30`
+`ln K = n F E°_cell/(R T) = 39.2974... ≈ 39.30`
 
-`K = e^39.30 = 1.16 × 10^17`
+`K = e^(39.2974...) ≈ e^39.30 = 1.17 × 10^17`
 
 Thus, for the reaction direction written, `E°_cell > 0`, `ΔG° < 0`, and
 `K > 1` give the same thermodynamic conclusion. At equilibrium under the
@@ -254,9 +258,10 @@ A current of `1.80 A = 1.80 C s^-1` for
 
 `n(Cu) = 1.40 × 10^-2 mol`
 
-This is a theoretical amount assuming all measured current produces copper.
-Side reactions lower the Faradaic efficiency, and mass transport or uneven
-current distribution can make a deposit nonuniform
+The first result is the amount of electrons passed; the second is the
+theoretical amount of copper deposited if all measured charge follows the
+copper half-reaction. Charge diverted to another electrode process would make
+the copper amount smaller
 ([OpenStax, *Chemistry 2e*, §17.7](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)).
 
 ## Treat corrosion as a distributed cell
@@ -270,6 +275,8 @@ while a possible cathodic reaction in aerated neutral or basic water is
 
 `O2(g) + 2 H2O(l) + 4 e^- → 4 OH^-(aq)`
 
+(Callister and Rethwisch, 5th ed., Chapter 16, §16.2, p. 713).
+
 Doubling the iron half-reaction gives the charge-balanced initial net process
 
 `2 Fe(s) + O2(g) + 2 H2O(l) → 2 Fe^2+(aq) + 4 OH^-(aq)`
@@ -279,25 +286,26 @@ through the surface electrolyte. Later precipitation and oxidation reactions
 produce corrosion products whose composition and protection vary with the
 environment. A favorable cell potential identifies a possible direction, not
 a corrosion rate or service lifetime
-([OpenStax, *Chemistry 2e*, §17.6](https://openstax.org/books/chemistry-2e/pages/17-6-corrosion);
-Callister and Rethwisch, 5th ed., Chapter 16, §16.2, pp. 713–718).
+([OpenStax, *Chemistry 2e*, §17.6](https://openstax.org/books/chemistry-2e/pages/17-6-corrosion)).
 
 **Passivation** occurs when a surface film greatly reduces further reaction.
 Such a film can explain why a thermodynamically reactive metal corrodes
 slowly, but protection depends on the material, film integrity, potential,
 and environment; “passive” does not mean immune to every form of attack
 ([OpenStax, §17.6](https://openstax.org/books/chemistry-2e/pages/17-6-corrosion);
-Callister and Rethwisch, 5th ed., Chapter 16, §16.5, pp. 727–728).
+Callister and Rethwisch, 5th ed., Chapter 16, §16.5, p. 727).
 
 **Cathodic protection** supplies electrons to the structure so that it acts as
 a cathode rather than the site of metal oxidation. A more readily oxidized
-sacrificial anode can supply those electrons, or an external direct-current
-source can provide impressed current. The sacrificial component is the anode
-and is intentionally consumed. Selecting a protection system requires the
-actual environment, coating condition, geometry, current distribution, and
-inspection plan; a standard-potential table alone is not a design method
+sacrificial anode can supply those electrons. The sacrificial component is the
+anode and is intentionally consumed
 ([OpenStax, §17.6](https://openstax.org/books/chemistry-2e/pages/17-6-corrosion);
-Callister and Rethwisch, 5th ed., Chapter 16, §16.9, pp. 737–738).
+Callister and Rethwisch, 5th ed., Chapter 16, §16.9, p. 738).
+In impressed-current protection, an external DC source drives the electron supply
+(Callister and Rethwisch, 5th ed., Chapter 16, §16.9, p. 738).
+Selecting a protection system requires the actual environment, coating
+condition, geometry, current distribution, and inspection plan; a
+standard-potential table alone is not a design method.
 
 ## Audit conclusions before trusting them
 
@@ -315,12 +323,16 @@ Callister and Rethwisch, 5th ed., Chapter 16, §16.9, pp. 737–738).
 
 This note is not an experimental procedure. Batteries and electrolysis cells
 can combine large current with caustic electrolytes, toxic metals, or hazardous
-gases. Do not short, open, heat, improvise charging for, or dispose of a cell
-outside its manufacturer's and local waste rules. Electrolysis requires
+gases. Never create an intentional short circuit or open a cell. Charge only
+with the device-specific method approved by its manufacturer, and follow local
+rules for collection and recycling rather than placing used batteries in
+ordinary household trash
+([FAA, “PackSafe: Lithium Batteries”](https://www.faa.gov/hazmat/packsafe/lithium-batteries);
+[US EPA, “Used Household Batteries”](https://www.epa.gov/recycle/used-household-batteries)).
+Electrolysis requires
 identified products, compatible electrodes and containment, ventilation, and
 appropriate separation of products before power is applied
-([OpenStax, *Chemistry 2e*, §17.5](https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells);
-[§17.7](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)).
+([OpenStax, *Chemistry 2e*, §17.7](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)).
 Corrosion-control decisions for infrastructure require environment-specific
 measurements, applicable codes, inspection, and qualified engineering review.
 
@@ -334,18 +346,18 @@ measurements, applicable codes, inspection, and qualified engineering review.
 
 - Callister, W. D., Jr., and Rethwisch, D. G. (2015).
   *Fundamentals of Materials Science and Engineering: An Integrated Approach*,
-  5th ed., Chapter 16, §§16.2, 16.5, and 16.9, pp. 713–718, 727–728, 737–738.
+  5th ed., Chapter 16, §16.2, p. 713; §16.5, p. 727; and §16.9,
+  pp. 737–738.
 - International Union of Pure and Applied Chemistry (IUPAC). *Compendium of
   Chemical Terminology (Gold Book)*, 5th ed., “activity”, “anode”, “cathode”,
-  “electrochemical cell”, “electrolytic cell”, “Faraday constant”, “galvanic
-  cell”, and “standard electrode potential”.
+  “electrochemical cell”, “electrolytic cell”, “Faraday constant”, and
+  “standard electrode potential”.
   <https://goldbook.iupac.org/terms/view/A00115>
   <https://goldbook.iupac.org/terms/view/A00370>
   <https://goldbook.iupac.org/terms/view/C00905>
   <https://goldbook.iupac.org/terms/view/09058>
   <https://goldbook.iupac.org/terms/view/09062>
   <https://goldbook.iupac.org/terms/view/F02325>
-  <https://goldbook.iupac.org/terms/view/09066>
   <https://goldbook.iupac.org/terms/view/S05912>
 - OpenStax. *Chemistry 2e*, Chapter 17, §§17.2–17.7.
   <https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells>

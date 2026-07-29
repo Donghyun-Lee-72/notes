@@ -32,7 +32,7 @@
 갈바니 전지에서는 산화가 산화 전극에 전자를 내놓으므로 이 전극이 전자
 공급원이자 환원 전극에 대한 음극(-)입니다. 전해 전지에서는 전원이 산화
 전극에서 전자를 빼내고 환원 전극으로 전자를 공급하므로 부호가 반대가 됩니다
-([IUPAC Gold Book, “galvanic cell”](https://goldbook.iupac.org/terms/view/09066);
+([IUPAC Gold Book, “electrochemical cell”](https://goldbook.iupac.org/terms/view/09058);
 [“electrolytic cell”](https://goldbook.iupac.org/terms/view/09062);
 [OpenStax, §17.7](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)).
 
@@ -134,23 +134,26 @@
 
 `E°_cell = (R T / n F) ln K`
 
-입니다. 여기서 `n`은 표시한 계수의 반응 1몰당 이동하는 전자의 몰수이고,
-`F`는 약 `9.6485 × 10^4 C mol^-1`인 패러데이 상수입니다.
-`1 V = 1 J C^-1`이므로 `nFE`의 단위는 반응 1몰당 에너지로 정리됩니다
+입니다. 여기서 `n`은 표시한 계수의 반응 1몰당 이동하는 전자의 몰수,
+`F`는 `9.6485 × 10^4 C mol^-1`인 패러데이 상수, `R`은 몰 기체 상수,
+`T`는 절대온도입니다. `K`는 같은 온도와 표준 상태 규약에서 그 계수의
+반응에 대한 무차원 열역학적 평형 상수입니다. `1 V = 1 J C^-1`이므로
+`nFE`의 단위는 반응 1몰당 에너지로 정리됩니다
 ([IUPAC Gold Book, “Faraday constant”](https://goldbook.iupac.org/terms/view/F02325);
 [OpenStax, §17.4](https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium)).
 
-아연–니켈 반응에서는 `n = 2`입니다. 위의 반올림하지 않은 전위를 사용하면,
+아연–니켈 반응에서는 `n = 2`입니다. 표에 제시된 전극값으로 구한
+`E°_cell = 0.5048 V` 추정값을 사용하면,
 
 `ΔG° = -(2 mol e^- mol^-1 reaction)(96485 C mol^-1 e^-)(0.5048 J C^-1)`
 
 `ΔG° = -9.741 × 10^4 J mol^-1 = -97.4 kJ mol^-1`
 
-입니다. `298.15 K`에서 `R = 8.314 J mol^-1 K^-1`를 사용하면,
+입니다. `T = 298.15 K`에서 `R = 8.314 J mol^-1 K^-1`를 사용하면,
 
-`ln K = n F E°_cell/(R T) = 39.30`
+`ln K = n F E°_cell/(R T) = 39.2974... ≈ 39.30`
 
-`K = e^39.30 = 1.16 × 10^17`
+`K = e^(39.2974...) ≈ e^39.30 = 1.17 × 10^17`
 
 입니다. 따라서 표시한 반응 방향에서 `E°_cell > 0`, `ΔG° < 0`,
 `K > 1`은 같은 열역학적 결론을 줍니다. 실제 조건에서 평형에 도달하면
@@ -240,9 +243,9 @@
 
 `n(Cu) = 1.40 × 10^-2 mol`
 
-을 전달하거나 석출합니다. 이는 측정된 전류가 모두 구리를 만드는 데 쓰인다고
-가정한 이론값입니다. 부반응은 패러데이 효율을 낮추고, 물질전달이나 불균일한
-전류 분포는 석출층을 불균일하게 만들 수 있습니다
+첫 번째 결과는 통과한 전자의 몰수이고, 두 번째 결과는 측정된 전하가 모두
+구리 반쪽 반응에 쓰였다고 가정할 때 석출되는 구리의 이론적 몰수입니다.
+전하 일부가 다른 전극 반응에 쓰이면 구리 석출량은 더 작아집니다
 ([OpenStax, *Chemistry 2e*, §17.7](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)).
 
 ## 부식을 분산된 전지로 다루기
@@ -257,7 +260,9 @@
 
 `O2(g) + 2 H2O(l) + 4 e^- → 4 OH^-(aq)`
 
-입니다. 철 반쪽 반응을 두 배로 하면 전하가 맞는 초기 알짜 과정은,
+입니다
+(Callister and Rethwisch, 5th ed., Chapter 16, §16.2, p. 713).
+철 반쪽 반응을 두 배로 하면 전하가 맞는 초기 알짜 과정은,
 
 `2 Fe(s) + O2(g) + 2 H2O(l) → 2 Fe^2+(aq) + 4 OH^-(aq)`
 
@@ -265,25 +270,25 @@
 이온은 표면 전해질을 통해 이동합니다. 이후 침전과 산화 반응으로 부식 생성물이
 생기며, 그 조성과 보호 능력은 환경에 따라 달라집니다. 유리한 전지 전위는
 가능한 방향을 알려 줄 뿐 부식 속도나 사용 수명을 알려 주지 않습니다
-([OpenStax, *Chemistry 2e*, §17.6](https://openstax.org/books/chemistry-2e/pages/17-6-corrosion);
-Callister and Rethwisch, 5th ed., Chapter 16, §16.2, pp. 713–718).
+([OpenStax, *Chemistry 2e*, §17.6](https://openstax.org/books/chemistry-2e/pages/17-6-corrosion)).
 
 **부동태화(passivation)**는 표면 피막이 추가 반응을 크게 줄이는 현상입니다.
 이런 피막은 열역학적으로 반응성이 있는 금속이 천천히 부식하는 이유를 설명할
 수 있습니다. 그러나 보호 효과는 재료, 피막의 온전성, 전위, 환경에 따라
 달라지며, “부동태”가 모든 형태의 공격에 면역이라는 뜻은 아닙니다
 ([OpenStax, §17.6](https://openstax.org/books/chemistry-2e/pages/17-6-corrosion);
-Callister and Rethwisch, 5th ed., Chapter 16, §16.5, pp. 727–728).
+Callister and Rethwisch, 5th ed., Chapter 16, §16.5, p. 727).
 
 **음극 방식(cathodic protection)**은 구조물에 전자를 공급하여 금속 산화가
 일어나는 곳이 아니라 환원 전극으로 작용하게 합니다. 더 쉽게 산화되는
-희생 산화 전극(sacrificial anode, 흔히 희생 양극)이 전자를 공급하거나,
-외부 직류 전원이 인가 전류를 공급할 수 있습니다. 희생 부품은 산화 전극이며
-의도적으로 소모됩니다. 방식 시스템을 선정하려면 실제 환경, 코팅 상태, 형상,
-전류 분포, 검사 계획을 고려해야 합니다. 표준 전위표만으로 설계할 수는
-없습니다
+희생 산화 전극(sacrificial anode, 흔히 희생 양극)이 전자를 공급할 수
+있습니다. 희생 부품은 산화 전극이며 의도적으로 소모됩니다
 ([OpenStax, §17.6](https://openstax.org/books/chemistry-2e/pages/17-6-corrosion);
-Callister and Rethwisch, 5th ed., Chapter 16, §16.9, pp. 737–738).
+Callister and Rethwisch, 5th ed., Chapter 16, §16.9, p. 738).
+인가 전류 방식에서는 외부 직류 전원으로 필요한 전자 공급을 구동합니다
+(Callister and Rethwisch, 5th ed., Chapter 16, §16.9, p. 738).
+방식 시스템을 선정하려면 실제 환경, 코팅 상태, 형상, 전류 분포, 검사
+계획을 고려해야 합니다. 표준 전위표만으로 설계할 수는 없습니다.
 
 ## 결론을 믿기 전에 점검하기
 
@@ -298,12 +303,15 @@ Callister and Rethwisch, 5th ed., Chapter 16, §16.9, pp. 737–738).
 ## 안전과 범위의 경계
 
 이 문서는 실험 절차가 아닙니다. 전지와 전기분해 전지는 큰 전류를 부식성
-전해질, 독성 금속 또는 유해 기체와 함께 다룰 수 있습니다. 제조사와 지역
-폐기 규정을 벗어나 전지를 단락시키거나, 열거나, 가열하거나, 임의로
-충전하거나, 폐기하지 마십시오. 전기분해는 전원을 켜기 전에 생성물을
+전해질, 독성 금속 또는 유해 기체와 함께 다룰 수 있습니다. 전지를
+의도적으로 단락시키거나 열지 마십시오. 충전은 제조사가 해당 기기에 승인한
+방법으로만 하고, 사용한 전지는 일반 생활 쓰레기에 버리지 말고 지역의
+수거·재활용 규정을 따르십시오
+([FAA, “PackSafe: Lithium Batteries”](https://www.faa.gov/hazmat/packsafe/lithium-batteries);
+[US EPA, “Used Household Batteries”](https://www.epa.gov/recycle/used-household-batteries)).
+전기분해는 전원을 켜기 전에 생성물을
 식별하고, 호환되는 전극과 용기, 환기, 적절한 생성물 분리를 갖춰야 합니다
-([OpenStax, *Chemistry 2e*, §17.5](https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells);
-[§17.7](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)).
+([OpenStax, *Chemistry 2e*, §17.7](https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis)).
 기반시설의 부식 제어 결정에는 환경별 측정, 적용 법규와 규격, 검사, 자격을
 갖춘 공학 검토가 필요합니다.
 
@@ -317,18 +325,18 @@ Callister and Rethwisch, 5th ed., Chapter 16, §16.9, pp. 737–738).
 
 - Callister, W. D., Jr., and Rethwisch, D. G. (2015).
   *Fundamentals of Materials Science and Engineering: An Integrated Approach*,
-  5th ed., Chapter 16, §§16.2, 16.5, 16.9, pp. 713–718, 727–728, 737–738.
+  5th ed., Chapter 16, §16.2, p. 713; §16.5, p. 727; §16.9,
+  pp. 737–738.
 - International Union of Pure and Applied Chemistry (IUPAC). *Compendium of
   Chemical Terminology (Gold Book)*, 5th ed., “activity”, “anode”, “cathode”,
-  “electrochemical cell”, “electrolytic cell”, “Faraday constant”, “galvanic
-  cell”, “standard electrode potential” 항목.
+  “electrochemical cell”, “electrolytic cell”, “Faraday constant”,
+  “standard electrode potential” 항목.
   <https://goldbook.iupac.org/terms/view/A00115>
   <https://goldbook.iupac.org/terms/view/A00370>
   <https://goldbook.iupac.org/terms/view/C00905>
   <https://goldbook.iupac.org/terms/view/09058>
   <https://goldbook.iupac.org/terms/view/09062>
   <https://goldbook.iupac.org/terms/view/F02325>
-  <https://goldbook.iupac.org/terms/view/09066>
   <https://goldbook.iupac.org/terms/view/S05912>
 - OpenStax. *Chemistry 2e*, Chapter 17, §§17.2–17.7.
   <https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells>
