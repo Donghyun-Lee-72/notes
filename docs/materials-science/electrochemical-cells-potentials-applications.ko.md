@@ -317,9 +317,10 @@ Callister and Rethwisch, 5th ed., Chapter 16, §16.9, p. 738).
 
 ## 관련 문서
 
-- [일반화학 지도와 학습 경로](chemistry.md)
-- [화학 언어, 몰, 화학량론](chemical-language-mole-stoichiometry.md)
-- [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)
+- [산화·환원 기초와 반쪽 반응법](redox-foundations-half-reaction-balancing.md)
+- [열화학, 엔트로피, 깁스 에너지](thermochemistry-entropy-gibbs-energy.md)
+- [화학 평형, 산과 염기, 용해도](chemical-equilibrium-acids-bases-solubility.md)
+- [화학 반응속도론과 반응 메커니즘](chemical-kinetics-reaction-mechanisms.md)
 
 ## 참고문헌
 

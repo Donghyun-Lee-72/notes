@@ -336,9 +336,9 @@
 ## 관련 문서
 
 - [화학 언어, 몰, 화학량론](chemical-language-mole-stoichiometry.md)
-- [원자구조와 주기적 경향](atomic-structure-periodic-trends.md)
+- [수용액 반응과 알짜 이온 반응식](aqueous-reactions-net-ionic-equations.md)
+- [전기화학 전지, 전위, 응용](electrochemical-cells-potentials-applications.md)
 - [일반화학 지도와 학습 경로](chemistry.md)
-- [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)
 
 ## 참고문헌
 

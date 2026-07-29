@@ -13,9 +13,11 @@
 상태 기호는 표현된 물리적 환경을 나타냅니다. `(s)`는 고체, `(l)`은 액체,
 `(g)`는 기체, `(aq)`는 물에 용해된 화학종입니다. 상태 기호는 꾸밈이 아니라
 화학적 주장의 일부입니다. 이 문서는 화학식, 전하, 계수에 익숙하다고
-가정하지만 별도의 결합 문서를 선수 지식으로 요구하지 않습니다. 그 문서는
-아직 계획 단계이므로, 아래에서 필요한 리간드와 루이스 산–염기 용어는
-여기에서 정의합니다. 오비탈 수준의 결합 모형은 이 문서의 범위를 벗어납니다.
+가정합니다. 별도의 [화학 결합, 분자구조, 분자 간
+힘](chemical-bonding-molecular-structure-intermolecular-forces.md) 문서를
+선수 지식으로 요구하지는 않습니다. 아래에서 필요한 리간드와 루이스 산–염기
+용어는 여기에서 정의하고, 오비탈 수준의 결합 모형은 이 문서의 범위를
+벗어납니다.
 
 ## 상태와 입자 정체를 따로 읽기
 
@@ -225,10 +227,12 @@ OpenStax는 착이온 형성을 루이스 모형으로 설명합니다
 
 실제 용액에는 수화 이온, 이온쌍, 가수분해된 화학종, 여러 경쟁 착물이나
 침전이 함께 존재할 수 있습니다. 비이상 용액에서는 농도가 앞에서 정의한
-활동도를 충분히 대신하지 못할 수 있습니다. 이 입문 절차에서는 정량적 평형,
-용해도곱, 산–염기, 산화·환원 계수 맞추기 계산을 뒤로 미루지만, 이후 모형이
-언제 필요한지는 구분합니다. MIT의 대학 1학년 과정도 용해도와 산–염기 평형을
-다룬 뒤 산화·환원과 전이 금속 화학으로 진행합니다
+활동도를 충분히 대신하지 못할 수 있습니다. 이 입문 절차는 [화학 평형, 산과
+염기, 용해도](chemical-equilibrium-acids-bases-solubility.md)와 [산화·환원
+기초와 반쪽 반응법](redox-foundations-half-reaction-balancing.md)의 정량
+모형이 언제 필요한지 구분하되 그 계산을 반복하지 않습니다. MIT의 대학 1학년
+과정도 용해도와 산–염기 평형을 다룬 뒤 산화·환원과 전이 금속 화학으로
+진행합니다
 ([MIT OpenCourseWare 5.111SC 강의계획서](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/syllabus/);
 [학습 자료 목록](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/resource-index/)).
 
@@ -244,8 +248,9 @@ OpenStax는 착이온 형성을 루이스 모형으로 설명합니다
 ## 관련 문서
 
 - [화학 언어, 몰, 화학량론](chemical-language-mole-stoichiometry.md)
-- [원자구조와 주기적 경향](atomic-structure-periodic-trends.md)
-- [일반화학 지도와 학습 경로](chemistry.md)
+- [화학 결합, 분자구조, 분자 간 힘](chemical-bonding-molecular-structure-intermolecular-forces.md)
+- [산화·환원 기초와 반쪽 반응법](redox-foundations-half-reaction-balancing.md)
+- [화학 평형, 산과 염기, 용해도](chemical-equilibrium-acids-bases-solubility.md)
 
 ## 참고문헌
 

@@ -374,9 +374,9 @@ changes equilibrium.
 
 ## Related notes
 
-- [Chemical Language, the Mole, and Stoichiometry](chemical-language-mole-stoichiometry.md)
-- [Atomic Structure and Periodic Trends](atomic-structure-periodic-trends.md)
-- [General Chemistry Map and Learning Path](chemistry.md)
+- [Thermochemistry, Entropy, and Gibbs Energy](thermochemistry-entropy-gibbs-energy.md)
+- [Chemical Equilibrium, Acids and Bases, and Solubility](chemical-equilibrium-acids-bases-solubility.md)
+- [Electrochemical Cells, Potentials, and Applications](electrochemical-cells-potentials-applications.md)
 - [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
 
 ## References

@@ -338,7 +338,7 @@ Those topics need additional models and measured or calculated evidence.
 ## Related notes
 
 - [Atomic Structure and Periodic Trends](atomic-structure-periodic-trends.md)
-- [Chemical Language, the Mole, and Stoichiometry](chemical-language-mole-stoichiometry.md)
+- [Aqueous Reactions and Net Ionic Equations](aqueous-reactions-net-ionic-equations.md)
 - [General Chemistry Map and Learning Path](chemistry.md)
 - [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
 

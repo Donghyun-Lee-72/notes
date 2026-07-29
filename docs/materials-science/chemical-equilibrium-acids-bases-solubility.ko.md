@@ -358,10 +358,10 @@ pH를 결정하지만, 두 성분의 절대량과 용액 부피는 완충 작용
 
 ## 관련 문서
 
-- [일반화학 지도와 학습 경로](chemistry.md)
-- [화학 언어, 몰, 화학량론](chemical-language-mole-stoichiometry.md)
-- [원자구조와 주기적 경향](atomic-structure-periodic-trends.md)
-- [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)
+- [수용액 반응과 알짜 이온 반응식](aqueous-reactions-net-ionic-equations.md)
+- [열화학, 엔트로피, 깁스 에너지](thermochemistry-entropy-gibbs-energy.md)
+- [화학 반응속도론과 반응 메커니즘](chemical-kinetics-reaction-mechanisms.md)
+- [전기화학 전지, 전위, 응용](electrochemical-cells-potentials-applications.md)
 
 ## 참고문헌
 

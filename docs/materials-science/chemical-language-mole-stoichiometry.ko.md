@@ -206,19 +206,25 @@ Ca `1 = 1`, Cl `2 = 2`입니다. 화학식 단위도 중성입니다.
 
 ## 이 문서의 경계
 
-이 문서는 화학식과 완전 분자 반응식을 정량적 계수 정리로 다룹니다. 이후
-문서에서는 강전해질과 구경꾼 이온을 알짜 이온 반응식으로 구분하고, 산화·환원
-화학에서 전하와 전자 이동을 보존하도록 맞추며, 반응 완결 가정을 평형
-추론으로 대체합니다. 계수를 맞춘 반응식은 화학량론적 비를 정하지만, 그것만으로
-반응이 실제로 일어나는지, 완결되는지, 특정 메커니즘을 따르는지, 빠르게
-진행되는지를 입증하지는 않습니다.
+이 문서는 화학식과 완전 분자 반응식을 정량적 계수 정리로 다룹니다.
+[수용액 반응과 알짜 이온
+반응식](aqueous-reactions-net-ionic-equations.md)은 강전해질과 구경꾼 이온을
+구분하고, [산화·환원 기초와 반쪽
+반응법](redox-foundations-half-reaction-balancing.md)은 전하와 전자 이동을
+보존하도록 반응식을 맞춥니다. [열화학, 엔트로피, 깁스
+에너지](thermochemistry-entropy-gibbs-energy.md), [화학 평형, 산과 염기,
+용해도](chemical-equilibrium-acids-bases-solubility.md), [화학 반응속도론과
+반응 메커니즘](chemical-kinetics-reaction-mechanisms.md)은 계수를 맞춘 반응이
+반드시 유리하거나 완결되거나 빠르다는 가정을 제거합니다. 계수를 맞춘 반응식은
+화학량론적 비를 정하지만, 그것만으로 반응이 실제로 일어나는지, 완결되는지,
+특정 메커니즘을 따르는지, 빠르게 진행되는지를 입증하지는 않습니다.
 
 ## 관련 문서
 
 - [일반화학 지도와 학습 경로](chemistry.md)
 - [원자구조와 주기적 경향](atomic-structure-periodic-trends.md)
-- [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)
-- [재료과학·화학](index.md)
+- [수용액 반응과 알짜 이온 반응식](aqueous-reactions-net-ionic-equations.md)
+- [산화·환원 기초와 반쪽 반응법](redox-foundations-half-reaction-balancing.md)
 
 ## 참고문헌
 

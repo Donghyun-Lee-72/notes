@@ -215,19 +215,26 @@ changes.
 ## Boundary of this page
 
 This page treats formulae and complete molecular equations as quantitative
-bookkeeping. Later notes will distinguish strong electrolytes and spectator
-ions with net ionic equations, balance charge and electron transfer in redox
-chemistry, and replace the complete-reaction assumption with equilibrium
-reasoning. A balanced equation fixes stoichiometric proportions; by itself it
-does not prove that a reaction occurs, goes to completion, follows a particular
-mechanism, or proceeds quickly.
+bookkeeping. [Aqueous Reactions and Net Ionic
+Equations](aqueous-reactions-net-ionic-equations.md) distinguishes strong
+electrolytes and spectator ions, while [Redox Foundations and Half-Reaction
+Balancing](redox-foundations-half-reaction-balancing.md) balances charge and
+electron transfer. [Thermochemistry, Entropy, and Gibbs
+Energy](thermochemistry-entropy-gibbs-energy.md), [Chemical Equilibrium, Acids
+and Bases, and Solubility](chemical-equilibrium-acids-bases-solubility.md), and
+[Chemical Kinetics and Reaction
+Mechanisms](chemical-kinetics-reaction-mechanisms.md) remove the assumptions
+that a balanced reaction is necessarily favorable, complete, or fast. A
+balanced equation fixes stoichiometric proportions; by itself it does not prove
+that a reaction occurs, goes to completion, follows a particular mechanism, or
+proceeds quickly.
 
 ## Related notes
 
 - [General Chemistry Map and Learning Path](chemistry.md)
 - [Atomic Structure and Periodic Trends](atomic-structure-periodic-trends.md)
-- [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
-- [Materials Science & Chemistry](index.md)
+- [Aqueous Reactions and Net Ionic Equations](aqueous-reactions-net-ionic-equations.md)
+- [Redox Foundations and Half-Reaction Balancing](redox-foundations-half-reaction-balancing.md)
 
 ## References
 

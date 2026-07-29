@@ -18,8 +18,30 @@ framework, then follow the route that matches your question.
 4. [Atomic Structure and Periodic
    Trends](atomic-structure-periodic-trends.md) connects nuclear identity and
    electron configurations to qualified trends in atomic properties.
-5. Choose a characterization route below when you need to determine structure,
-   composition, or response experimentally.
+5. [Chemical Bonding, Molecular Structure, and Intermolecular
+   Forces](chemical-bonding-molecular-structure-intermolecular-forces.md)
+   connects valence electrons to bonding, molecular shape, polarity, and
+   particle interactions.
+6. [Aqueous Reactions and Net Ionic
+   Equations](aqueous-reactions-net-ionic-equations.md) identifies species in
+   water and isolates the chemical change represented by an equation.
+7. [Redox Foundations and Half-Reaction
+   Balancing](redox-foundations-half-reaction-balancing.md) develops oxidation
+   states, electron bookkeeping, and mass-and-charge balancing.
+8. [Thermochemistry, Entropy, and Gibbs
+   Energy](thermochemistry-entropy-gibbs-energy.md) connects heat and enthalpy
+   to entropy, Gibbs energy, and thermodynamic direction.
+9. [Chemical Equilibrium, Acids and Bases, and
+   Solubility](chemical-equilibrium-acids-bases-solubility.md) applies reaction
+   quotients and equilibrium constants to coupled solution chemistry.
+10. [Chemical Kinetics and Reaction
+    Mechanisms](chemical-kinetics-reaction-mechanisms.md) separates reaction
+    rate and pathway from thermodynamic favorability.
+11. [Electrochemical Cells, Potentials, and
+    Applications](electrochemical-cells-potentials-applications.md) combines
+    redox, thermodynamics, equilibrium, and kinetics in cells and corrosion.
+12. Choose a characterization route below when you need to determine structure,
+    composition, or response experimentally.
 
 ## Characterization routes
 
@@ -53,11 +75,13 @@ framework, then follow the route that matches your question.
 
 ## What is coming next
 
-The next foundation sequence will cover bonding, defects
-and diffusion, thermodynamics and phase equilibria, structure–property
-relations, degradation, processing, and materials selection. Remaining
-chemistry notes will develop molecular structure, reactions, equilibrium,
-kinetics, electrochemistry, synthesis, and analysis in dependency order.
+The ten-cluster chemistry foundation above is complete in this repository
+checkout. Broader chemistry coverage can still add states of matter, solution
+properties, descriptive inorganic chemistry, introductory organic and nuclear
+chemistry, synthesis, and analytical measurement.
 
-Pages available in this section are linked above. Planned topics are not
-presented as completed notes.
+The next materials-science foundations include materials-specific bonding and
+structure, defects and diffusion, thermodynamic potentials and phase
+equilibria, structure–property relations, degradation, processing, and
+materials selection. The links above describe repository availability; they
+do not assert that an external public deployment already contains every page.

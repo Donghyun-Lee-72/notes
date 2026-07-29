@@ -354,9 +354,9 @@
 
 ## 관련 문서
 
-- [화학 언어, 몰, 화학량론](chemical-language-mole-stoichiometry.md)
-- [원자구조와 주기적 경향](atomic-structure-periodic-trends.md)
-- [일반화학 지도와 학습 경로](chemistry.md)
+- [열화학, 엔트로피, 깁스 에너지](thermochemistry-entropy-gibbs-energy.md)
+- [화학 평형, 산과 염기, 용해도](chemical-equilibrium-acids-bases-solubility.md)
+- [전기화학 전지, 전위, 응용](electrochemical-cells-potentials-applications.md)
 - [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)
 
 ## 참고문헌

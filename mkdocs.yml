@@ -63,6 +63,13 @@ plugins:
             "General Chemistry Map and Learning Path": "일반화학 지도와 학습 경로"
             "Chemical Language, the Mole, and Stoichiometry": "화학 언어, 몰, 화학량론"
             "Atomic Structure and Periodic Trends": "원자구조와 주기적 경향"
+            "Chemical Bonding, Molecular Structure, and Intermolecular Forces": "화학 결합, 분자구조, 분자 간 힘"
+            "Aqueous Reactions and Net Ionic Equations": "수용액 반응과 알짜 이온 반응식"
+            "Redox Foundations and Half-Reaction Balancing": "산화·환원 기초와 반쪽 반응법"
+            "Thermochemistry, Entropy, and Gibbs Energy": "열화학, 엔트로피, 깁스 에너지"
+            "Chemical Equilibrium, Acids and Bases, and Solubility": "화학 평형, 산과 염기, 용해도"
+            "Chemical Kinetics and Reaction Mechanisms": "화학 반응속도론과 반응 메커니즘"
+            "Electrochemical Cells, Potentials, and Applications": "전기화학 전지, 전위, 응용"
             "Electron Microscopy: SEM and TEM": "전자현미경: SEM과 TEM"
             "Crystal Diffraction, Reciprocal Space, and Disorder": "결정 회절, 역공간과 무질서"
             "Powder X-ray Diffraction": "분말 X선 회절"
@@ -151,6 +158,13 @@ nav:
       - "General Chemistry Map and Learning Path": materials-science/chemistry.md
       - "Chemical Language, the Mole, and Stoichiometry": materials-science/chemical-language-mole-stoichiometry.md
       - "Atomic Structure and Periodic Trends": materials-science/atomic-structure-periodic-trends.md
+      - "Chemical Bonding, Molecular Structure, and Intermolecular Forces": materials-science/chemical-bonding-molecular-structure-intermolecular-forces.md
+      - "Aqueous Reactions and Net Ionic Equations": materials-science/aqueous-reactions-net-ionic-equations.md
+      - "Redox Foundations and Half-Reaction Balancing": materials-science/redox-foundations-half-reaction-balancing.md
+      - "Thermochemistry, Entropy, and Gibbs Energy": materials-science/thermochemistry-entropy-gibbs-energy.md
+      - "Chemical Equilibrium, Acids and Bases, and Solubility": materials-science/chemical-equilibrium-acids-bases-solubility.md
+      - "Chemical Kinetics and Reaction Mechanisms": materials-science/chemical-kinetics-reaction-mechanisms.md
+      - "Electrochemical Cells, Potentials, and Applications": materials-science/electrochemical-cells-potentials-applications.md
       - "MOF Topology and Up–Down Design": materials-science/mof-topology-up-down-design.md
   - Reference:
       - Glossary: glossary.md

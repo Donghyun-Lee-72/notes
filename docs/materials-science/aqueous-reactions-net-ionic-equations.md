@@ -13,10 +13,11 @@ under stated conditions while conserving every element and net charge.
 State symbols describe the represented physical setting: `(s)` is a solid,
 `(l)` a liquid, `(g)` a gas, and `(aq)` a species dissolved in water. They are
 part of the chemical claim, not decoration. This note assumes familiarity with
-formulae, charge, and coefficients, but no separate bonding note: that
-prerequisite remains planned. The ligand and Lewis acid–base terms needed
-below are defined locally; orbital-level bonding models are outside this
-note's scope.
+formulae, charge, and coefficients. It does not require the separate
+[Chemical Bonding, Molecular Structure, and Intermolecular
+Forces](chemical-bonding-molecular-structure-intermolecular-forces.md) page as a
+prerequisite: the ligand and Lewis acid–base terms needed below are defined
+locally, and orbital-level bonding models are outside this note's scope.
 
 ## Read state and particle identity separately
 
@@ -240,11 +241,14 @@ mass-and-charge audit is required even when an equation looks familiar.
 Real solutions can contain hydrated ions, ion pairs, hydrolyzed species, and
 several competing complexes or precipitates. In nonideal solutions,
 concentrations may be inadequate proxies for the activities already defined
-above. This introductory workflow postpones quantitative equilibrium,
-solubility-product, acid–base, and redox balancing calculations, but identifies
-where those later models become necessary. MIT's first-year course likewise
-treats solubility and acid–base equilibrium before moving to redox and
-transition-metal chemistry
+above. This introductory workflow identifies where the quantitative models in
+[Chemical Equilibrium, Acids and Bases, and
+Solubility](chemical-equilibrium-acids-bases-solubility.md) and [Redox
+Foundations and Half-Reaction
+Balancing](redox-foundations-half-reaction-balancing.md) become necessary
+without repeating their calculations. MIT's first-year course likewise treats
+solubility and acid–base equilibrium before moving to redox and transition-
+metal chemistry
 ([MIT OpenCourseWare 5.111SC syllabus](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/syllabus/);
 [resource index](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/resource-index/)).
 
@@ -261,8 +265,9 @@ disinfectant can create an inhalation hazard
 ## Related notes
 
 - [Chemical Language, the Mole, and Stoichiometry](chemical-language-mole-stoichiometry.md)
-- [Atomic Structure and Periodic Trends](atomic-structure-periodic-trends.md)
-- [General Chemistry Map and Learning Path](chemistry.md)
+- [Chemical Bonding, Molecular Structure, and Intermolecular Forces](chemical-bonding-molecular-structure-intermolecular-forces.md)
+- [Redox Foundations and Half-Reaction Balancing](redox-foundations-half-reaction-balancing.md)
+- [Chemical Equilibrium, Acids and Bases, and Solubility](chemical-equilibrium-acids-bases-solubility.md)
 
 ## References
 

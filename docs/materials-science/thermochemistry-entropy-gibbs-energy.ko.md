@@ -265,8 +265,9 @@ IUPAC은 깁스 에너지를 다음과 같이 정의합니다.
 압력을 나타내는 무차원 양으로 정의한 무차원 반응 지수입니다. `Q`는 각
 활동도를 화학량론적 지수만큼 거듭제곱해 곱한 값입니다. 따라서
 `Δ_rG° < 0`이라고 해서 모든 조성에서 정반응이 유리한 것은 아닙니다. 반응
-평형에서는 `Δ_rG = 0`이고 `Q`가 평형값 `K`를 가집니다. 이후 평형 문서에서
-`Q`, 활동도, 평형 상수를 자세히 다룹니다
+평형에서는 `Δ_rG = 0`이고 `Q`가 평형값 `K`를 가집니다. [화학 평형, 산과
+염기, 용해도](chemical-equilibrium-acids-bases-solubility.md)에서 `Q`,
+활동도, 평형 상수를 자세히 다룹니다
 ([OpenStax, §16.4](https://openstax.org/books/chemistry-2e/pages/16-4-free-energy)).
 
 ## 열역학적 방향은 반응 속도가 아니다
@@ -330,9 +331,10 @@ IUPAC은 깁스 에너지를 다음과 같이 정의합니다.
 
 ## 관련 문서
 
-- [일반화학 지도와 학습 경로](chemistry.md)
 - [화학 언어, 몰, 화학량론](chemical-language-mole-stoichiometry.md)
-- [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)
+- [화학 평형, 산과 염기, 용해도](chemical-equilibrium-acids-bases-solubility.md)
+- [화학 반응속도론과 반응 메커니즘](chemical-kinetics-reaction-mechanisms.md)
+- [전기화학 전지, 전위, 응용](electrochemical-cells-potentials-applications.md)
 
 ## 참고문헌
 

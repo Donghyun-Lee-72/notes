@@ -338,9 +338,10 @@ measurements, applicable codes, inspection, and qualified engineering review.
 
 ## Related notes
 
-- [General Chemistry Map and Learning Path](chemistry.md)
-- [Chemical Language, the Mole, and Stoichiometry](chemical-language-mole-stoichiometry.md)
-- [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
+- [Redox Foundations and Half-Reaction Balancing](redox-foundations-half-reaction-balancing.md)
+- [Thermochemistry, Entropy, and Gibbs Energy](thermochemistry-entropy-gibbs-energy.md)
+- [Chemical Equilibrium, Acids and Bases, and Solubility](chemical-equilibrium-acids-bases-solubility.md)
+- [Chemical Kinetics and Reaction Mechanisms](chemical-kinetics-reaction-mechanisms.md)
 
 ## References
 

@@ -285,8 +285,9 @@ concentrations or pressures relative to chosen standard states. `Q` multiplies
 those activities raised to their stoichiometric powers.
 Therefore `Δ_rG° < 0` does not mean the forward reaction is favored at every
 composition. At reaction equilibrium, `Δ_rG = 0` and `Q` has its equilibrium
-value `K`. A later equilibrium note will develop `Q`, activities, and the
-equilibrium constant
+value `K`. [Chemical Equilibrium, Acids and Bases, and
+Solubility](chemical-equilibrium-acids-bases-solubility.md) develops `Q`,
+activities, and the equilibrium constant
 ([OpenStax, §16.4](https://openstax.org/books/chemistry-2e/pages/16-4-free-energy)).
 
 ## Thermodynamic direction is not reaction rate
@@ -354,9 +355,10 @@ energy before equilibrium and later kinetics
 
 ## Related notes
 
-- [General Chemistry Map and Learning Path](chemistry.md)
 - [Chemical Language, the Mole, and Stoichiometry](chemical-language-mole-stoichiometry.md)
-- [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
+- [Chemical Equilibrium, Acids and Bases, and Solubility](chemical-equilibrium-acids-bases-solubility.md)
+- [Chemical Kinetics and Reaction Mechanisms](chemical-kinetics-reaction-mechanisms.md)
+- [Electrochemical Cells, Potentials, and Applications](electrochemical-cells-potentials-applications.md)
 
 ## References
 

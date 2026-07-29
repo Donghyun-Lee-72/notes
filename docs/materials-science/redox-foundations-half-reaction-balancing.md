@@ -345,9 +345,9 @@ equilibrium, electrode conditions, transport, and kinetics.
 ## Related notes
 
 - [Chemical Language, the Mole, and Stoichiometry](chemical-language-mole-stoichiometry.md)
-- [Atomic Structure and Periodic Trends](atomic-structure-periodic-trends.md)
+- [Aqueous Reactions and Net Ionic Equations](aqueous-reactions-net-ionic-equations.md)
+- [Electrochemical Cells, Potentials, and Applications](electrochemical-cells-potentials-applications.md)
 - [General Chemistry Map and Learning Path](chemistry.md)
-- [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
 
 ## References
 
