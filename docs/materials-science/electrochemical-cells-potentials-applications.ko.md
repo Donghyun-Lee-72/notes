@@ -9,7 +9,7 @@
 [OpenStax, *Chemistry 2e*, §17.2](https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells)).
 
 이 문서는 전지 전위를 열역학적 양으로 다룹니다. 별도 언급이 없으면 계산은
-가역 거동, 무시할 수 있는 액간 접합 전위, 운동학적 또는 저항 손실을 만들
+가역 거동, 무시할 수 있는 액간 접합 전위, 반응속도론적 또는 저항 손실을 만들
 정도로 크지 않은 전류를 가정합니다. 부하가 걸린 실제 장치가 평형 전위를
 그대로 공급하는 것은 아닙니다.
 
@@ -124,11 +124,11 @@
 
 방향을 명시하고 계수를 맞춘 전지 반응에 대해,
 
-`ΔG = -n F E_cell`
+`Δ_rG = -n F E_cell`
 
 이고 표준 조건에서는,
 
-`ΔG° = -n F E°_cell = -R T ln K`
+`Δ_rG° = -n F E°_cell = -R T ln K`
 
 이므로,
 
@@ -139,15 +139,16 @@
 `T`는 절대온도입니다. `K`는 같은 온도와 표준 상태 규약에서 그 계수의
 반응에 대한 무차원 열역학적 평형 상수입니다. `1 V = 1 J C^-1`이므로
 `nFE`의 단위는 반응 1몰당 에너지로 정리됩니다
-([IUPAC Gold Book, “Faraday constant”](https://goldbook.iupac.org/terms/view/F02325);
+([IUPAC Gold Book, “affinity of reaction”](https://goldbook.iupac.org/terms/view/A00178),
+[“Faraday constant”](https://goldbook.iupac.org/terms/view/F02325);
 [OpenStax, §17.4](https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium)).
 
 아연–니켈 반응에서는 `n = 2`입니다. 표에 제시된 전극값으로 구한
 `E°_cell = 0.5048 V` 추정값을 사용하면,
 
-`ΔG° = -(2 mol e^- mol^-1 reaction)(96485 C mol^-1 e^-)(0.5048 J C^-1)`
+`Δ_rG° = -(2 mol e^- mol^-1 reaction)(96485 C mol^-1 e^-)(0.5048 J C^-1)`
 
-`ΔG° = -9.741 × 10^4 J mol^-1 = -97.4 kJ mol^-1`
+`Δ_rG° = -9.741 × 10^4 J mol^-1 = -97.4 kJ mol^-1`
 
 입니다. `T = 298.15 K`에서 `R = 8.314 J mol^-1 K^-1`를 사용하면,
 
@@ -155,9 +156,9 @@
 
 `K = e^(39.2974...) ≈ e^39.30 = 1.17 × 10^17`
 
-입니다. 따라서 표시한 반응 방향에서 `E°_cell > 0`, `ΔG° < 0`,
+입니다. 따라서 표시한 반응 방향에서 `E°_cell > 0`, `Δ_rG° < 0`,
 `K > 1`은 같은 열역학적 결론을 줍니다. 실제 조건에서 평형에 도달하면
-`ΔG = 0`, `E_cell = 0`, `Q = K`입니다. 이 관계만으로 반응 속도, 전류,
+`Δ_rG = 0`, `E_cell = 0`, `Q = K`입니다. 이 관계만으로 반응 속도, 전류,
 출력 또는 저장 용량을 알 수는 없습니다
 ([OpenStax, *Chemistry 2e*, §17.4](https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium)).
 
@@ -214,7 +215,7 @@
 ### 전기분해와 패러데이 법칙
 
 전기분해는 외부 전위를 사용해 비자발적인 전지 반응을 구동합니다. 전원은
-자발적인 방향에 맞서야 하며, 실제 전지는 운동학적·저항 손실을 극복하기 위한
+자발적인 방향에 맞서야 하며, 실제 전지는 반응속도론적·저항 손실을 극복하기 위한
 추가 인가 전위가 대체로 필요합니다. 일정한 전류가 전달한 전하는,
 
 `q = I t`
@@ -304,10 +305,12 @@ Callister and Rethwisch, 5th ed., Chapter 16, §16.9, p. 738).
 
 이 문서는 실험 절차가 아닙니다. 전지와 전기분해 전지는 큰 전류를 부식성
 전해질, 독성 금속 또는 유해 기체와 함께 다룰 수 있습니다. 전지를
-의도적으로 단락시키지 마십시오. 제조사가 승인한 정비 지침이 없다면 밀봉된
-배터리 셀을 열거나 분해하지 마십시오. 이 문서는 충전·정비 절차를 제공하지
-않으므로 해당 기기와 배터리의 지침을 따르십시오
+의도적으로 단락시키지 마십시오
 ([FAA, “PackSafe: Lithium Batteries”](https://www.faa.gov/hazmat/packsafe/lithium-batteries)).
+제조사가 승인한 정비 지침이 없다면 밀봉된 배터리 셀을 열거나 분해하지
+마십시오. 이 문서는 충전·정비 절차를 제공하지 않으므로 해당 기기와
+배터리의 지침을 따르십시오
+([US EPA, “Used Household Batteries”](https://www.epa.gov/recycle/used-household-batteries)).
 폐기 규칙은 전지 화학과 지역에 따라 다릅니다. 전지 종류를 확인하고 제조사
 지침과 지역 수거·재활용 규정을 따르며, 해당 규정이 금지하는 전지는 생활
 쓰레기에 넣지 마십시오
@@ -335,7 +338,9 @@ Callister and Rethwisch, 5th ed., Chapter 16, §16.9, p. 738).
 - International Union of Pure and Applied Chemistry (IUPAC). *Compendium of
   Chemical Terminology (Gold Book)*, 5th ed., “activity”, “anode”, “cathode”,
   “electrochemical cell”, “electrolytic cell”, “Faraday constant”,
-  “standard electrode potential” 항목.
+  “standard electrode potential” 항목과 반응 깁스 에너지 규약을 확인하기
+  위한 “affinity of reaction” 항목.
+  <https://goldbook.iupac.org/terms/view/A00178>
   <https://goldbook.iupac.org/terms/view/A00115>
   <https://goldbook.iupac.org/terms/view/A00370>
   <https://goldbook.iupac.org/terms/view/C00905>
@@ -350,6 +355,10 @@ Callister and Rethwisch, 5th ed., Chapter 16, §16.9, p. 738).
   <https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells>
   <https://openstax.org/books/chemistry-2e/pages/17-6-corrosion>
   <https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis>
+- Federal Aviation Administration. “PackSafe: Lithium Batteries.”
+  <https://www.faa.gov/hazmat/packsafe/lithium-batteries>
+- US Environmental Protection Agency. “Used Household Batteries.”
+  <https://www.epa.gov/recycle/used-household-batteries>
 - MIT OpenCourseWare. *5.111SC Principles of Chemical Science*, resource
   index의 Lecture 25, “Oxidation-Reduction and Electrochemical Cells”.
   대학 1학년 수준과 열역학·평형 선수 개념을 점검하는 데 사용했습니다.

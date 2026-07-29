@@ -133,11 +133,11 @@ separately. Introductory tables often approximate unit solute activity by
 
 For a balanced cell reaction in a specified direction,
 
-`ΔG = -n F E_cell`
+`Δ_rG = -n F E_cell`
 
 and, under standard conditions,
 
-`ΔG° = -n F E°_cell = -R T ln K`
+`Δ_rG° = -n F E°_cell = -R T ln K`
 
 so
 
@@ -150,15 +150,16 @@ temperature, and `K` is the dimensionless thermodynamic equilibrium constant
 for that balanced reaction at the same temperature and standard-state
 convention. Since `1 V = 1 J C^-1`, the units in `nFE` reduce to energy per
 mole of reaction
-([IUPAC Gold Book, “Faraday constant”](https://goldbook.iupac.org/terms/view/F02325);
+([IUPAC Gold Book, “affinity of reaction”](https://goldbook.iupac.org/terms/view/A00178)
+and [“Faraday constant”](https://goldbook.iupac.org/terms/view/F02325);
 [OpenStax, §17.4](https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium)).
 
 For the zinc–nickel reaction, `n = 2`. Using the displayed
 `E°_cell = 0.5048 V` estimate from the tabulated electrode values,
 
-`ΔG° = -(2 mol e^- mol^-1 reaction)(96485 C mol^-1 e^-)(0.5048 J C^-1)`
+`Δ_rG° = -(2 mol e^- mol^-1 reaction)(96485 C mol^-1 e^-)(0.5048 J C^-1)`
 
-`ΔG° = -9.741 × 10^4 J mol^-1 = -97.4 kJ mol^-1`
+`Δ_rG° = -9.741 × 10^4 J mol^-1 = -97.4 kJ mol^-1`
 
 At `T = 298.15 K`, with `R = 8.314 J mol^-1 K^-1`,
 
@@ -166,9 +167,9 @@ At `T = 298.15 K`, with `R = 8.314 J mol^-1 K^-1`,
 
 `K = e^(39.2974...) ≈ e^39.30 = 1.17 × 10^17`
 
-Thus, for the reaction direction written, `E°_cell > 0`, `ΔG° < 0`, and
+Thus, for the reaction direction written, `E°_cell > 0`, `Δ_rG° < 0`, and
 `K > 1` give the same thermodynamic conclusion. At equilibrium under the
-actual conditions, `ΔG = 0`, `E_cell = 0`, and `Q = K`. None of these
+actual conditions, `Δ_rG = 0`, `E_cell = 0`, and `Q = K`. None of these
 relations supplies a reaction rate, current, power, or storage capacity
 ([OpenStax, *Chemistry 2e*, §17.4](https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium)).
 
@@ -323,11 +324,13 @@ standard-potential table alone is not a design method.
 
 This note is not an experimental procedure. Batteries and electrolysis cells
 can combine large current with caustic electrolytes, toxic metals, or hazardous
-gases. Never create an intentional battery short circuit. Do not open or
-disassemble a sealed battery cell outside manufacturer-approved service
-instructions. This note does not provide a charging or service procedure;
-follow the instructions for the specific device and battery
+gases. Never create an intentional battery short circuit
 ([FAA, “PackSafe: Lithium Batteries”](https://www.faa.gov/hazmat/packsafe/lithium-batteries)).
+Do not open or disassemble a sealed battery cell outside
+manufacturer-approved service instructions. This note does not provide a
+charging or service procedure; follow the instructions for the specific
+device and battery
+([US EPA, “Used Household Batteries”](https://www.epa.gov/recycle/used-household-batteries)).
 Disposal rules depend on battery chemistry and jurisdiction: identify the
 chemistry, follow the manufacturer's instructions and local collection or
 recycling rules, and do not place a battery in household trash where those
@@ -356,7 +359,9 @@ measurements, applicable codes, inspection, and qualified engineering review.
 - International Union of Pure and Applied Chemistry (IUPAC). *Compendium of
   Chemical Terminology (Gold Book)*, 5th ed., “activity”, “anode”, “cathode”,
   “electrochemical cell”, “electrolytic cell”, “Faraday constant”, and
-  “standard electrode potential”.
+  “standard electrode potential”, plus “affinity of reaction” for the reaction
+  Gibbs-energy convention.
+  <https://goldbook.iupac.org/terms/view/A00178>
   <https://goldbook.iupac.org/terms/view/A00115>
   <https://goldbook.iupac.org/terms/view/A00370>
   <https://goldbook.iupac.org/terms/view/C00905>
@@ -371,6 +376,10 @@ measurements, applicable codes, inspection, and qualified engineering review.
   <https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells>
   <https://openstax.org/books/chemistry-2e/pages/17-6-corrosion>
   <https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis>
+- Federal Aviation Administration. “PackSafe: Lithium Batteries.”
+  <https://www.faa.gov/hazmat/packsafe/lithium-batteries>
+- US Environmental Protection Agency. “Used Household Batteries.”
+  <https://www.epa.gov/recycle/used-household-batteries>
 - MIT OpenCourseWare. *5.111SC Principles of Chemical Science*, Lecture 25,
   “Oxidation-Reduction and Electrochemical Cells”, in the resource index. Used
   to check first-year depth and the thermodynamics/equilibrium prerequisites.
