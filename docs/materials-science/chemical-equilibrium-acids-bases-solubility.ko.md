@@ -40,10 +40,13 @@
 
 `Q = (a_C^gamma a_D^delta)/(a_A^alpha a_B^beta)`
 
-입니다. 각 `a_i`는 명시된 표준 상태에 대한 무차원 **활동도**입니다. 생성물의
-화학량론적 지수는 양수이고 반응물의 지수는 음수이므로 위 식과 같이 분자와
-분모에 놓입니다. 평형에서는 `Q = K`이며, 표준 평형 상수 `K`는
-무차원입니다. 특정 온도에서 표시된 바로 그 반응에 대해 정해집니다
+입니다. 각 `a_i`는 명시된 표준 상태에 대한 무차원 **활동도**입니다. 여기서
+`alpha`, `beta`, `gamma`, `delta`는 반응식에 적힌 양의 계수이므로 생성물
+활동도는 분자에, 반응물 활동도는 분모에 놓입니다. 부호 있는 화학량론수
+표기에서는 `nu_C = gamma`, `nu_A = -alpha`이며, 같은 식을
+`Q = product_i a_i^nu_i`로 쓸 수 있습니다. 평형에서는 `Q = K`이며, 표준
+평형 상수 `K`는 무차원입니다. 특정 온도에서 표시된 바로 그 반응에 대해
+정해집니다
 ([IUPAC Gold Book, “activity”](https://goldbook.iupac.org/terms/view/A00115),
 [“equilibrium constant”](https://goldbook.iupac.org/terms/view/E02177),
 [“standard equilibrium constant”](https://goldbook.iupac.org/terms/view/S05915)).
@@ -79,7 +82,7 @@
 
 이 판정은 알짜 방향을 예측할 뿐, 속도나 조성 변화의 크기는 알려 주지
 않습니다
-([OpenStax, *Chemistry 2e*, §§13.2–13.4](https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations)).
+([OpenStax, *Chemistry 2e*, §13.4](https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations)).
 
 **방향 점검.** 다음과 같은 설명용 회합 반응을 생각해 봅시다.
 
@@ -111,9 +114,7 @@
 - 이미 존재하는 순수한 고체를 더 넣어도 그 활동도는 변하지 않으므로 평형이
   이동하지 않습니다. 다만 표면적 변화는 속도에 영향을 줄 수 있습니다.
 - 압축은 기체 활동도를 통해 영향을 줍니다. 이상 혼합물에 비활성 기체를
-  일정한 부피에서 넣으면 반응 기체의 부분 압력은 변하지 않습니다. 전체
-  압력을 일정하게 유지하면 이에 따르는 부피 변화가 부분 압력을 바꿀 수
-  있습니다.
+  일정한 부피에서 넣으면 반응 기체의 부분 압력은 변하지 않습니다.
 - “계가 변화를 완전히 없앤다”는 표현은 지나칩니다. 반응은 일반적으로
   부분적이며 그 크기는 보존 법칙의 제약을 받습니다.
 - 동시에 여러 교란이 생기거나, 혼합물이 비이상적이거나, 여러 반응이
@@ -146,8 +147,9 @@
 ([IUPAC Gold Book, “Lewis acid”](https://goldbook.iupac.org/terms/view/L03508),
 [“Lewis base”](https://goldbook.iupac.org/terms/view/L03511);
 [OpenStax, §15.2](https://openstax.org/books/chemistry-2e/pages/15-2-lewis-acids-and-bases)).
-두 분류는 서로 다른 계수 정리 질문에 답합니다. 어느 쪽도 모든 반응을 모든
-유용한 분류에서 산·염기 반응으로 만들지는 않습니다.
+두 분류는 각각 무엇을 주고받는지 추적하는 서로 다른 개념적 질문에
+답합니다. 어느 쪽도 모든 반응을 모든 유용한 분류에서 산·염기 반응으로
+만들지는 않습니다.
 
 ## pH, 세기, 농도 구분하기
 
@@ -173,8 +175,7 @@
 이고 `pK_a = -log10 K_a`입니다. 비교 가능한 조건에서 `K_a`가 클수록,
 `pK_a`가 작을수록 해리 정도가 큽니다. 반면 **농도**는 어떤 부피에 산을
 얼마나 넣었는지를 나타냅니다. 따라서 묽은 강산은 더 진한 약산보다 pH가 높을
-수 있습니다. 산의 세기는 부식성과 같지 않습니다. 부식성은 농도, 용매,
-속도론, 온도, 노출된 재료에도 좌우됩니다
+수 있습니다
 ([IUPAC Gold Book, “acid dissociation constant”](https://goldbook.iupac.org/terms/view/15441);
 [OpenStax, §14.3](https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases)).
 
@@ -203,7 +204,7 @@
 
 이므로 초기 산의 `0.995%`만 해리하며,
 
-`pH ≈ -log10(x/c°) = 3.00217... ≈ 3.00`
+`pH ≈ -log10(x/c°) = 3.00217... ≈ 3.002`
 
 입니다. 단축 계산
 `x ≈ sqrt(K_a c_0 c°) = 1.00 × 10^-3 mol L^-1`은 정확한 `x`와 약
@@ -237,16 +238,16 @@ pH를 결정하지만, 두 성분의 절대량과 용액 부피는 완충 작용
 남아 있을 때만 유효합니다. `0.0300 mol` 이상을 넣으면 원래의 염기 성분이
 고갈되므로 다른 계산이 필요합니다.
 
-산·염기 적정도 같은 순서를 따릅니다
+일양성자 약산을 강염기로 적정할 때는 다음 순서를 따릅니다
 ([OpenStax, §14.7](https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations)).
 
 1. 적정제를 많이 넣기 전에는 분석 대상 자체의 평형이 지배합니다.
-2. 약산을 강염기로 적정할 때 당량점 전에는 중화 반응이 `HA/A^-` 물질량을
-   정하고 혼합물은 완충 용액이 됩니다.
+2. 당량점 전에는 중화 반응이 `HA/A^-` 물질량을 정하고 혼합물은 완충
+   용액이 됩니다.
 3. 반당량점에서는 두 물질량이 같으므로 `pH ≈ pK_a`입니다.
 4. 당량점에서는 산과 염기의 화학량론적 물질량이 같습니다. 이때 pH가 반드시
-   7인 것은 아닙니다. 약산의 짝염기가 물을 가수분해하여 용액을 염기성으로
-   만들 수 있습니다.
+   7인 것은 아닙니다. 약산의 짝염기가 물과 가수분해 평형을 이루어 용액을
+   염기성으로 만들 수 있습니다.
 5. 당량점을 지나면 대개 과량의 강한 적정제가 pH를 지배합니다.
 
 **당량점**은 화학량론적 조건이고, 지시약 또는 기기상의 **종말점**은 당량점을
@@ -267,8 +268,7 @@ pH를 결정하지만, 두 성분의 절대량과 용액 부피는 완충 작용
 입니다. 이에 대응하는 이온 활동도곱 `Q_sp`에는 현재 용액의 활동도를
 사용합니다. `Q_sp < K_sp`이면 불포화이고, 고체가 존재하면서
 `Q_sp = K_sp`이면 포화 평형이며, `Q_sp > K_sp`이면 침전하려는
-열역학적 경향이 있습니다. `Q_sp > K_sp`여도 핵생성 또는 성장 장벽 때문에
-침전이 늦어질 수 있습니다
+열역학적 경향이 있습니다
 ([IUPAC Gold Book, “solubility product”](https://goldbook.iupac.org/terms/view/S05742);
 [OpenStax, §15.1](https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution)).
 
@@ -299,9 +299,7 @@ pH를 결정하지만, 두 성분의 절대량과 용액 부피는 완충 작용
 
 이고, `2s/0.0100 mol L^-1 = 8.00 × 10^-6`을 점검하면 무시한 항이
 `0.000800%`에 불과함을 확인할 수 있습니다. 이 **공통 이온 효과**는 명시된
-이상 용액 근사에서 용해도를 낮춥니다. 실제 이온 용액에서는 활동도 계수의
-변화가 농도 결과를 바꿀 수 있으므로 “공통 이온은 언제나 단순식이 예측하는
-만큼 측정 용해도를 낮춘다”는 주장은 너무 넓습니다
+이상 용액 근사에서 용해도를 낮춥니다
 ([OpenStax, §15.1](https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution)).
 
 다른 평형은 용해된 이온을 소비하여 추가 용해를 촉진할 수 있습니다. 중성
@@ -325,7 +323,7 @@ pH를 결정하지만, 두 성분의 절대량과 용액 부피는 완충 작용
 지수에서 이 이온이 제거되어 용해가 촉진될 수 있습니다. 이들은 **결합 평형**
 입니다. 여러 반응이 화학종을 공유하므로 한 평형을 바꾸면 다른 평형의 반응
 지수도 바뀝니다
-([OpenStax, §§15.2–15.3](https://openstax.org/books/chemistry-2e/pages/15-3-coupled-equilibria)).
+([OpenStax, §15.3](https://openstax.org/books/chemistry-2e/pages/15-3-coupled-equilibria)).
 상수를 곱하려면 먼저 성분 반응식, 방향, 계수, 표준 상태를 일관되게 맞춰야
 합니다.
 

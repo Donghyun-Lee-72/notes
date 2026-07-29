@@ -44,10 +44,13 @@ the thermodynamic **reaction quotient** is
 `Q = (a_C^gamma a_D^delta)/(a_A^alpha a_B^beta)`
 
 where each `a_i` is a dimensionless **activity** relative to a stated standard
-state. Products have positive stoichiometric exponents and reactants have
-negative ones, which gives the numerator and denominator above. At equilibrium,
-`Q = K`, where the standard equilibrium constant `K` is dimensionless and is
-fixed for that reaction as written at a specified temperature
+state. Here `alpha`, `beta`, `gamma`, and `delta` are positive coefficients as
+written, so product activities appear in the numerator and reactant activities
+in the denominator. In an alternative signed-stoichiometric notation,
+`nu_C = gamma` and `nu_A = -alpha`, and the same quotient is
+`Q = product_i a_i^nu_i`. At equilibrium, `Q = K`, where the standard
+equilibrium constant `K` is dimensionless and is fixed for that reaction as
+written at a specified temperature
 ([IUPAC Gold Book, “activity”](https://goldbook.iupac.org/terms/view/A00115),
 [“equilibrium constant”](https://goldbook.iupac.org/terms/view/E02177), and
 [“standard equilibrium constant”](https://goldbook.iupac.org/terms/view/S05915)).
@@ -86,7 +89,7 @@ direction test:
 
 This test predicts net direction, not rate or the size of the composition
 change
-([OpenStax, *Chemistry 2e*, §§13.2–13.4](https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations)).
+([OpenStax, *Chemistry 2e*, §13.4](https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations)).
 
 **Direction audit.** Consider the illustrative association
 
@@ -120,8 +123,7 @@ Important limits prevent common overextensions:
   therefore does not shift equilibrium, although changing surface area can
   affect the rate.
 - Compression matters through gas activities. Adding an inert gas at constant
-  volume leaves reacting-gas partial pressures unchanged in an ideal mixture;
-  at constant total pressure, the accompanying volume change can alter them.
+  volume leaves reacting-gas partial pressures unchanged in an ideal mixture.
 - “The system cancels the change” is too strong. The response is generally
   partial, and conservation laws constrain its magnitude.
 - The heuristic does not replace a `Q/K` calculation for simultaneous
@@ -183,9 +185,7 @@ dissociation constant is
 and `pK_a = -log10 K_a`; larger `K_a` and smaller `pK_a` mean greater
 dissociation under comparable conditions. **Concentration** instead says how
 much acid was placed in a volume. A dilute strong acid can therefore have a
-higher pH than a more concentrated weak acid. Strength is not the same as
-corrosiveness, which also depends on concentration, solvent, kinetics,
-temperature, and the material exposed
+higher pH than a more concentrated weak acid
 ([IUPAC Gold Book, “acid dissociation constant”](https://goldbook.iupac.org/terms/view/15441);
 [OpenStax, §14.3](https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases)).
 
@@ -215,7 +215,7 @@ The positive root of the resulting quadratic is
 
 so only `0.995%` of the initial acid dissociates and
 
-`pH ≈ -log10(x/c°) = 3.00217... ≈ 3.00`
+`pH ≈ -log10(x/c°) = 3.00217... ≈ 3.002`
 
 The shortcut `x ≈ sqrt(K_a c_0 c°) = 1.00 × 10^-3 mol L^-1` differs by about
 `0.50%` from the exact `x` and is self-consistent because `x/c_0 < 1%`.
@@ -249,16 +249,16 @@ amount of `A^-` to `HA`. The new amounts are `0.0250 mol` of each, so
 and both buffer components remain; adding `0.0300 mol` or more would exhaust
 the original base component and require a different calculation.
 
-An acid–base titration follows the same sequence
+For a monoprotic weak acid titrated with a strong base, the sequence is
 ([OpenStax, §14.7](https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations)):
 
 1. Before much titrant is added, the analyte's own equilibrium dominates.
-2. Before equivalence in a weak-acid/strong-base titration, neutralization sets
-   the `HA/A^-` amounts and the mixture is a buffer.
+2. Before equivalence, neutralization sets the `HA/A^-` amounts and the mixture
+   is a buffer.
 3. At half-equivalence, those amounts are equal, so `pH ≈ pK_a`.
 4. At equivalence, stoichiometric acid and base amounts match. The pH need not
-   be 7: the conjugate base of a weak acid can hydrolyze water and make the
-   solution basic.
+   be 7: the conjugate base of a weak acid can react with water in a hydrolysis
+   equilibrium and make the solution basic.
 5. Beyond equivalence, excess strong titrant usually controls pH.
 
 The **equivalence point** is a stoichiometric condition; an indicator or
@@ -279,8 +279,7 @@ the solubility product is
 when pure `MX2(s)` is present. The corresponding ion-activity product `Q_sp`
 uses the current solution activities. `Q_sp < K_sp` is undersaturated;
 `Q_sp = K_sp` is saturated equilibrium with solid present; and
-`Q_sp > K_sp` gives a thermodynamic tendency to precipitate. Nucleation or
-growth barriers can delay precipitation even when `Q_sp > K_sp`
+`Q_sp > K_sp` gives a thermodynamic tendency to precipitate
 ([IUPAC Gold Book, “solubility product”](https://goldbook.iupac.org/terms/view/S05742);
 [OpenStax, §15.1](https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution)).
 
@@ -311,9 +310,7 @@ Neglecting `2s` initially gives
 
 and the check `2s/0.0100 mol L^-1 = 8.00 × 10^-6` confirms that the neglected
 term is only `0.000800%`. This **common-ion effect** reduces solubility under
-the stated ideal approximation. In a real ionic solution, changed activity
-coefficients can modify the concentration result, so “a common ion always
-lowers measured solubility by the simple formula” is too broad
+the stated ideal approximation
 ([OpenStax, §15.1](https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution)).
 
 Other equilibria can instead consume a dissolved ion and promote further
@@ -337,7 +334,7 @@ Likewise, protonating a basic anion `X^-` removes it from the dissolution
 quotient and can promote dissolution. These are **coupled equilibria**:
 reactions share species, so changing one equilibrium changes the quotients of
 others
-([OpenStax, §§15.2–15.3](https://openstax.org/books/chemistry-2e/pages/15-3-coupled-equilibria)).
+([OpenStax, §15.3](https://openstax.org/books/chemistry-2e/pages/15-3-coupled-equilibria)).
 Multiplying constants is valid only after the component equations, directions,
 coefficients, and standard states have been made consistent.
 
