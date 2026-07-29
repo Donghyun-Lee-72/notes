@@ -217,7 +217,10 @@ IUPAC은 깁스 에너지를 다음과 같이 정의합니다.
 
 이므로 반응 판정 기준은 일반적인 최소 `G` 판정 기준을 반응 좌표로 나타낸
 형태입니다. 이 판정 기준들은 위 제약 아래에서 열역학 제2법칙으로부터 나옵니다
-([OpenStax, §16.4](https://openstax.org/books/chemistry-2e/pages/16-4-free-energy)).
+([IUPAC Gold Book, “affinity of reaction”](https://goldbook.iupac.org/terms/view/A00178),
+[“extent of reaction”](https://goldbook.iupac.org/terms/view/E02283),
+[“chemical equilibrium”](https://goldbook.iupac.org/terms/view/C01023);
+[OpenStax, §16.4](https://openstax.org/books/chemistry-2e/pages/16-4-free-energy)).
 임의로 변하는 온도나 압력에 적용하는 규칙들이 아니며, 이것만으로 개방되거나
 외부에서 구동되거나 비평형 정상상태인 계를 설명할 수 없습니다.
 
@@ -340,11 +343,15 @@ IUPAC은 깁스 에너지를 다음과 같이 정의합니다.
 
 - International Union of Pure and Applied Chemistry (IUPAC). *Compendium of
   Chemical Terminology (Gold Book)*, 5th ed., “enthalpy”, “entropy”,
-  “Gibbs energy”, “heat capacity” 항목.
+  “Gibbs energy”, “heat capacity”, “affinity of reaction”, “extent of
+  reaction”, “chemical equilibrium” 항목.
   <https://goldbook.iupac.org/terms/view/E02141>
   <https://goldbook.iupac.org/terms/view/E02149>
   <https://goldbook.iupac.org/terms/view/G02629>
   <https://goldbook.iupac.org/terms/view/H02753>
+  <https://goldbook.iupac.org/terms/view/A00178>
+  <https://goldbook.iupac.org/terms/view/E02283>
+  <https://goldbook.iupac.org/terms/view/C01023>
 - OpenStax. *Chemistry 2e*, §§5.1–5.3, 12.7, 16.1–16.4.
   <https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics>
   <https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry>

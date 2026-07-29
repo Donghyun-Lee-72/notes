@@ -324,9 +324,10 @@ standard-potential table alone is not a design method.
 This note is not an experimental procedure. Batteries and electrolysis cells
 can combine large current with caustic electrolytes, toxic metals, or hazardous
 gases. Never create an intentional short circuit or open a cell. Charge only
-with the device-specific method approved by its manufacturer, and follow local
-rules for collection and recycling rather than placing used batteries in
-ordinary household trash
+with the device-specific method approved by its manufacturer. Disposal rules
+depend on battery chemistry and jurisdiction: identify the chemistry, follow
+the manufacturer's instructions and local collection or recycling rules, and
+do not place a battery in household trash where those rules prohibit it
 ([FAA, “PackSafe: Lithium Batteries”](https://www.faa.gov/hazmat/packsafe/lithium-batteries);
 [US EPA, “Used Household Batteries”](https://www.epa.gov/recycle/used-household-batteries)).
 Electrolysis requires

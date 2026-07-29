@@ -305,8 +305,9 @@ Callister and Rethwisch, 5th ed., Chapter 16, §16.9, p. 738).
 이 문서는 실험 절차가 아닙니다. 전지와 전기분해 전지는 큰 전류를 부식성
 전해질, 독성 금속 또는 유해 기체와 함께 다룰 수 있습니다. 전지를
 의도적으로 단락시키거나 열지 마십시오. 충전은 제조사가 해당 기기에 승인한
-방법으로만 하고, 사용한 전지는 일반 생활 쓰레기에 버리지 말고 지역의
-수거·재활용 규정을 따르십시오
+방법으로만 하십시오. 폐기 규칙은 전지 화학과 지역에 따라 다릅니다. 전지
+종류를 확인하고 제조사 지침과 지역 수거·재활용 규정을 따르며, 해당 규정이
+금지하는 전지는 생활 쓰레기에 넣지 마십시오
 ([FAA, “PackSafe: Lithium Batteries”](https://www.faa.gov/hazmat/packsafe/lithium-batteries);
 [US EPA, “Used Household Batteries”](https://www.epa.gov/recycle/used-household-batteries)).
 전기분해는 전원을 켜기 전에 생성물을

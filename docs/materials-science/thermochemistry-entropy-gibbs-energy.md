@@ -233,7 +233,10 @@ temperature and pressure,
 so the reaction criterion is the reaction-coordinate form of the general
 minimum-`G` criterion. These criteria follow from the second law under the
 stated constraints
-([OpenStax, §16.4](https://openstax.org/books/chemistry-2e/pages/16-4-free-energy)).
+([IUPAC Gold Book, “affinity of reaction”](https://goldbook.iupac.org/terms/view/A00178),
+[“extent of reaction”](https://goldbook.iupac.org/terms/view/E02283), and
+[“chemical equilibrium”](https://goldbook.iupac.org/terms/view/C01023);
+[OpenStax, §16.4](https://openstax.org/books/chemistry-2e/pages/16-4-free-energy)).
 They are not rules for arbitrary changing temperature or pressure, and they do
 not by themselves describe an open, driven, or nonequilibrium steady system.
 
@@ -364,11 +367,15 @@ energy before equilibrium and later kinetics
 
 - International Union of Pure and Applied Chemistry (IUPAC). *Compendium of
   Chemical Terminology (Gold Book)*, 5th ed., entries “enthalpy,” “entropy,”
-  “Gibbs energy,” and “heat capacity.”
+  “Gibbs energy,” “heat capacity,” “affinity of reaction,” “extent of
+  reaction,” and “chemical equilibrium.”
   <https://goldbook.iupac.org/terms/view/E02141>
   <https://goldbook.iupac.org/terms/view/E02149>
   <https://goldbook.iupac.org/terms/view/G02629>
   <https://goldbook.iupac.org/terms/view/H02753>
+  <https://goldbook.iupac.org/terms/view/A00178>
+  <https://goldbook.iupac.org/terms/view/E02283>
+  <https://goldbook.iupac.org/terms/view/C01023>
 - OpenStax. *Chemistry 2e*, §§5.1–5.3, 12.7, and 16.1–16.4.
   <https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics>
   <https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry>
