@@ -15,9 +15,9 @@ phase.
 
 The **system** is the matter or region selected for study. The
 **surroundings** are everything outside its boundary; system plus surroundings
-form the thermodynamic universe. A solution reaction can be the system while
-the solution, cup, thermometer, and external room act as parts of its
-surroundings in a calorimetry model
+form the thermodynamic universe. In one calorimetry model, the reacting species
+can be the system while the bulk solution, cup, thermometer, and external room
+act as parts of its surroundings
 ([OpenStax, *Chemistry 2e*, §5.2](https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry)).
 
 - An **open system** can exchange matter and energy with its surroundings.
@@ -105,7 +105,7 @@ The surroundings warmed, so they gained heat and
 
 `q_system/n = -1.0176 kJ / 0.0125 mol = -81.4 kJ mol^-1`
 
-The signs and units close: positive calorimeter heat corresponds to negative
+The signs and units close: positive surroundings heat corresponds to negative
 system heat. The result assumes negligible heat leakage and evaporation,
 uniform final temperature, the stated heat capacities, and no energy term
 missing from the apparatus model. Calibration, mixing delay, probe response,
@@ -113,13 +113,15 @@ mass, and temperature uncertainty limit a real result
 ([OpenStax, §5.2](https://openstax.org/books/chemistry-2e/pages/5-2-calorimetry)).
 
 A constant-volume bomb calorimeter gives `q_v = ΔU` when pressure–volume work
-is the only possible work. At constant pressure,
+is the only possible work. Enthalpy is defined without requiring constant
+pressure:
 
 `H = U + pV`
 
-where `p` is system pressure and `V` is volume, and `q_p = ΔH` when only
-pressure–volume work occurs. These equalities are conditional measurement
-relations, not interchangeable labels for heat, internal energy, and enthalpy
+where `p` is system pressure and `V` is volume. At constant pressure,
+`q_p = ΔH` when only pressure–volume work occurs. The heat equalities are
+conditional measurement relations, not interchangeable labels for heat,
+internal energy, and enthalpy
 ([IUPAC Gold Book, “enthalpy”](https://goldbook.iupac.org/terms/view/E02141);
 [OpenStax, §5.3](https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy)).
 
@@ -161,12 +163,13 @@ reversible heat transfer along that path. Entropy has units `J K^-1`, and molar
 entropy has units `J mol^-1 K^-1`
 ([IUPAC Gold Book, “entropy”](https://goldbook.iupac.org/terms/view/E02149)).
 
-In a statistical description, `S = k_B ln W`, where `k_B` is the Boltzmann
-constant, `ln` is the natural logarithm, and `W` counts the accessible
-microstates under the model. Entropy therefore concerns how matter and energy
-can be distributed among accessible states. Calling it merely “disorder”
-hides the model, the constraints, and the quantitative definition. A system's
-entropy can decrease; the second law applies to the complete isolated total:
+In a microcanonical model whose accessible microstates are equiprobable,
+`S = k_B ln W`, where `k_B` is the Boltzmann constant, `ln` is the natural
+logarithm, and `W` counts those microstates under the model. Entropy therefore
+concerns how matter and energy can be distributed among accessible states.
+Calling it merely “disorder” hides the model, the constraints, and the
+quantitative definition. A system's entropy can decrease; the second law
+applies to the complete isolated total:
 
 `ΔS_universe = ΔS_system + ΔS_surroundings >= 0`
 
@@ -177,10 +180,11 @@ stated constraints
 ([OpenStax, *Chemistry 2e*, §§16.2–16.3](https://openstax.org/books/chemistry-2e/pages/16-3-the-second-and-third-laws-of-thermodynamics)).
 
 **Heat-flow audit.** Let `1.00 kJ` pass from an ideal hot reservoir at `400 K`
-to an ideal cold reservoir at `300 K`, with the pair otherwise isolated. The
-entropy changes can be evaluated by reversible paths between each reservoir's
-endpoints even though the actual heat transfer across a finite temperature
-difference is irreversible:
+to an ideal cold reservoir at `300 K`, with the pair otherwise isolated and the
+stated reservoir temperatures treated as fixed model values. The entropy
+changes can be evaluated by reversible paths between each reservoir's endpoints
+even though the actual heat transfer across a finite temperature difference is
+irreversible:
 
 `ΔS_hot = -1000 J / 400 K = -2.50 J K^-1`
 
@@ -212,44 +216,56 @@ Use kelvins, and convert `ΔH` and `TΔS` to the same energy units before
 subtracting.
 
 For a closed system held at constant temperature and pressure, with no imposed
-non-pressure–volume work, the sign of the **actual** Gibbs-energy change gives
-the thermodynamic direction:
+non-pressure–volume work, three related quantities must remain distinct:
 
-| Actual change under the stated conditions | Interpretation |
+| Quantity | Meaning under the stated conditions |
 | --- | --- |
-| `ΔG < 0` | forward change is thermodynamically favored |
-| `ΔG = 0` | equilibrium with respect to that change |
-| `ΔG > 0` | forward change is not favored; the reverse is favored |
+| finite `ΔG = G_final - G_initial` | compares two specified endpoints; `ΔG < 0` means the final endpoint has lower `G`, whereas `ΔG = 0` means only that the endpoints have equal `G` |
+| infinitesimal `dG` | describes an allowed differential change; a spontaneous direction has `dG < 0`, while general equilibrium is stationary (`dG = 0` for every permitted infinitesimal variation) and stable equilibrium is a minimum of `G` |
+| reaction Gibbs energy `Δ_rG = (∂G/∂ξ)_(T,p)` | is the derivative of `G` with respect to reaction extent `ξ`; `Δ_rG < 0` favors increasing `ξ`, `Δ_rG > 0` favors decreasing it, and `Δ_rG = 0` is the reaction-equilibrium condition |
 
-This criterion follows from the second law under those constraints
+Thus equality of `G` for two arbitrarily selected finite endpoints is not by
+itself an equilibrium test. For one reaction with extent `ξ` at constant
+temperature and pressure,
+
+`dG = Δ_rG dξ`
+
+so the reaction criterion is the reaction-coordinate form of the general
+minimum-`G` criterion. These criteria follow from the second law under the
+stated constraints
 ([OpenStax, §16.4](https://openstax.org/books/chemistry-2e/pages/16-4-free-energy)).
-It is not a rule for arbitrary changing temperature or pressure, and it does
-not by itself describe an open, driven, or nonequilibrium steady system.
+They are not rules for arbitrary changing temperature or pressure, and they do
+not by themselves describe an open, driven, or nonequilibrium steady system.
 
-**Gibbs-energy audit.** Consider a hypothetical process at `298 K` and
-constant pressure with
-`ΔH = +18.0 kJ mol^-1` and `ΔS = +75.0 J mol^-1 K^-1`.
+**Reaction Gibbs-energy audit.** Consider a hypothetical reaction at `298 K`
+and constant pressure with
+`Δ_rH = +18.0 kJ mol^-1` and `Δ_rS = +75.0 J mol^-1 K^-1`.
 First convert the entropy unit:
 
-`ΔS = 0.0750 kJ mol^-1 K^-1`
+`Δ_rS = 0.0750 kJ mol^-1 K^-1`
 
 Then
 
-`ΔG = 18.0 - (298 K)(0.0750 kJ mol^-1 K^-1)`
+`Δ_rG = Δ_rH - TΔ_rS`
 
-`= -4.35 kJ mol^-1`
+`= 18.0 - (298 K)(0.0750 kJ mol^-1 K^-1)`
 
-Under the criterion above, the forward process is thermodynamically favored
-at `298 K`. If `ΔH` and `ΔS` were approximately constant with temperature, the
+`= -4.35 kJ mol^-1 ≈ -4.4 kJ mol^-1`
+
+The unrounded arithmetic gives `-4.35 kJ mol^-1`, but subtraction with the
+stated inputs supports reporting the result to one decimal place. Because
+`Δ_rG < 0`, increasing the reaction extent is thermodynamically favored at
+`298 K`. If `Δ_rH` and `Δ_rS` were approximately constant with temperature, the
 sign would cross near
-`T = ΔH/ΔS = 18.0/0.0750 = 240 K`. That crossover is an approximation:
-heat capacities, phase changes, and composition can make `ΔH` and `ΔS`
-temperature-dependent
+`T = Δ_rH/Δ_rS = 18.0/0.0750 = 2.40 × 10^2 K`. The three significant figures
+show the precision of the input ratio, not exactness: the crossover remains an
+approximation because heat capacities, phase changes, and composition can make
+`Δ_rH` and `Δ_rS` temperature-dependent
 ([OpenStax, §16.4](https://openstax.org/books/chemistry-2e/pages/16-4-free-energy)).
 
 The usual sign table carries the same approximation:
 
-| `ΔH` | `ΔS` | Direction inferred from `ΔG = ΔH - TΔS` |
+| `Δ_rH` | `Δ_rS` | Reaction direction inferred from `Δ_rG = Δ_rH - TΔ_rS` |
 | --- | --- | --- |
 | negative | positive | favored at all temperatures in the valid range |
 | positive | negative | not favored at any temperature in the valid range |
@@ -264,27 +280,38 @@ introductory treatment,
 
 where subscript `r` means the reaction as written, `R` is the molar gas
 constant, and `Q` is the dimensionless reaction quotient defined using
-activities. Therefore `Δ_rG° < 0` does not mean the forward reaction is favored
-at every composition. A later equilibrium note will develop `Q`, activities,
-and the equilibrium constant
+**activities**—dimensionless effective measures of species' thermodynamic
+concentrations or pressures relative to chosen standard states. `Q` multiplies
+those activities raised to their stoichiometric powers.
+Therefore `Δ_rG° < 0` does not mean the forward reaction is favored at every
+composition. At reaction equilibrium, `Δ_rG = 0` and `Q` has its equilibrium
+value `K`. A later equilibrium note will develop `Q`, activities, and the
+equilibrium constant
 ([OpenStax, §16.4](https://openstax.org/books/chemistry-2e/pages/16-4-free-energy)).
 
 ## Thermodynamic direction is not reaction rate
 
 Thermodynamics compares states and constrains direction. **Kinetics** asks how
-quickly a process proceeds and by what pathway. A negative `ΔG` supplies no
-clock: a process may be too slow to detect on the observation time because its
-available pathway has a large activation barrier. A catalyst can change the
-pathway and rate, but it does not change the reaction's initial and final
-`ΔG` or the equilibrium position at the same conditions
+quickly a process proceeds and by what pathway. A negative `Δ_rG` supplies no
+clock: a reaction may be too slow to detect on the observation time because its
+available pathway has a large **activation barrier**, the energy or Gibbs-energy
+hurdle between the reactant state and a higher-energy transition region along
+that pathway. A catalyst provides an alternative pathway with a lower barrier
+but leaves the reactant and product thermodynamic endpoints unchanged
 ([OpenStax, §16.1](https://openstax.org/books/chemistry-2e/pages/16-1-spontaneity);
-[OpenStax, §12.7](https://openstax.org/books/chemistry-2e/pages/12-7-catalysis);
+[OpenStax, §12.7](https://openstax.org/books/chemistry-2e/pages/12-7-catalysis)).
+The unchanged endpoints leave `Δ_rG°` unchanged, and at the same temperature,
+pressure, and composition the catalyst also leaves `Q` unchanged. It therefore
+changes neither term in `Δ_rG = Δ_rG° + RT ln Q`. The equilibrium position is
+the composition satisfying `Δ_rG = 0`, so it too is unchanged. A catalyst can
+change only how quickly that position is approached in this thermodynamic model
+([OpenStax, §16.4](https://openstax.org/books/chemistry-2e/pages/16-4-free-energy);
 [MIT OCW 5.111SC, Unit III](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/unit-iii-thermodynamics-chemical-equilibrium/)).
 
 Likewise, “spontaneous” does not mean instantaneous, violent, or complete. It
 identifies a favored infinitesimal direction from the stated state. As
-composition changes, `Δ_rG` approaches zero at equilibrium rather than forcing
-all reactant to disappear.
+composition changes, `Δ_rG` moves toward and equals zero at reaction
+equilibrium rather than forcing all reactant to disappear.
 
 ## Audit a thermodynamic claim
 
@@ -294,8 +321,9 @@ Before accepting a calculation or conclusion, check:
 2. **Convention:** Are `q`, `w`, expansion, and reaction direction signed
    consistently?
 3. **State:** Are temperature, pressure, composition, amount, and phase stated?
-4. **Quantity:** Is the value `ΔU`, `q`, `ΔH`, `ΔS`, `ΔG`, or a standard-state
-   quantity rather than an unlabeled “energy”?
+4. **Quantity:** Is the value `ΔU`, `q`, `ΔH`, `ΔS`, finite `ΔG`, differential
+   `dG`, reaction `Δ_rG`, or a standard-state quantity rather than an unlabeled
+   “energy”?
 5. **Conditions:** Does `q_p = ΔH`, `q_v = ΔU`, or
    `ΔG = ΔH - TΔS` actually apply?
 6. **Units:** Are joules and kilojoules reconciled, and is temperature in
@@ -307,8 +335,8 @@ Before accepting a calculation or conclusion, check:
    negligible?
 
 Common misconceptions are that exothermic means spontaneous, that the
-system's entropy must always rise, that negative `ΔG` guarantees a fast or
-complete reaction, and that `ΔG°` describes every composition. Each drops a
+system's entropy must always rise, that negative `Δ_rG` guarantees a fast or
+complete reaction, and that `Δ_rG°` describes every composition. Each drops a
 condition needed for the conclusion.
 
 ## Boundary of this page
