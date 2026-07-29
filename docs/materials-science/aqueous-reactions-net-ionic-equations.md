@@ -10,71 +10,52 @@ This distinction matters in solution synthesis, separations, analysis, and
 corrosion. A correct equation must represent the species actually present
 under stated conditions while conserving every element and net charge.
 
-## Separate dissolution from ion formation
+State symbols describe the represented physical setting: `(s)` is a solid,
+`(l)` a liquid, `(g)` a gas, and `(aq)` a species dissolved in water. They are
+part of the chemical claim, not decoration. This note assumes familiarity with
+formulae, charge, and coefficients, but no separate bonding note: that
+prerequisite remains planned. The ligand and Lewis acid–base terms needed
+below are defined locally; orbital-level bonding models are outside this
+note's scope.
 
-**Dissolution** is the formation of a homogeneous solution from initially
-separate phases. **Dissociation** is the separation of an entity or aggregate
-into smaller entities, including separation of an ion pair into free ions.
-They answer different questions: dissolution concerns mixing into one phase;
-dissociation concerns which particles result
-([IUPAC Gold Book, “dissolution”](https://goldbook.iupac.org/terms/view/D01806);
-[“dissociation”](https://goldbook.iupac.org/terms/view/D01801)).
+## Read state and particle identity separately
 
-For example, in an unsaturated solution:
+Start with two particle inventories: what entered the water, and what is
+present after it entered. In an unsaturated sucrose solution, the same neutral
+molecule appears on both sides:
 
 `C12H22O11(s) -> C12H22O11(aq)`
 
-Sucrose dissolves, but its molecules remain neutral. By contrast, a soluble
-ionic solid both dissolves and releases its pre-existing ions:
+Sodium sulfate requires a different inventory. Its solid is an extended ionic
+array, and water disperses the charged constituents:
 
 `Na2SO4(s) -> 2 Na^+(aq) + SO4^2-(aq)`
 
-Water solvates the separated ions. The equation does not mean that neutral
-`Na2SO4` molecules first existed in the crystal, nor that dissolution created
-the ionic charges. Ionic solids are extended arrays, and their formulae state
-charge-balanced ratios.
+The second equation neither inserts a neutral `Na2SO4` molecule between the
+solid and solution nor assigns the charges during mixing. The solid formula
+records the charge-balanced ratio.
+
+These examples separate two ideas. Use **dissolution** for the phase-level
+result: added material becomes part of one solution. Use **dissociation** only
+when the particle ledger must replace one chemical unit with multiple product
+species. One can occur without the other, as the sucrose line shows. IUPAC
+defines the terms separately
+([IUPAC Gold Book, “dissolution”](https://goldbook.iupac.org/terms/view/D01806);
+[“dissociation”](https://goldbook.iupac.org/terms/view/D01801)).
 
 A covalent solute can form ions by reacting with water rather than by
-separating ions that already existed. Acetic acid does so only partly:
+unpacking ions from a crystal. **Hydronium**, `H3O^+`, is the protonated water
+ion formed when a water molecule accepts a proton. Acetic acid produces
+hydronium only to a limited equilibrium extent:
 
 `CH3COOH(aq) + H2O(l) ⇌ H3O^+(aq) + CH3COO^-(aq)`
 
-The equilibrium arrow is essential: substantial neutral acid remains at
-typical introductory-solution concentrations. Introductory texts often call
-this acid **ionization**, while “acid dissociation” is also common. In either
-wording, do not equate the process with dissolution. OpenStax distinguishes the
-physical separation of ions from soluble ionic solids from the chemical
-formation of ions by covalent electrolytes
+The reversible arrow records coexistence of neutral acid and ions, rather than
+complete conversion. Introductory usage may call this **ionization** or acid
+dissociation; neither label turns it into the physical act of dissolving.
+OpenStax treats ion release from ionic solids and ion-producing solvent
+reactions of covalent solutes as different microscopic routes
 ([OpenStax, *Chemistry 2e*, §11.2](https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes)).
-
-## Strong, weak, and nonelectrolytes
-
-An **electrolyte** supplies mobile ions in a solvent or when molten. Those ions
-carry electric current
-([IUPAC Gold Book, “electrolyte”](https://goldbook.iupac.org/terms/view/09061)).
-The labels below refer to the extent to which dissolved solute produces ions,
-not simply to how much solute was added. The ionized fraction of a weak
-electrolyte is condition-dependent rather than one fixed number.
-
-| Class | Particle-level description in water | Introductory representation |
-| --- | --- | --- |
-| Strong electrolyte | Nearly all dissolved formula units or molecules produce ions | Write separated ions in a complete ionic equation |
-| Weak electrolyte | Only a fraction of dissolved solute produces ions | Keep the weak species intact unless its equilibrium is the reaction being shown |
-| Nonelectrolyte | Dissolved solute remains predominantly neutral | Keep the molecular formula intact |
-
-Soluble ionic salts, strong acids, and strong bases are common strong
-electrolytes; weak acids and weak bases are common weak electrolytes; sucrose
-is a nonelectrolyte. These are particle descriptions, not hazard ratings.
-“Strong” does not mean concentrated: a dilute strong electrolyte can contain
-fewer ions per litre than a more concentrated weak electrolyte. “Strong” also
-does not mean highly soluble. A sparingly soluble ionic solid may dissociate
-almost completely in the small portion that dissolves, yet still produce a
-low total ion concentration
-([OpenStax, *Chemistry 2e*, §11.2](https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes)).
-
-Conductivity is evidence for mobile ions, but its magnitude also depends on
-ion concentration, charge, mobility, temperature, and the apparatus. A single
-conductivity reading is therefore not a universal strength scale.
 
 ## Three equation views of one precipitation
 
@@ -109,9 +90,43 @@ them gives the **net ionic equation**. Its left-hand charge is
 `(+2) + 2(-1) = 0`, matching the neutral solid, and its atoms also balance.
 
 “Spectator” is equation-specific, not a claim that an ion has no physical
-effect. Spectator ions can affect ionic strength, activity, conductivity, and
-later equilibria. A different set of conditions can also make a previously
-unchanged ion participate.
+effect. **Ionic strength** is one-half the sum of each ion's concentration
+multiplied by the square of its charge number. It describes the overall
+charged environment, so a multivalent ion receives greater weight.
+**Activity** is a thermodynamic measure of a species' effective availability
+relative to a chosen standard state; it replaces raw concentration in exact
+equilibrium expressions. Thus a cancelled ion can still change solution
+properties or the relation between concentration and activity. Under another
+set of conditions it may also enter the represented reaction
+([IUPAC Gold Book, “ionic strength”](https://goldbook.iupac.org/terms/view/I03180);
+[“activity”](https://goldbook.iupac.org/terms/view/A00115)).
+
+## Decide which dissolved species to split
+
+An **electrolyte** provides mobile ions in a solvent or in the molten state,
+allowing ionic conduction
+([IUPAC Gold Book, “electrolyte”](https://goldbook.iupac.org/terms/view/09061)).
+For equation writing, classify the particles in the dissolved portion rather
+than the amount originally added:
+
+| Class | Dominant particle picture in water | Complete-ionic treatment |
+| --- | --- | --- |
+| Strong electrolyte | Dissolved material is represented almost entirely as ions | Show its component ions |
+| Weak electrolyte | Neutral and ionic forms coexist to an appreciable extent | Retain the neutral form unless displaying its equilibrium |
+| Nonelectrolyte | Dissolved particles remain mainly neutral | Retain the molecular formula |
+
+Soluble salts, strong acids, and strong bases are familiar strong
+electrolytes; weak acids and bases are weak electrolytes; sucrose is a
+nonelectrolyte. These names do not rank hazard, concentration, or solubility.
+Solubility asks how much material enters solution, whereas electrolyte
+strength asks what particle forms characterize the dissolved share. A
+sparingly soluble salt can therefore yield few ions overall even when the
+material that has entered solution is represented as ions
+([OpenStax, *Chemistry 2e*, §11.2](https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes)).
+
+Conductivity can reveal mobile ions, but its magnitude also reflects their
+amounts, charges, mobilities, temperature, and the measurement setup. It is not
+a context-free scale of electrolyte strength.
 
 ## Reaction labels describe different features
 
@@ -123,25 +138,29 @@ tracks.
 | --- | --- | --- |
 | Precipitation | Dissolved species form a solid phase | `Mg^2+(aq) + 2 OH^-(aq) -> Mg(OH)2(s)` |
 | Brønsted acid–base | A proton moves from an acid to a base | `NH4^+(aq) + OH^-(aq) ⇌ NH3(aq) + H2O(l)` |
-| Gas-forming | Dissolved reactants produce a gas | `2 H3O^+(aq) + CO3^2-(aq) -> CO2(g) + 3 H2O(l)` |
-| Complexation | Ligands bind a central atom or ion to form a coordination entity | `Ni^2+(aq) + 6 NH3(aq) ⇌ [Ni(NH3)6]^2+(aq)` |
-| Redox | Oxidation states change through coupled oxidation and reduction | `Zn(s) + 2 H3O^+(aq) -> Zn^2+(aq) + H2(g) + 2 H2O(l)` |
+| Gas-forming | Acidic carbonate solution evolves a gas | `2 H3O^+(aq) + CO3^2-(aq) -> CO2(g) + 3 H2O(l)` |
+| Complexation | Ligands bind a central atom or ion to form a coordination entity | `Ag^+(aq) + 2 NH3(aq) ⇌ [Ag(NH3)2]^+(aq)` |
+| Redox | A metal in suitable acid evolves hydrogen while oxidation states change | `Zn(s) + 2 H3O^+(aq) -> Zn^2+(aq) + H2(g) + 2 H2O(l)` |
 
-The carbonate equation is both acid–base and gas-forming. The zinc equation
-is both redox and gas-forming; both gas equations describe conditions where
-the named gas evolves from the solution. Complex formation is also a Lewis
-acid–base interaction because a ligand donates an electron pair to the central
-species. IUPAC recommends **coordination entity** for a central atom with
-attached ligands, while OpenStax explains coordination-complex formation as
-Lewis acid–base association
+The carbonate equation is both acid–base and gas-forming. The zinc equation is
+both redox and gas-forming. A **ligand** is an ion or molecule attached to a
+central species; in the Lewis description used here, the ligand is an
+electron-pair donor and the central species is an electron-pair acceptor.
+IUPAC defines the bracketed metal-plus-ligand unit used here as a
+**coordination entity**, and OpenStax describes complex-ion formation with the
+Lewis model
 ([IUPAC Gold Book, “coordination entity”](https://goldbook.iupac.org/terms/view/C01330);
 [OpenStax, *Chemistry 2e*, §15.2](https://openstax.org/books/chemistry-2e/pages/15-2-lewis-acids-and-bases)).
 
-The complexation arrow is reversible because the distribution of free and
-bound species depends on equilibrium and composition. Likewise, aqueous metal
-ions are solvated even when the compact symbol `Ni^2+(aq)` omits coordinated
-water. A compact equation is a controlled representation, not a complete
-microscopic picture.
+The silver–ammonia equation is the specific aqueous formation equilibrium
+given in OpenStax §15.2. It applies when `Ag^+` and sufficient unprotonated
+`NH3` coexist; its reversible arrow does not guarantee that the complex is the
+only silver species. Water hydration, acid conversion of `NH3` to `NH4^+`,
+other ligands, and precipitating anions can change the species distribution.
+The compact equation therefore identifies one supported equilibrium under
+stated composition, not a complete microscopic inventory
+([OpenStax, *Chemistry 2e*, §15.1](https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution);
+[§15.2](https://openstax.org/books/chemistry-2e/pages/15-2-lewis-acids-and-bases)).
 
 ## Treat solubility rules as conditional screens
 
@@ -151,16 +170,24 @@ not universal laws. “Insoluble” normally means low solubility under the
 specified conditions, not exactly zero solubility
 ([OpenStax, *Chemistry 2e*, §4.2](https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions)).
 
-Temperature, concentration, solvent composition, pH, ionic strength, common
-ions, and complex formation can change whether a solid appears
-([OpenStax, *Chemistry 2e*,
+For a sparingly soluble ionic solid at saturation, the **solubility product**,
+`Ksp`, is the equilibrium constant constructed from the dissolved-ion
+activities, with each exponent set by the dissolution stoichiometry; the pure
+solid contributes no variable factor. A precipitation prediction compares the
+corresponding reaction quotient, `Qsp`, with `Ksp`. The cited treatment
+directly supports changes in dissolved reactant levels, pH, common-ion
+addition, and ligand complexation as reasons that this comparison—and thus
+whether a solid appears—can change
+([IUPAC Gold Book, “solubility product”](https://goldbook.iupac.org/terms/view/S05742);
+[OpenStax, *Chemistry 2e*,
 §15.1](https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution);
 [§15.2](https://openstax.org/books/chemistry-2e/pages/15-2-lewis-acids-and-bases)).
 A rule-based screen should therefore state its context—for example, dilute
 water near room temperature—and a consequential prediction should be checked
 with appropriate equilibrium data or experiment. The state symbols in an
 equation are conclusions under those conditions, not permanent labels attached
-to a formula.
+to a formula. For a nonideal solution, ionic strength alone is not a
+precipitation verdict; a specified activity model and suitable data are needed.
 
 ## A reliable writing and verification workflow
 
@@ -191,7 +218,7 @@ to a formula.
    alone does not establish rate, mechanism, extent, or experimental safety.
 
 For the five classification equations above, the charge audits are,
-respectively, `0 = 0`, `0 = 0`, `0 = 0`, `+2 = +2`, and `+2 = +2`.
+respectively, `0 = 0`, `0 = 0`, `0 = 0`, `+1 = +1`, and `+2 = +2`.
 Direct atom counts also balance every element in each line. This two-part
 mass-and-charge audit is required even when an equation looks familiar.
 
@@ -206,25 +233,29 @@ mass-and-charge audit is required even when an equation looks familiar.
   the solution or irrelevant to all properties.
 - Precipitation, acid–base, gas-forming, complexation, and redox labels can
   overlap because they describe different aspects of change.
-- A net ionic equation is stoichiometric bookkeeping. It does not by itself
-  reveal elementary steps or prove that a reaction is fast or complete.
+- A net ionic equation is an atom-and-charge summary of the represented
+  change. It does not by itself reveal elementary steps or prove that a
+  reaction is fast or complete.
 
 Real solutions can contain hydrated ions, ion pairs, hydrolyzed species, and
-several competing complexes or precipitates. Concentrated solutions may
-require activities rather than concentrations. This introductory workflow
-deliberately postpones quantitative equilibrium, solubility-product, acid–base,
-and redox balancing calculations, but it identifies where those later models
-become necessary. MIT's first-year course likewise treats solubility and
-acid–base equilibrium before moving to redox and transition-metal chemistry
+several competing complexes or precipitates. In nonideal solutions,
+concentrations may be inadequate proxies for the activities already defined
+above. This introductory workflow postpones quantitative equilibrium,
+solubility-product, acid–base, and redox balancing calculations, but identifies
+where those later models become necessary. MIT's first-year course likewise
+treats solubility and acid–base equilibrium before moving to redox and
+transition-metal chemistry
 ([MIT OpenCourseWare 5.111SC syllabus](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/syllabus/);
 [resource index](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/resource-index/)).
 
 Equations are not mixing instructions. Gas-forming or redox reactions may
 create toxic products, heat, or pressure, and an omitted spectator can still
 affect hazards. Use an approved procedure, labels and safety data, appropriate
-engineering controls and ventilation, and trained supervision. In everyday
-use, never mix bleach or disinfectants with other cleaners; dangerous vapors
-can result
+engineering controls and ventilation, and trained supervision. Household
+cleaner compatibility must come from the product directions, not from a net
+ionic equation or an improvised trial. CDC guidance places bleach and other
+disinfectants behind a no-mixing boundary: adding another cleaner or
+disinfectant can create an inhalation hazard
 ([CDC, “Cleaning and Disinfecting with Bleach”](https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html)).
 
 ## Related notes
@@ -240,11 +271,15 @@ can result
   <https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html>
 - International Union of Pure and Applied Chemistry (IUPAC). *Compendium of
   Chemical Terminology (Gold Book)*, 5th ed., entries “dissolution,”
-  “dissociation,” “electrolyte,” and “coordination entity.”
+  “dissociation,” “electrolyte,” “coordination entity,” “ionic strength,”
+  “activity,” and “solubility product.”
   <https://goldbook.iupac.org/terms/view/D01806>
   <https://goldbook.iupac.org/terms/view/D01801>
   <https://goldbook.iupac.org/terms/view/09061>
   <https://goldbook.iupac.org/terms/view/C01330>
+  <https://goldbook.iupac.org/terms/view/I03180>
+  <https://goldbook.iupac.org/terms/view/A00115>
+  <https://goldbook.iupac.org/terms/view/S05742>
 - OpenStax. *Chemistry 2e*, §§4.1, 4.2, 11.2, 15.1, and 15.2.
   <https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations>
   <https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions>
