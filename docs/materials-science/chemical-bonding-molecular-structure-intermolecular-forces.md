@@ -42,17 +42,19 @@ only with its scale
 
 For a bond `A–B`, unequal attraction shifts electron density toward the more
 electronegative atom. The ends may be marked with partial charges `δ+` and
-`δ-`, not full ionic charges. A bond dipole is a vector directed from its
-partially positive end toward its partially negative end. For an idealized
-pair of separated charges, the dipole-moment magnitude is
+`δ-`, not full ionic charges. In a common chemistry diagram, a crossed-tail
+partial-charge arrow runs along the bond from `δ+` toward `δ-`. For an
+idealized pair of separated charges, the dipole-moment magnitude is
 
 `μ = q r`
 
-where `q` is the charge magnitude and `r` is the separation distance. The
-corresponding SI units are coulombs (`C`), metres (`m`), and coulomb metres
-(`C m`). The physics electric-dipole vector points from negative to positive charge;
-chemistry's bond-dipole arrow is commonly drawn in the opposite direction,
-toward the negative end. Stating the arrow convention avoids a sign mistake.
+where `q` is the charge magnitude and `r` is the separation distance
+([OpenStax, §7.6](https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity)).
+The corresponding SI units are coulombs (`C`), metres (`m`), and coulomb
+metres (`C m`). The chemistry arrow is a diagrammatic partial-charge symbol,
+not the physical electric dipole-moment vector, whose conventional direction
+is from negative to positive charge. Keeping the two conventions distinct
+avoids a sign mistake.
 A larger electronegativity difference often means a more polar bond, but there
 is no universal `Δχ` cutoff that turns a covalent bond into an ionic one
 ([OpenStax, §7.2](https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding)).
@@ -151,25 +153,28 @@ angles, distinguish every isomer's stability, or replace measured structure.
 
 For nitrate, nitrogen has three electron domains and no lone pair in every
 resonance form. VSEPR therefore predicts trigonal-planar electron-domain and
-atomic geometry, with ideal `O–N–O` angles of `120°`. Resonance changes the
-electron bookkeeping, not the placement of the three oxygen nuclei.
+molecular geometry of the ion, with ideal `O–N–O` angles of `120°`. Resonance
+changes the electron bookkeeping, not the placement of the three oxygen
+nuclei.
 
 ## Distinguish bond polarity from molecular polarity
 
-**Bond polarity** concerns one bond. **Molecular polarity** concerns the vector
-sum of all bond dipoles and any contribution from the full electron
-distribution in the actual three-dimensional geometry. Polar bonds can cancel
-by symmetry; a Lewis formula alone cannot establish that cancellation
+**Bond polarity** concerns one bond. **Molecular polarity** concerns whether
+the vector sum of the chemistry bond-polarity arrows, together with the full
+electron distribution in the actual three-dimensional geometry, is nonzero.
+Reversing every arrow to the physical dipole-moment convention changes its
+reported direction but not whether the contributions cancel. A Lewis formula
+alone cannot establish that cancellation
 ([OpenStax, §7.6](https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity)).
 
 **Polarity audit—`CCl4` versus `CH2Cl2`.** Each carbon has four electron
 domains and tetrahedral geometry. Every `C–Cl` bond in `CCl4` is polar, but the
-four equal dipole vectors point toward the vertices of a symmetric
-tetrahedron and sum to zero. `CCl4` is therefore nonpolar despite containing
-polar bonds. In `CH2Cl2`, replacing two chlorines with two hydrogens removes
-that fourfold equality. The `C–Cl` and `C–H` bond dipoles have different
-magnitudes and directions and do not cancel in the tetrahedral geometry, so
-the molecule is polar.
+four equal chemistry bond-polarity arrows point from carbon toward the vertices
+of a symmetric tetrahedron and sum to zero. `CCl4` is therefore nonpolar
+despite containing polar bonds. In `CH2Cl2`, replacing two chlorines with two
+hydrogens removes that fourfold equality. The `C–Cl` and `C–H` bond-polarity
+arrows have different magnitudes and directions and do not cancel in the
+tetrahedral geometry, so the molecule is polar.
 
 This is why “contains a polar bond” and “is a polar molecule” are different
 claims. For larger or flexible molecules, conformation and the combined
@@ -246,14 +251,17 @@ particles:
 | --- | --- | --- | --- |
 | **London dispersion** | All atoms and molecules | Fluctuating electron density creates an instantaneous dipole that induces a correlated dipole nearby. | Strength depends on polarizability, separation, orientation, and contact area—not molar mass alone. |
 | **Dipole–dipole** | Molecules with permanent dipoles | Favorable orientations bring partial positive and partial negative regions together. | Thermal motion samples many orientations; a single aligned drawing is not the whole liquid. |
-| **Hydrogen bonding** | In the common introductory case, an `N–H`, `O–H`, or `F–H` donor approaches an available electronegative acceptor | A directional, especially strong association involving the polarized hydrogen. | It can be intermolecular or intramolecular. The `N/O/F` rule is a useful first-course screen, not the full IUPAC definition. |
-| **Ion–dipole** | An ion is near a polar molecule | A full ionic charge attracts the favorably oriented end of a molecular dipole. | IUPAC does not include ion–neutral electrostatics within van der Waals forces. |
+| **Hydrogen bonding** | In the common introductory case, an `N–H`, `O–H`, or `F–H` donor approaches an available electronegative acceptor | A directional association involving the polarized hydrogen; within a suitably matched introductory series, it can be stronger than ordinary dipole–dipole attraction. | It can be intermolecular or intramolecular. The `N/O/F` rule is a useful first-course screen, not the full IUPAC definition. |
+| **Ion–dipole** | An ion is near a polar molecule | A full ionic charge attracts the favorably oriented end of a molecular dipole. | Treat it separately from neutral-particle van der Waals attraction because one partner carries a full charge. |
 
-IUPAC's `van der Waals forces` grouping includes dipole–dipole,
-dipole-induced-dipole, and London interactions, while excluding bond formation
-and ion–neutral electrostatics. Hydrogen bonding is a more specific
-association and may occur within one molecular entity as well as between
-entities
+On this page, the term **van der Waals forces** is a broad label for
+attractions in which neutral particles respond to permanent or fluctuating
+charge distributions. The mechanism-specific names in the table remain more
+useful for predicting how molecular polarity, polarizability, distance, and
+orientation change an interaction. Hydrogen bonding and ion–dipole attraction
+are kept visible under their own names because their directionality or charge
+pattern calls for a more specific model; these labels organize the analysis
+rather than divide the underlying physics into perfectly independent boxes
 ([IUPAC Gold Book, “van der Waals forces”](https://goldbook.iupac.org/terms/view/V06597);
 [“hydrogen bond”](https://goldbook.iupac.org/terms/view/H02899)).
 
@@ -269,16 +277,17 @@ but molecular size, shape, flexibility, and temperature also control flow
 ([OpenStax, §10.1](https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces);
 [§10.2](https://openstax.org/books/chemistry-2e/pages/10-2-properties-of-liquids)).
 
-**Comparison audit—propanone and propan-2-ol.** Both are small, polar
+**Model-based comparison—propanone and propan-2-ol.** Both are small, polar
 three-carbon molecules and both experience dispersion and dipole–dipole
 attractions. Propanone, `CH3COCH3`, can accept a hydrogen bond at oxygen but
 has no `O–H`, `N–H`, or `F–H` donor, so pure propanone cannot form the same
 donor–acceptor hydrogen-bond network with itself. Propan-2-ol,
 `CH3CH(OH)CH3`, has both an `O–H` donor and oxygen lone pairs. Holding the
-comparison to these two similar-sized molecules, one therefore predicts
-stronger cohesive association and a higher boiling point for propan-2-ol.
-This is a model-based comparison, not a rule that any hydrogen-bonding
-substance must boil above every non-hydrogen-bonding substance.
+comparison to these two similar-sized molecules and using this interaction
+model, one predicts stronger cohesive association and a higher boiling point
+for propan-2-ol. This is a prediction to test against property data, not
+empirical confirmation or a rule that any hydrogen-bonding substance must boil
+above every non-hydrogen-bonding substance.
 
 Melting point is less safely ranked because crystal packing and solid
 structure matter strongly. “Like dissolves like” is likewise only a screening
@@ -310,7 +319,7 @@ structural and property measurements.
 - **“Electron geometry and molecular geometry are identical.”** They differ
   when the central atom has lone pairs.
 - **“Polar bonds make a polar molecule.”** Molecular geometry determines
-  whether dipole vectors cancel.
+  whether bond-polarity contributions cancel.
 - **“Hydrogen bonding replaces dispersion.”** Dispersion acts in every
   molecular substance; several interactions act at once.
 - **“Boiling breaks covalent bonds.”** Ordinary vaporization separates
