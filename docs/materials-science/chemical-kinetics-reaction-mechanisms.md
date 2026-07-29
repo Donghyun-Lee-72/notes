@@ -155,10 +155,11 @@ temperatures, assuming the same Arrhenius parameters over that range,
 
 `ln(k_2/k_1) = (E_a/R)(1/T_1 - 1/T_2)`
 
-The logarithm and exponential arguments are dimensionless. A conventional
-plot of `ln k` against `1/T` has slope `-E_a/R`; strictly, the logarithm is of
-`k` divided by a reference quantity with the same units. Changing the units of
-`k` shifts the intercept but does not change the slope
+The logarithm and exponential arguments are dimensionless. A dimensionally
+explicit Arrhenius plot uses `ln(k/k°)` against `1/T`, where `k°` is a fixed
+reference with the same units as `k`; its slope is `-E_a/R`. The common
+ordinate label `ln k` is shorthand for this ratio. Changing the units or
+reference shifts the intercept but does not change the slope
 ([OpenStax, §12.5](https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory)).
 
 **Temperature audit.** Suppose `E_a = 62.0 kJ mol^-1`,
@@ -205,76 +206,94 @@ or other evidence may be needed to distinguish them.
 
 ## Bound pre-equilibrium and steady-state reasoning
 
-Consider this independently constructed symbolic mechanism:
+Pre-equilibrium and steady state are different approximations, so it is useful
+to examine them with different mechanisms.
 
-`Step 1: 2 A <=> I` with forward `k_1` and reverse `k_-1`
+For a pre-equilibrium example, consider
 
-`Step 2: I + B -> P` with `k_2`
+`Step 1: A + B <=> I` with forward `k_1` and reverse `k_-1`
 
-The forward and reverse parts of step 1 are bimolecular and unimolecular,
-respectively; step 2 is bimolecular. Adding the forward route cancels I and
-gives the net equation
+`Step 2: I -> P` with `k_2`
 
-`2 A + B -> P`
+Adding the forward route cancels I and gives `A + B -> P`. If step 1
+re-equilibrates well before step 2 appreciably drains I, its opposing fluxes
+are nearly equal:
 
-If step 1 establishes a rapid **pre-equilibrium** before step 2 removes much I,
-
-`k_1[A]^2 ≈ k_-1[I]`
+`k_1[A][B] ≈ k_-1[I]`
 
 so
 
-`[I] ≈ (k_1/k_-1)[A]^2`
+`[I] ≈ (k_1/k_-1)[A][B]`
 
 and product formation is predicted to obey
 
-`v = k_2[I][B] = (k_1k_2/k_-1)[A]^2[B]`
+`v = k_2[I] = (k_1k_2/k_-1)[A][B]`
 
-The effective constant has units `L^2 mol^-2 s^-1`, giving `v` in
-`mol L^-1 s^-1`. This derivation is valid only when the reversible first step
-relaxes much faster than I is drained by step 2.
+The effective constant has units `L mol^-1 s^-1`, giving `v` in
+`mol L^-1 s^-1`. In timescale language, the equilibrium relaxation time
+`tau_eq` must satisfy `tau_eq << tau_drain`, where
+`tau_drain ≈ 1/k_2`, and it must also be short compared with the times over
+which `[A]` and `[B]` change. If B is in large excess and is effectively
+constant, `tau_eq ≈ 1/(k_1[B] + k_-1)`; requiring this to be much smaller than
+`1/k_2`, with `k_-1 >> k_2`, is a practical sufficient check rather than a
+conclusion that follows from the mechanism alone.
 
-A broader introductory treatment uses the **steady-state approximation** after
-an initial transient: formation and consumption of the low-concentration
-intermediate nearly balance,
+Now consider a separate network in which an intermediate has two irreversible
+fates:
 
-`d[I]/dt = k_1[A]^2 - k_-1[I] - k_2[I][B] ≈ 0`
+`Step 1: A -> J` with `k_3`
 
-Therefore,
+`Step 2: J + B -> P` with `k_4`
 
-`[I] ≈ k_1[A]^2/(k_-1 + k_2[B])`
+`Step 3: J -> Q` with `k_5`
 
-and
+Steps 1 and 2 sum to the productive reaction `A + B -> P`; steps 1 and 3
+sum to the competing reaction `A -> Q`. J cancels from either sum. After the
+initial buildup of J, the **steady-state approximation** treats its formation
+and its two consumption fluxes as nearly balanced:
 
-`v ≈ k_1k_2[A]^2[B]/(k_-1 + k_2[B])`
+`d[J]/dt = k_3[A] - k_4[J][B] - k_5[J] ≈ 0`
 
-The denominator is dimensionally valid because both `k_-1` and `k_2[B]` have
-units `s^-1`. When `k_-1 >> k_2[B]`, this expression reduces to the
-pre-equilibrium law. When `k_2[B] >> k_-1`, it approaches
-`v ≈ k_1[A]^2`, so the apparent order in B tends toward zero. The same
-mechanism can therefore display different simple limiting laws in different
-concentration regimes.
+Solving this balance and substituting into the rate of P formation gives
 
-Steady state does not mean equilibrium, nor does it require `[I]` to be exactly
-constant for the entire run. It is a controlled approximation that the
-intermediate's rate of change is small compared with its rates of formation
-and consumption over the interval being modeled
+`[J] ≈ k_3[A]/(k_4[B] + k_5)`
+
+`v_P = k_4[J][B] ≈ k_3k_4[A][B]/(k_4[B] + k_5)`
+
+Both terms in the denominator have units `s^-1`. The result also passes a
+flux audit: `v_P + v_Q ≈ k_3[A]`, where `v_Q = k_5[J]`, and
+`v_P/v_Q = k_4[B]/k_5`. Thus, when `k_4[B] << k_5`,
+`v_P ≈ (k_3k_4/k_5)[A][B]`; when `k_4[B] >> k_5`, almost every J forms P
+and `v_P ≈ k_3[A]`. These limits describe competition between product
+channels, not a hidden equilibrium.
+
+Steady state does not mean equilibrium, nor does it require `[J]` to be exactly
+constant for the entire run. Here the intermediate adjusts over a timescale
+of about `1/(k_4[B] + k_5)`, so A and B must change much more slowly during
+the modeled interval. Equivalently, `|d[J]/dt|` must be small relative to the
+individual formation and consumption fluxes
 ([IUPAC Gold Book, “steady state”](https://goldbook.iupac.org/terms/view/S05962)).
 
 ## Use “rate-determining step” with care
 
-If one elementary step responds much more strongly than all others to a change
-in its rate constant, calling it **rate-controlling** or
-**rate-determining** can be a useful summary. The familiar shortcut “the
-slowest step determines the rate” works for a well-separated sequence with
-the needed preceding relations, but it is not a general derivation
+At fixed concentrations and conditions, **rate control** qualitatively
+describes how sensitively the overall rate responds to a small fractional
+change in one step's rate constant `k_i`. If one step has much greater
+sensitivity than the others, calling it **rate-controlling** or
+**rate-determining** can be a useful summary. Introductory discussions
+sometimes assign control to whichever step appears least ready to proceed.
+That shortcut is reliable only for a suitably separated sequence after the
+relations imposed by earlier steps have been included; it is not a general
+derivation
 ([IUPAC Gold Book, “rate-controlling step”](https://goldbook.iupac.org/terms/view/R05139)
 and [“rate-determining step”](https://goldbook.iupac.org/terms/view/R05140)).
 
-In the symbolic mechanism above, step 2 may control in the pre-equilibrium
-limit, whereas step 1 controls the high-`[B]` limit. Reversible steps,
-intermediate accumulation, parallel paths, catalyst coverage, and changing
-concentrations can distribute or shift control. Always derive the limiting law
-before assigning a single controlling step.
+In the steady-state network above, the high-`[B]` product rate is sensitive to
+`k_3` but nearly insensitive to `k_4`; in the low-`[B]` limit it depends on
+`k_3`, `k_4`, and `k_5`. Reversible steps, intermediate accumulation, parallel
+paths, catalyst coverage, and changing concentrations can distribute or shift
+control. Always derive the relevant limiting law before assigning a single
+controlling step.
 
 ## Understand what a catalyst changes
 
@@ -288,20 +307,26 @@ equilibrium, or alter the equilibrium constant
 
 For example, the symbolic catalytic cycle
 
-`C + A -> J`
+`C + A -> CA`
 
-`J + B -> C + P`
+`CA + B -> C + P`
 
-sums to `A + B -> P`: catalyst C and intermediate J both cancel, but for
-different reasons. C is consumed and regenerated within the cycle; J is
+sums to `A + B -> P`: catalyst C and intermediate CA both cancel, but for
+different reasons. C is consumed and regenerated within the cycle; CA is
 formed and consumed. The cancellation audit does not show how much active
 catalyst is present or whether side reactions deactivate it.
 
-Homogeneous catalysis occurs within one phase; heterogeneous catalysis occurs
-at or near an interface between phases. Surface area, adsorption, transport,
-and site availability can then affect the observed rate. A catalyst accelerates
-both directions toward the same equilibrium; it cannot make a
-thermodynamically disfavored net conversion favorable.
+Classify a catalytic system by tracking where the active catalyst and
+reactants reside. In **homogeneous catalysis**, they share one bulk phase, so
+concentrations and molecular-scale encounters usually organize the kinetic
+description. In **heterogeneous catalysis**, the catalyst occupies a distinct
+phase and supplies sites that reactants must reach. Transport to those sites,
+adsorption, surface conversion, and product release can each influence the
+measured rate; surface area and the fraction of available sites therefore
+matter as well. This phase classification does not by itself identify the
+rate-controlling process. In either class, catalysis speeds approach from both
+directions to the same equilibrium and cannot make an unfavorable net
+conversion thermodynamically favorable.
 
 ## Keep kinetics and thermodynamics separate
 
