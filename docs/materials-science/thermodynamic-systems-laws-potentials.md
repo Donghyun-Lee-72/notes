@@ -66,7 +66,7 @@ combined: examples are `V`, `S`, `U`, and each `n_i`. An **intensive quantity**
 does not scale with system size: examples are `T`, `p`, and `μ_i`. Dividing an
 extensive quantity by mass or amount often produces an intensive specific or
 molar quantity. For example, `G_m = G/n` has units `J mol^-1`
-([IUPAC, *Green Book*, §1.2](https://publications.iupac.org/books/gbook/green_book_2ed.pdf)).
+([IUPAC, *Green Book*, §1.4](https://publications.iupac.org/books/gbook/green_book_2ed.pdf)).
 
 ## Recognize equilibrium as several simultaneous conditions
 
@@ -236,10 +236,10 @@ and whether the candidate is a global or only local extremum.
   Chemical Terminology (Gold Book)*, 5th ed., “chemical potential.”
   <https://goldbook.iupac.org/terms/view/C01032/html>
 - International Union of Pure and Applied Chemistry (IUPAC). *Quantities,
-  Units and Symbols in Physical Chemistry*, 2nd ed., §1.2.
+  Units and Symbols in Physical Chemistry*, 2nd ed., §1.4.
   <https://publications.iupac.org/books/gbook/green_book_2ed.pdf>
 - MIT OpenCourseWare. *3.020 Thermodynamics of Materials*, Spring 2021,
-  Lecture 6, “Equilibrium and thermodynamic potentials.”
+  “Lecture 6 Notes – Thermodynamic Potentials.”
   <https://ocw.mit.edu/courses/3-020-thermodynamics-of-materials-spring-2021/resources/mit3_020s21_l06/>
 - OpenStax. *Chemistry 2e*, §§5.3 and 16.3.
   <https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy>
