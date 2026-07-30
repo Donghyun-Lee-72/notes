@@ -112,8 +112,9 @@ The conventional hexagonal-prism depiction assigns
 `c/a = √(8/3) ≈ 1.633`,
 
 where `c` is the prism height. Real HCP crystals can have a different `c/a`
-ratio, so “HCP” does not guarantee ideal sphere geometry. A primitive HCP cell
-contains two atoms; the six-atom prism is a convenient non-primitive cell
+ratio, so “HCP” does not guarantee ideal sphere geometry. The six-atom prism
+is a convenient non-primitive cell; primitive and conventional descriptions
+must not be mixed in one count
 (Callister and Rethwisch, 2015, Ch. 3, §3.4, pp. 54–55).
 
 ## Compute crystallographic density with a declared cell
@@ -174,9 +175,9 @@ At this depth, the important point is hierarchy:
 `crystallographic symmetry + conventional-cell metric constraints → crystal system; translation and centring → Bravais lattice; lattice + basis → crystal structure`.
 
 SC, BCC, and FCC are the three cubic Bravais lattice types. HCP is a crystal
-structure built on a primitive hexagonal Bravais lattice with a two-atom basis;
-it is not a separate Bravais lattice. Detailed point groups, space groups, and
-setting conventions belong to a later crystallography treatment.
+structure built on a primitive hexagonal Bravais lattice with a basis; it is
+not a separate Bravais lattice. Detailed point groups, space groups, and setting
+conventions belong to a later crystallography treatment.
 
 ## Structure makes direction matter
 

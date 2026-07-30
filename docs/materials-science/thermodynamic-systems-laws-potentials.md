@@ -70,10 +70,11 @@ molar quantity. For example, `G_m = G/n` has units `J mol^-1`
 
 ## Recognize equilibrium as several simultaneous conditions
 
-A time-independent reading alone does not prove equilibrium: steady heat or
-mass flow can maintain gradients. Subject to the boundary and permitted modes
-of exchange, equilibrium requires no allowed infinitesimal change that can
-further drive the system.
+Equilibrium is a constraint-dependent absence of a permitted driving tendency,
+not merely an unchanging instrument reading. Constant macroscopic readings can
+coexist with ongoing transfers across a boundary. The test must instead specify
+the boundary and allowed exchanges, then ask whether any allowed infinitesimal
+change can further drive the system.
 
 - **Thermal equilibrium:** no temperature difference drives net heat transfer.
 - **Mechanical equilibrium:** no unbalanced pressure or generalized force
@@ -82,8 +83,9 @@ further drive the system.
   between phases lowers the appropriate potential.
 
 For phases that may exchange component `i`, chemical equilibrium requires the
-same `μ_i` in those phases. These conditions must coexist; equal temperature
-does not by itself establish mechanical or chemical equilibrium. The zeroth
+same `μ_i` in those phases (Chang and Oates, 2010, Ch. 1, §1.2, p. 5). These
+conditions must coexist; equal temperature does not by itself establish
+mechanical or chemical equilibrium. The zeroth
 law gives the transitive basis for comparing temperatures
 ([OpenStax, *Physics*, §12.1](https://openstax.org/books/physics/pages/12-1-zeroth-law-of-thermodynamics-thermal-equilibrium)).
 
@@ -214,7 +216,8 @@ for the rate distinction.
 
 The simple differential also omits important materials terms. Surface creation,
 elastic strain, electric or magnetic polarization, charge transfer, gravity,
-and other work modes require their own conjugate force–displacement terms.
+and other work modes require their own conjugate force–displacement terms
+(Chang and Oates, 2010, Ch. 1, §1.5.2, p. 13).
 Open, flowing, driven, gradient-containing, or nonequilibrium steady systems
 require balance equations and boundary fluxes, not an automatic closed-system
 minimum rule. A useful equilibrium claim must therefore state the system,
