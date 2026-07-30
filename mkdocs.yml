@@ -58,6 +58,8 @@ plugins:
             Materials Science and Chemistry Overview: 재료과학·화학 개요
             Materials Science: 재료과학
             "Materials Science and Engineering Framework": "재료과학·공학의 기본 틀"
+            "Materials Classification and Selection": "재료의 분류와 선택"
+            "Atomic Structure and Interatomic Bonding in Materials": "재료의 원자구조와 원자 사이 결합"
             Chemistry: 화학
             Chemistry Overview: 화학 개요
             "General Chemistry Map and Learning Path": "일반화학 지도와 학습 경로"
@@ -149,6 +151,8 @@ nav:
   - Materials Science and Chemistry:
       - materials-science/index.md
       - "Materials Science and Engineering Framework": materials-science/materials-science-engineering-framework.md
+      - "Materials Classification and Selection": materials-science/materials-classification-and-selection.md
+      - "Atomic Structure and Interatomic Bonding in Materials": materials-science/atomic-structure-and-interatomic-bonding.md
       - "Electron Microscopy: SEM and TEM": materials-science/electron-microscopy-sem-tem.md
       - "Crystal Diffraction, Reciprocal Space, and Disorder": materials-science/crystal-diffraction-reciprocal-space.md
       - "Powder X-ray Diffraction": materials-science/powder-x-ray-diffraction.md

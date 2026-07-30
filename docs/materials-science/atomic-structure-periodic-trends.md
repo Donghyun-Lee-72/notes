@@ -212,12 +212,15 @@ alone.
 Valence configuration, size, ionization energy, and electron affinity help
 frame whether atoms may lose, gain, or share electron density.
 [Chemical Bonding, Molecular Structure, and Intermolecular
-Forces](chemical-bonding-molecular-structure-intermolecular-forces.md) combines
-those atomic starting points with interactions between atoms. It also
-introduces electronegativity, which describes electron attraction in a bonding
-context rather than electron attachment to an isolated gas-phase atom. MIT's
-first-year sequence likewise moves from atomic states and configurations into
-periodic trends and then bonding
+Forces](chemical-bonding-molecular-structure-intermolecular-forces.md) develops
+the molecular consequences of those atomic starting points, while [Atomic
+Structure and Interatomic Bonding in
+Materials](atomic-structure-and-interatomic-bonding.md) develops pair-energy
+models and qualified structure–property trends. Both use electronegativity,
+which describes electron attraction in a bonding context rather than electron
+attachment to an isolated gas-phase atom. MIT's first-year sequence likewise
+moves from atomic states and configurations into periodic trends and then
+bonding
 ([MIT OCW 5.111SC syllabus](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/syllabus/);
 [resource index](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/resource-index/)).
 
@@ -232,7 +235,7 @@ by itself select a material or establish its performance.
 
 - [Chemical Language, the Mole, and Stoichiometry](chemical-language-mole-stoichiometry.md)
 - [Chemical Bonding, Molecular Structure, and Intermolecular Forces](chemical-bonding-molecular-structure-intermolecular-forces.md)
-- [General Chemistry Map and Learning Path](chemistry.md)
+- [Atomic Structure and Interatomic Bonding in Materials](atomic-structure-and-interatomic-bonding.md)
 - [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
 
 ## References

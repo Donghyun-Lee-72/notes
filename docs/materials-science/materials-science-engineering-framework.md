@@ -169,9 +169,12 @@ properties, processing, degradation, and characterization.
 
 ## Read next
 
+- [Materials Classification and Selection](materials-classification-and-selection.md)
+  — how family labels support, but do not decide, a bounded shortlist.
+- [Atomic Structure and Interatomic Bonding in
+  Materials](atomic-structure-and-interatomic-bonding.md) — how interaction
+  models constrain structure and property trends.
 - [General Chemistry Map and Learning Path](chemistry.md) — composition,
   bonding, energy, and transformation.
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md) — how
   observations become structural evidence.
-- [Powder X-ray Diffraction](powder-x-ray-diffraction.md) — how diffraction
-  constrains phase and structure claims.

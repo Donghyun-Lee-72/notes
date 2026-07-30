@@ -43,6 +43,12 @@ to a related explanation.
 - Malkov and Yashunin (2016), [Hierarchical Navigable Small World Graphs](https://arxiv.org/abs/1603.09320)
 - Schulhoff et al. (2023), [Ignore This Title and HackAPrompt](https://arxiv.org/abs/2311.16119)
 
+## Materials Science and Chemistry
+
+- [NIST Materials Genome Initiative](https://www.nist.gov/mgi)
+- [OpenStax Chemistry 2e: Ionic Bonding](https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding)
+- [MIT OpenCourseWare 5.111SC Principles of Chemical Science resource index](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/resource-index/)
+
 ## Reference Policy
 
 When references are included, they should be public and independently
