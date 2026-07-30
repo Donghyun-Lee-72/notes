@@ -17,6 +17,14 @@ state. In a pair-potential model, it is the well depth, not a bulk elastic
 modulus. See [Atomic Structure and Interatomic Bonding in
 Materials](materials-science/atomic-structure-and-interatomic-bonding.md).
 
+## Chemical Potential
+
+The partial molar Gibbs energy of a component at stated temperature, pressure,
+and composition. It measures the marginal change in Gibbs energy when that
+component's amount changes under the declared constraints. See [Thermodynamic
+Systems, Laws, and
+Potentials](materials-science/thermodynamic-systems-laws-potentials.md).
+
 ## Chunk
 
 A retrievable unit created from a larger document. Chunk boundaries affect both
@@ -26,6 +34,12 @@ retrieval precision and the amount of surrounding context preserved.
 
 The tokenized information a model can process for one generation, including
 input and reserved output. See [Context Windows](learn/context-windows.md).
+
+## Crystal Structure
+
+A description that combines a translational lattice with the basis attached to
+each lattice point. See [Crystal Structures and Unit
+Cells](materials-science/crystal-structures-unit-cells.md).
 
 ## Embedding
 
@@ -73,6 +87,13 @@ initial retriever. See [Reranking](build/reranking.md).
 
 Model output constrained to a machine-readable contract such as JSON Schema or
 a typed record. See [Structured Output](build/structured-output.md).
+
+## Thermodynamic Potential
+
+A state function, such as internal energy, enthalpy, Helmholtz energy, or Gibbs
+energy, organized so its natural variables match a useful set of constraints.
+See [Thermodynamic Systems, Laws, and
+Potentials](materials-science/thermodynamic-systems-laws-potentials.md).
 
 ## Token
 

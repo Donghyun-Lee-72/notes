@@ -334,7 +334,7 @@ IUPAC은 깁스 에너지를 다음과 같이 정의합니다.
 
 ## 관련 문서
 
-- [화학 언어, 몰, 화학량론](chemical-language-mole-stoichiometry.md)
+- [열역학계, 열역학 법칙, 열역학 퍼텐셜](thermodynamic-systems-laws-potentials.md)
 - [화학 평형, 산과 염기, 용해도](chemical-equilibrium-acids-bases-solubility.md)
 - [화학 반응속도론과 반응 메커니즘](chemical-kinetics-reaction-mechanisms.md)
 - [전기화학 전지, 전위, 응용](electrochemical-cells-potentials-applications.md)

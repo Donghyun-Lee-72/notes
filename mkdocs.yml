@@ -60,6 +60,8 @@ plugins:
             "Materials Science and Engineering Framework": "재료과학·공학의 기본 틀"
             "Materials Classification and Selection": "재료의 분류와 선택"
             "Atomic Structure and Interatomic Bonding in Materials": "재료의 원자구조와 원자 사이 결합"
+            "Crystal Structures and Unit Cells": "결정 구조와 단위 격자"
+            "Thermodynamic Systems, Laws, and Potentials": "열역학계, 열역학 법칙, 열역학 퍼텐셜"
             Chemistry: 화학
             Chemistry Overview: 화학 개요
             "General Chemistry Map and Learning Path": "일반화학 지도와 학습 경로"
@@ -153,6 +155,8 @@ nav:
       - "Materials Science and Engineering Framework": materials-science/materials-science-engineering-framework.md
       - "Materials Classification and Selection": materials-science/materials-classification-and-selection.md
       - "Atomic Structure and Interatomic Bonding in Materials": materials-science/atomic-structure-and-interatomic-bonding.md
+      - "Crystal Structures and Unit Cells": materials-science/crystal-structures-unit-cells.md
+      - "Thermodynamic Systems, Laws, and Potentials": materials-science/thermodynamic-systems-laws-potentials.md
       - "Electron Microscopy: SEM and TEM": materials-science/electron-microscopy-sem-tem.md
       - "Crystal Diffraction, Reciprocal Space, and Disorder": materials-science/crystal-diffraction-reciprocal-space.md
       - "Powder X-ray Diffraction": materials-science/powder-x-ray-diffraction.md

@@ -358,7 +358,7 @@ energy before equilibrium and later kinetics
 
 ## Related notes
 
-- [Chemical Language, the Mole, and Stoichiometry](chemical-language-mole-stoichiometry.md)
+- [Thermodynamic Systems, Laws, and Potentials](thermodynamic-systems-laws-potentials.md)
 - [Chemical Equilibrium, Acids and Bases, and Solubility](chemical-equilibrium-acids-bases-solubility.md)
 - [Chemical Kinetics and Reaction Mechanisms](chemical-kinetics-reaction-mechanisms.md)
 - [Electrochemical Cells, Potentials, and Applications](electrochemical-cells-potentials-applications.md)

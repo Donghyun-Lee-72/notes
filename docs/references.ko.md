@@ -29,4 +29,12 @@ Knowledge Notes는 공개된 원 논문, 벤치마크 논문, 표준, 공식 프
 - Malkov and Yashunin (2016), [HNSW](https://arxiv.org/abs/1603.09320)
 - Schulhoff et al. (2023), [HackAPrompt](https://arxiv.org/abs/2311.16119)
 
+## 재료과학과 화학
+
+- [International Union of Crystallography Online Dictionary](https://dictionary.iucr.org/)
+- [BIPM SI base unit: mole](https://www.bipm.org/en/si-base-units/mole)
+- [IUPAC Gold Book: chemical potential](https://goldbook.iupac.org/terms/view/C01032/html)
+- [MIT OpenCourseWare 3.020 Thermodynamics of Materials](https://ocw.mit.edu/courses/3-020-thermodynamics-of-materials-spring-2021/)
+- [OpenStax Chemistry 2e](https://openstax.org/details/books/chemistry-2e)
+
 비공개 자료, 작업 대화, 내부 문서는 공개 근거로 사용하지 않습니다. 출처 기반 사실과 편집자의 설계 권고를 구분합니다.

@@ -46,6 +46,10 @@ to a related explanation.
 ## Materials Science and Chemistry
 
 - [NIST Materials Genome Initiative](https://www.nist.gov/mgi)
+- [International Union of Crystallography Online Dictionary](https://dictionary.iucr.org/)
+- [BIPM SI base unit: mole](https://www.bipm.org/en/si-base-units/mole)
+- [IUPAC Gold Book: chemical potential](https://goldbook.iupac.org/terms/view/C01032/html)
+- [MIT OpenCourseWare 3.020 Thermodynamics of Materials](https://ocw.mit.edu/courses/3-020-thermodynamics-of-materials-spring-2021/)
 - [OpenStax Chemistry 2e: Ionic Bonding](https://openstax.org/books/chemistry-2e/pages/7-1-ionic-bonding)
 - [MIT OpenCourseWare 5.111SC Principles of Chemical Science resource index](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/pages/resource-index/)
 

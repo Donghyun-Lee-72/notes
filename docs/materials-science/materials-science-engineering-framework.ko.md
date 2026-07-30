@@ -157,6 +157,11 @@ Initiative 관련 작업에서 이런 전달을 위한 표준과 공동 기반�
 - [재료의 원자구조와 원자 사이
   결합](atomic-structure-and-interatomic-bonding.md) — 상호작용 모형이
   구조와 물성 경향을 제약하는 방법
+- [결정 구조와 단위 격자](crystal-structures-unit-cells.md) — 주기적 기하를
+  원자 개수, 충전, 밀도, 이방성과 연결하는 방법
+- [열역학계, 열역학 법칙, 열역학
+  퍼텐셜](thermodynamic-systems-laws-potentials.md) — 경계와 제어 변수에
+  맞는 평형 기준을 고르는 방법
 - [일반화학 지도와 학습 경로](chemistry.md) — 조성, 결합, 에너지, 변환
 - [전자현미경: SEM과 TEM](electron-microscopy-sem-tem.md) — 관찰을 구조
   근거로 바꾸는 방법

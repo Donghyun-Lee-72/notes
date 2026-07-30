@@ -172,8 +172,8 @@ OpenStax도 이온 결합을 반대 전하 사이의 인력으로, 공유결합�
 
 - [원자구조와 주기적 경향](atomic-structure-periodic-trends.md)
 - [재료과학·공학의 기본 틀](materials-science-engineering-framework.md)
+- [결정 구조와 단위 격자](crystal-structures-unit-cells.md)
 - [결정 회절, 역공간과 무질서](crystal-diffraction-reciprocal-space.md)
-- [재료과학·화학](index.md)
 
 ## 참고문헌
 

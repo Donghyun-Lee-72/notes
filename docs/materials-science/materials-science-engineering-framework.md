@@ -174,6 +174,11 @@ properties, processing, degradation, and characterization.
 - [Atomic Structure and Interatomic Bonding in
   Materials](atomic-structure-and-interatomic-bonding.md) — how interaction
   models constrain structure and property trends.
+- [Crystal Structures and Unit Cells](crystal-structures-unit-cells.md) — how
+  periodic geometry supports atom counting, packing, density, and anisotropy.
+- [Thermodynamic Systems, Laws, and
+  Potentials](thermodynamic-systems-laws-potentials.md) — how boundaries and
+  controlled variables select an equilibrium criterion.
 - [General Chemistry Map and Learning Path](chemistry.md) — composition,
   bonding, energy, and transformation.
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md) — how

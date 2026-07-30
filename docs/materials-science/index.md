@@ -30,25 +30,31 @@ framework, then follow the route that matches your question.
    Materials](atomic-structure-and-interatomic-bonding.md) connects
    pair-energy models and primary or secondary interactions to qualified
    structure–property trends.
-8. [Aqueous Reactions and Net Ionic
+8. [Crystal Structures and Unit Cells](crystal-structures-unit-cells.md)
+   connects lattices and bases to common unit cells, packing, density, and
+   directional properties.
+9. [Aqueous Reactions and Net Ionic
    Equations](aqueous-reactions-net-ionic-equations.md) identifies species in
    water and isolates the chemical change represented by an equation.
-9. [Redox Foundations and Half-Reaction
+10. [Redox Foundations and Half-Reaction
    Balancing](redox-foundations-half-reaction-balancing.md) develops oxidation
    states, electron bookkeeping, and mass-and-charge balancing.
-10. [Thermochemistry, Entropy, and Gibbs
+11. [Thermochemistry, Entropy, and Gibbs
    Energy](thermochemistry-entropy-gibbs-energy.md) connects heat and enthalpy
    to entropy, Gibbs energy, and thermodynamic direction.
-11. [Chemical Equilibrium, Acids and Bases, and
+12. [Thermodynamic Systems, Laws, and
+    Potentials](thermodynamic-systems-laws-potentials.md) selects equilibrium
+    criteria by boundary, controlled variables, composition, and work modes.
+13. [Chemical Equilibrium, Acids and Bases, and
    Solubility](chemical-equilibrium-acids-bases-solubility.md) applies reaction
    quotients and equilibrium constants to coupled solution chemistry.
-12. [Chemical Kinetics and Reaction
+14. [Chemical Kinetics and Reaction
     Mechanisms](chemical-kinetics-reaction-mechanisms.md) separates reaction
     rate and pathway from thermodynamic favorability.
-13. [Electrochemical Cells, Potentials, and
+15. [Electrochemical Cells, Potentials, and
     Applications](electrochemical-cells-potentials-applications.md) combines
     redox, thermodynamics, equilibrium, and kinetics in cells and corrosion.
-14. Choose a characterization route below when you need to determine structure,
+16. Choose a characterization route below when you need to determine structure,
     composition, or response experimentally.
 
 ## Characterization routes
@@ -88,8 +94,8 @@ checkout. Broader chemistry coverage can still add states of matter, solution
 properties, descriptive inorganic chemistry, introductory organic and nuclear
 chemistry, synthesis, and analytical measurement.
 
-The next materials-science foundations include crystal structures, defects and
-diffusion, thermodynamic potentials and phase equilibria, structure–property
-relations, degradation, processing, and later lifecycle-aware selection. The
-links above describe repository availability; they do not assert that an
-external public deployment already contains every page.
+The next materials-science foundations include crystallographic directions and
+planes, defects and diffusion, phase equilibria, structure–property relations,
+degradation, processing, and later lifecycle-aware selection. The links above
+describe repository availability; they do not assert that an external public
+deployment already contains every page.

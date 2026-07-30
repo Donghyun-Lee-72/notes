@@ -186,8 +186,8 @@ Disorder](crystal-diffraction-reciprocal-space.md)).
 
 - [Atomic Structure and Periodic Trends](atomic-structure-periodic-trends.md)
 - [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
+- [Crystal Structures and Unit Cells](crystal-structures-unit-cells.md)
 - [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md)
-- [Materials Science & Chemistry](index.md)
 
 ## References
 

@@ -6,11 +6,17 @@
 ## Attention
 query와 key의 유사도로 가중치를 구해 value 벡터를 문맥에 맞게 결합하는 메커니즘입니다.
 
+## Chemical Potential
+명시된 온도, 압력, 조성에서 한 성분의 부분 몰 깁스 에너지입니다. 정해진 구속 조건에서 그 성분의 물질량이 변할 때 깁스 에너지가 얼마나 달라지는지를 나타냅니다. [열역학계, 열역학 법칙, 열역학 퍼텐셜](materials-science/thermodynamic-systems-laws-potentials.md)을 참고하십시오.
+
 ## Chunk
 큰 문서에서 만든 검색 단위입니다. 경계와 크기는 검색 정밀도와 보존되는 문맥에 영향을 줍니다.
 
 ## Context Window
 한 번의 생성에서 모델이 처리할 수 있는 토큰화된 정보의 범위로, 입력과 확보해 둔 출력 공간을 포함합니다.
+
+## Crystal Structure
+병진 격자와 각 격자점에 놓인 기저를 함께 나타내는 기술입니다. [결정 구조와 단위 격자](materials-science/crystal-structures-unit-cells.md)를 참고하십시오.
 
 ## Embedding
 선택한 유사도 함수가 작업에 유용한 관계를 나타내도록 학습된 벡터 표현입니다.
@@ -29,6 +35,9 @@ query와 key의 유사도로 가중치를 구해 value 벡터를 문맥에 맞�
 
 ## Structured Output
 JSON Schema나 typed record 같은 기계 판독 계약을 따르는 모델 출력입니다.
+
+## Thermodynamic Potential
+내부 에너지, 엔탈피, Helmholtz 에너지, Gibbs 에너지처럼 자연 변수가 유용한 구속 조건과 맞도록 구성한 상태 함수입니다. [열역학계, 열역학 법칙, 열역학 퍼텐셜](materials-science/thermodynamic-systems-laws-potentials.md)을 참고하십시오.
 
 ## Token
 토크나이저가 생성해 모델이 처리하는 이산 식별자입니다. 단어, 하위 단어, 기호, 공백, byte를 나타낼 수 있습니다.
