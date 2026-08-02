@@ -26,10 +26,10 @@ points do not produce a spot at a fixed crystal orientation.
 ![Equations defining reciprocal vectors and their relation to interplanar spacing](../assets/images/reciprocal-lattice-equations.png)
 
 The equation image uses the angular-wavevector convention, in which reciprocal
-vectors contain a factor of 2π. Many crystallography references, including the
-IUCr Online Dictionary, omit that factor: their reciprocal-vector magnitude is
-1/*d* and their Ewald-sphere radius is 1/λ. Both conventions describe the same
-geometry when used consistently.
+vectors contain a factor of 2π. A common crystallographic convention omits that
+factor: its reciprocal-vector magnitude is 1/*d* and its Ewald-sphere radius is
+1/λ. Both conventions describe the same geometry when used consistently
+([Engineering LibreTexts, “Reciprocal Space”](https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/20%3A_Reciprocal_Space/20.2%3A_Reciprocal_Space)).
 
 ## Incident and scattered wavevectors
 
@@ -116,9 +116,9 @@ local order that an average crystallographic model does not retain.
 
 ## References and further reading
 
-- International Union of Crystallography. [Ewald sphere](https://dictionary.iucr.org/Ewald_sphere), *Online Dictionary of Crystallography*.
-- International Union of Crystallography. [Reciprocal lattice](https://dictionary.iucr.org/Reciprocal_lattice), *Online Dictionary of Crystallography*.
-- International Union of Crystallography. [Structure factor](https://dictionary.iucr.org/Structure_factor), *Online Dictionary of Crystallography*.
+- Engineering LibreTexts. [Reciprocal Space](https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/20%3A_Reciprocal_Space/20.2%3A_Reciprocal_Space).
+- Engineering LibreTexts. [Ewald Sphere](https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/20%3A_Reciprocal_Space/20.4%3A_Ewald_Sphere).
+- Massachusetts Institute of Technology OpenCourseWare. [“X-ray Diffraction Techniques,” Lecture 18](https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/pages/crystalline-materials/18-x-ray-diffraction-techniques/), 3.091SC *Introduction to Solid State Chemistry*, Fall 2010.
 - Welberry, T. R., & Weber, T. (2016). One hundred years of diffuse scattering. *Crystallography Reviews, 22*(1), 2–78. [https://doi.org/10.1080/0889311X.2015.1046853](https://doi.org/10.1080/0889311X.2015.1046853)
 
 ## Related notes

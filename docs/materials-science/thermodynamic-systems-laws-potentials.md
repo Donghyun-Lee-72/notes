@@ -156,7 +156,7 @@ The chemical potential is therefore the **partial molar Gibbs energy** of
 component `i`, not simply `G/n_i` for a mixture. It measures the marginal change
 in `G` when that component is added while `T`, `p`, and the other amounts are
 held fixed
-([IUPAC Gold Book, “chemical potential”](https://goldbook.iupac.org/terms/view/C01032/html)).
+([IUPAC Gold Book, “chemical potential”](https://goldbook.iupac.org/terms/view/C01032)).
 
 ## Match the equilibrium criterion to the constraints
 
@@ -237,7 +237,7 @@ and whether the candidate is a global or only local extremum.
   Chapter 1, §§1.1–1.6, pp. 2–14.
 - International Union of Pure and Applied Chemistry (IUPAC). *Compendium of
   Chemical Terminology (Gold Book)*, 5th ed., “chemical potential.”
-  <https://goldbook.iupac.org/terms/view/C01032/html>
+  <https://goldbook.iupac.org/terms/view/C01032>
 - International Union of Pure and Applied Chemistry (IUPAC). *Quantities,
   Units and Symbols in Physical Chemistry*, 2nd ed., §1.4.
   <https://publications.iupac.org/books/gbook/green_book_2ed.pdf>

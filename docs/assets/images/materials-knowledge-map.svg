@@ -1,74 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
-  <title id="title">Materials science and chemistry knowledge map</title>
-  <desc id="desc">A navigation map of published notes. Shared foundations lead to chemistry foundations, structure and defects, and thermodynamic state. These routes connect to kinetics and transport, characterization, and engineering decisions.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 810" role="img" aria-labelledby="title desc">
+  <title id="title">Materials science and chemistry orientation map</title>
+  <desc id="desc">Shared foundations lead to three peer concept routes: chemistry foundations, structure and defects, and thermodynamic state. Readers then continue through either characterization or change over time toward applied decisions.</desc>
   <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L10,5 L0,10 z" fill="#536b75"/>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#536b75"/>
     </marker>
     <style>
       .edge{fill:none;stroke:#536b75;stroke-width:3;marker-end:url(#arrow)}
-      .edge-soft{fill:none;stroke:#7a8d94;stroke-width:2.5;stroke-dasharray:7 6;marker-end:url(#arrow)}
+      .zone{fill:#f8fafb;stroke:#91a2a9;stroke-width:2}
       .node{stroke:#38555f;stroke-width:2}
       .foundation{fill:#dcecef}.chemistry{fill:#e8edf5}.structure{fill:#e7ecef}
       .thermo{fill:#f1eadc}.change{fill:#e4eee7}.evidence{fill:#f4f6f7}.decision{fill:#f3e5dc}
-      .title{font:700 25px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#17252b;text-anchor:middle}
-      .label{font:700 21px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#17252b;text-anchor:middle}
-      .small{font:17px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#334a53;text-anchor:middle}
-      .key{font:600 16px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#536b75;text-anchor:middle}
+      .title{font:700 28px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#17252b;text-anchor:middle}
+      .subtitle{font:600 18px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#536b75;text-anchor:middle}
+      .zone-label{font:700 19px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#38555f;text-anchor:middle}
+      .label{font:700 22px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#17252b;text-anchor:middle}
+      .small{font:18px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#334a53;text-anchor:middle}
+      .key{font:600 17px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#536b75;text-anchor:middle}
     </style>
   </defs>
 
-  <path class="edge" d="M500 144 V182 H180 V220"/>
-  <path class="edge" d="M500 144 V220"/>
-  <path class="edge" d="M500 144 V182 H820 V220"/>
-  <path class="edge" d="M180 360 V402 H500 V438"/>
-  <path class="edge" d="M820 360 V402 H500 V438"/>
-  <path class="edge-soft" d="M500 360 V402 H180 V438"/>
-  <path class="edge-soft" d="M500 360 V402 H820 V438"/>
-  <path class="edge-soft" d="M500 578 H695"/>
-
   <text class="title" x="500" y="34">Materials Science &amp; Chemistry</text>
-  <text class="key" x="500" y="60">published-note navigation map</text>
+  <text class="subtitle" x="500" y="62">orientation map of major routes</text>
 
-  <rect class="node foundation" x="325" y="78" width="350" height="66" rx="16"/>
-  <text class="label" x="500" y="106">Shared foundations</text>
-  <text class="small" x="500" y="131">framework · classification · bonding</text>
+  <rect class="node foundation" x="310" y="84" width="380" height="76" rx="16"/>
+  <text class="label" x="500" y="115">Shared foundations</text>
+  <text class="small" x="500" y="143">framework · classification · bonding</text>
 
-  <rect class="node chemistry" x="40" y="220" width="280" height="140" rx="16"/>
-  <text class="label" x="180" y="251">Chemistry foundations</text>
-  <text class="small" x="180" y="282">mole · atomic structure · bonding</text>
-  <text class="small" x="180" y="309">aqueous reactions · redox</text>
-  <text class="small" x="180" y="336">thermochemistry</text>
+  <path class="edge" d="M500 160 V202"/>
 
-  <rect class="node structure" x="360" y="220" width="280" height="140" rx="16"/>
-  <text class="label" x="500" y="251">Structure &amp; defects</text>
-  <text class="small" x="500" y="282">crystal structures</text>
-  <text class="small" x="500" y="309">directions &amp; planes</text>
-  <text class="small" x="500" y="336">imperfections &amp; defects</text>
+  <rect class="zone" x="25" y="214" width="950" height="232" rx="22"/>
+  <text class="zone-label" x="500" y="242">Choose a concept route</text>
 
-  <rect class="node thermo" x="680" y="220" width="280" height="140" rx="16"/>
-  <text class="label" x="820" y="251">Thermodynamic state</text>
-  <text class="small" x="820" y="282">systems · laws · potentials</text>
-  <text class="small" x="820" y="309">chemical potential · activity</text>
-  <text class="small" x="820" y="336">equilibrium</text>
+  <rect class="node chemistry" x="50" y="260" width="280" height="160" rx="16"/>
+  <text class="label" x="190" y="290">Chemistry foundations</text>
+  <text class="small" x="190" y="322">general chemistry map · mole</text>
+  <text class="small" x="190" y="350">atoms · bonding · reactions</text>
+  <text class="small" x="190" y="378">redox · thermochemistry</text>
 
-  <rect class="node evidence" x="40" y="438" width="280" height="140" rx="16"/>
-  <text class="label" x="180" y="469">Characterization</text>
-  <text class="small" x="180" y="500">electron microscopy</text>
-  <text class="small" x="180" y="527">reciprocal space · PXRD</text>
-  <text class="small" x="180" y="554">simulation · refinement</text>
+  <rect class="node structure" x="360" y="260" width="280" height="160" rx="16"/>
+  <text class="label" x="500" y="290">Structure &amp; defects</text>
+  <text class="small" x="500" y="330">crystal structures</text>
+  <text class="small" x="500" y="358">directions &amp; planes</text>
+  <text class="small" x="500" y="386">imperfections &amp; defects</text>
 
-  <rect class="node change" x="360" y="438" width="280" height="140" rx="16"/>
-  <text class="label" x="500" y="469">Change over time</text>
-  <text class="small" x="500" y="500">reaction kinetics</text>
-  <text class="small" x="500" y="527">diffusion &amp; transport</text>
-  <text class="small" x="500" y="554">electrochemistry</text>
+  <rect class="node thermo" x="670" y="260" width="280" height="160" rx="16"/>
+  <text class="label" x="810" y="290">Thermodynamic state</text>
+  <text class="small" x="810" y="330">systems · laws · potentials</text>
+  <text class="small" x="810" y="358">chemical potential · activity</text>
+  <text class="small" x="810" y="386">equilibrium</text>
 
-  <rect class="node decision" x="680" y="438" width="280" height="140" rx="16"/>
-  <text class="label" x="820" y="469">Engineering decisions</text>
-  <text class="small" x="820" y="500">service conditions</text>
-  <text class="small" x="820" y="527">selection trade-offs</text>
-  <text class="small" x="820" y="554">evidence &amp; validation</text>
+  <path class="edge" d="M500 446 V488"/>
 
-  <text class="key" x="500" y="624">Solid arrows suggest a useful starting route; dashed arrows show cross-checks.</text>
+  <rect class="zone" x="120" y="500" width="760" height="184" rx="22"/>
+  <text class="zone-label" x="500" y="528">Continue by question</text>
+
+  <rect class="node evidence" x="145" y="546" width="340" height="112" rx="16"/>
+  <text class="label" x="315" y="577">Characterization</text>
+  <text class="small" x="315" y="607">microscopy · reciprocal space · PXRD</text>
+  <text class="small" x="315" y="635">simulation · software selection</text>
+
+  <rect class="node change" x="515" y="546" width="340" height="112" rx="16"/>
+  <text class="label" x="685" y="577">Change over time</text>
+  <text class="small" x="685" y="607">kinetics · diffusion &amp; transport</text>
+  <text class="small" x="685" y="635">electrochemistry</text>
+
+  <path class="edge" d="M500 684 V724"/>
+
+  <rect class="node decision" x="250" y="736" width="500" height="62" rx="16"/>
+  <text class="label" x="500" y="762">Applied decisions</text>
+  <text class="small" x="500" y="787">materials selection · MOF case study · service evidence</text>
 </svg>

@@ -69,10 +69,6 @@ otherwise a zero intercept would make the reciprocal step undefined.
 3. Clear fractions together and reduce to the smallest integer triple.
 4. Write the result in parentheses: `(hkl)`.
 
-For the geometric indexing procedure used here, reduce the final triple to
-relatively prime integers
-([MIT OCW 12.108, Lecture 8](https://ocw.mit.edu/courses/12-108-structure-of-earth-materials-fall-2004/a1299436a8453f450d1e4752191147b1_lec8.pdf)).
-
 ### Original plane example
 
 Suppose a plane intersects the axes at `2a` and `-b` and is parallel to `c`.
@@ -88,10 +84,16 @@ axis**, not an intercept at zero.
 `(hkl)` identifies the orientation of a parallel-plane family. Braces,
 `{hkl}`, collect plane orientations related by the crystal's point symmetry.
 Individual translated planes have the same orientation indices, whereas members
-of a brace family need not be parallel. In fractional coordinates, one indexed
-family can be written as `hx + ky + lz = C`, with `C` selecting parallel
+of a brace family need not be parallel. One indexed plane family can be
+written as `hx + ky + lz = C`, with different `C` values selecting parallel
 members
 ([MIT OCW 12.108, Lecture 8](https://ocw.mit.edu/courses/12-108-structure-of-earth-materials-fall-2004/a1299436a8453f450d1e4752191147b1_lec8.pdf)).
+
+Engineering LibreTexts gives the reciprocal-space construction independently
+and makes the direct-vector/plane-normal distinction explicit outside the
+cubic case
+([Reciprocal Space](https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/20%3A_Reciprocal_Space/20.2%3A_Reciprocal_Space);
+[Vectors and Planes](https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/2%3A_Lattice_Planes_and_Miller_Indices/2.5%3A_Vectors_and_Planes)).
 
 ## Keep three kinds of parallelism separate
 
@@ -199,6 +201,9 @@ it is not a tabulated density result.
   Reciprocal Lattice,” Lecture 8, 12.108 *Structure of Earth Materials*, Fall
   2004.
   <https://ocw.mit.edu/courses/12-108-structure-of-earth-materials-fall-2004/a1299436a8453f450d1e4752191147b1_lec8.pdf>
+- Engineering LibreTexts. “Reciprocal Space” and “Vectors and Planes.”
+  <https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/20%3A_Reciprocal_Space/20.2%3A_Reciprocal_Space>
+  <https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/2%3A_Lattice_Planes_and_Miller_Indices/2.5%3A_Vectors_and_Planes>
 - University of Strathclyde, Semiconductor Spectroscopy and Devices.
   “Crystallographic calculator.”
   <https://ssd.phys.strath.ac.uk/resources/crystallography/crystallographic-direction-calculator/>

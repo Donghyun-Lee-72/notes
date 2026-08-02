@@ -118,22 +118,20 @@ function makeDrawerKeyboardAccessible() {
     trigger.setAttribute("aria-expanded", toggle.checked ? "true" : "false");
   };
 
-  const closeDrawer = () => {
+  const closeDrawer = ({ returnFocus = true } = {}) => {
     if (!toggle.checked) return false;
     toggle.checked = false;
     toggle.dispatchEvent(new Event("change", { bubbles: true }));
-    trigger.focus();
+    if (returnFocus) trigger.focus();
     return true;
   };
 
-  const visibleDrawerFocusables = () => [
-    trigger,
-    ...Array.from(
+  const visibleNavigationFocusables = () =>
+    Array.from(
       primaryNavigation.querySelectorAll(
         'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
       )
-    ).filter((element) => element.getClientRects().length > 0),
-  ];
+    ).filter((element) => element.getClientRects().length > 0);
 
   trigger.addEventListener("keydown", (event) => {
     if (event.key !== "Enter" && event.key !== " ") return;
@@ -156,19 +154,28 @@ function makeDrawerKeyboardAccessible() {
     if (event.key === "Escape" && closeDrawer()) event.preventDefault();
 
     if (event.key !== "Tab" || !toggle.checked) return;
-    const focusables = visibleDrawerFocusables();
+    const focusables = [trigger, ...visibleNavigationFocusables()];
     if (!focusables.length) return;
 
-    const first = focusables[0];
-    const last = focusables[focusables.length - 1];
-    if (event.shiftKey && document.activeElement === first) {
-      event.preventDefault();
-      last.focus();
-    } else if (!event.shiftKey && document.activeElement === last) {
-      event.preventDefault();
-      first.focus();
-    }
+    event.preventDefault();
+    const currentIndex = focusables.indexOf(document.activeElement);
+    const step = event.shiftKey ? -1 : 1;
+    const nextIndex = currentIndex === -1
+      ? 1 % focusables.length
+      : (currentIndex + step + focusables.length) % focusables.length;
+    focusables[nextIndex].focus();
   });
+
+  const desktopQuery = window.matchMedia("(min-width: 76.25em)");
+  const closeOnDesktop = (event) => {
+    if (!event.matches || !toggle.checked) return;
+    const focusWasInDrawer = primaryNavigation.contains(document.activeElement);
+    closeDrawer({ returnFocus: false });
+    if (focusWasInDrawer) {
+      document.querySelector("a.md-header__button.md-logo")?.focus();
+    }
+  };
+  desktopQuery.addEventListener("change", closeOnDesktop);
   toggle.addEventListener("change", syncExpanded);
   syncExpanded();
 }

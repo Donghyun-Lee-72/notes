@@ -7,8 +7,7 @@ enormous solid to a manageable geometric model. It also helps connect atomic
 geometry and direction to density, deformation, diffusion, electrical
 response, and other properties. The model does not imply that every repeated
 site in a real specimen is flawless
-(Callister and Rethwisch, 2015, Ch. 3, §§3.2–3.5, pp. 49–57;
-[IUCr, “Crystal”](https://dictionary.iucr.org/Crystal)).
+(Callister and Rethwisch, 2015, Ch. 3, §§3.2–3.5, pp. 49–57).
 
 ## Separate the lattice from what occupies it
 
@@ -26,12 +25,7 @@ Four related terms answer different questions:
 
 This distinction prevents a common mistake: a point at the center of a drawn
 cell does not automatically make the structure a body-centred Bravais lattice.
-The chemical basis must also be considered. The IUCr explicitly treats a
-lattice as a mathematical description of periodicity rather than an atomic
-substructure, and defines a unit cell through three crystallographic basis
-vectors
-([IUCr, “Substructure”](https://dictionary.iucr.org/Substructure);
-[IUCr, “Unit cell”](https://dictionary.iucr.org/Unit_cell)).
+The chemical basis must also be considered.
 
 The cell vectors have lengths `a`, `b`, and `c`. The interaxial angles are
 `α = ∠(b,c)`, `β = ∠(a,c)`, and `γ = ∠(a,b)`. These six **lattice
@@ -51,8 +45,7 @@ the familiar cubic conventional cells for body-centred and face-centred
 lattices contain two and four lattice points, respectively. Both choices
 describe the same infinite lattice when their vectors and contents are stated
 consistently. “Unit cell” therefore does not always mean “smallest cell”
-([IUCr, “Primitive cell”](https://dictionary.iucr.org/Primitive_cell);
-[IUCr, “Centred lattice”](https://dictionary.iucr.org/Centred_lattice)).
+(Callister and Rethwisch, 2015, Ch. 3, §§3.2–3.4, pp. 49–56).
 
 ## Count particles by ownership, not by appearance
 
@@ -167,8 +160,7 @@ using constraints on `a`, `b`, `c`, `α`, `β`, and `γ`. Combining the allowed
 symmetries with primitive and permitted centring choices gives the 14
 three-dimensional **Bravais lattice types**. A Bravais lattice classifies
 translation symmetry, not the chemical basis and not the complete crystal
-structure
-([IUCr educational pamphlet 2](https://www.iucr.org/education/pamphlets/2/full-text)).
+structure (Callister and Rethwisch, 2015, Ch. 3, §3.11, pp. 69–71).
 
 At this depth, the important point is hierarchy:
 
@@ -222,10 +214,7 @@ properties without changing the overall composition
 - Crystallographic density is a model value. Agreement with a bulk measurement
   requires representative composition, phase content, temperature, and
   negligible unaccounted pore volume.
-- Three-dimensional translational periodicity covers the conventional crystals
-  used in this note, but the modern crystallographic definition also includes
-  long-range-ordered aperiodic crystals
-  ([IUCr, “Crystal”](https://dictionary.iucr.org/Crystal)).
+- Ordered aperiodic structures are outside the scope of this introductory note.
 
 ## Related notes
 
@@ -242,12 +231,9 @@ properties without changing the overall composition
   89–94. Wiley.
 - Bureau International des Poids et Mesures (BIPM). “SI base unit: mole.”
   <https://www.bipm.org/en/si-base-units/mole>
-- International Union of Crystallography (IUCr). *Online Dictionary of
-  Crystallography*: “Crystal,” “Unit cell,” “Primitive cell,” “Centred lattice,”
-  and “Substructure.” <https://dictionary.iucr.org/>
-- International Union of Crystallography (IUCr). “An introduction to the
-  scope, potential and applications of X-ray analysis,” §4.
-  <https://www.iucr.org/education/pamphlets/2/full-text>
+- Massachusetts Institute of Technology OpenCourseWare. “Crystallography,”
+  Lecture 16, 3.091SC *Introduction to Solid State Chemistry*, Fall 2010.
+  <https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/dcdd374fa5d1eea537e08f2148b90cda_MIT3_091SCF09_lec16.pdf>
 - International Union of Pure and Applied Chemistry (IUPAC). “Allotropes,”
   *Compendium of Chemical Terminology (Gold Book)*.
   <https://goldbook.iupac.org/terms/view/A00243>

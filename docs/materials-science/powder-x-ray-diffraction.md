@@ -77,8 +77,7 @@ and never bypass an interlock.
 
 ## References
 
-- [IUCr Online Dictionary: Powder diffraction](https://dictionary.iucr.org/Powder_diffraction)
-- [IUCr Online Dictionary: Bragg's law](https://dictionary.iucr.org/Bragg%27s_law)
+- Massachusetts Institute of Technology OpenCourseWare. [“The Powder Method: Practical Aspects,” Lecture 19B](https://ocw.mit.edu/courses/3-012-fundamentals-of-materials-science-fall-2005/f61eb556cfbd9d512f040000cf3ffb77_lec19b_note.pdf), 3.012 *Fundamentals of Materials Science*, Fall 2005.
 
 ## Related notes
 
