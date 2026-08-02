@@ -133,6 +133,26 @@ function makeDrawerKeyboardAccessible() {
       )
     ).filter((element) => element.getClientRects().length > 0);
 
+  primaryNavigation.querySelectorAll("label.md-nav__link[for]").forEach((label) => {
+    const sectionName = label
+      .closest(".md-nav__item--nested")
+      ?.querySelector(":scope > .md-nav__container a, :scope > a")
+      ?.textContent.trim();
+    if (!label.getAttribute("aria-label")) {
+      label.setAttribute(
+        "aria-label",
+        sectionName ? `Toggle ${sectionName}` : "Toggle navigation section"
+      );
+    }
+
+    // Material removes the active section's duplicate top-level toggle from
+    // the tab order after its drawer transition. Do this before collecting
+    // focusables so a fast Tab press cannot capture that transient control.
+    if (label.classList.contains("md-nav__link--active")) {
+      label.setAttribute("tabindex", "-1");
+    }
+  });
+
   let drawerFocusables = [];
   const refreshDrawerFocusables = () => {
     drawerFocusables = visibleNavigationFocusables();
