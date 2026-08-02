@@ -134,7 +134,7 @@ function makeDrawerKeyboardAccessible() {
     ).filter((element) => element.getClientRects().length > 0);
 
   primaryNavigation.querySelectorAll("label.md-nav__link[for]").forEach((label) => {
-    const sectionName = label
+    const sectionName = label.textContent.trim() || label
       .closest(".md-nav__item--nested")
       ?.querySelector(":scope > .md-nav__container a, :scope > a")
       ?.textContent.trim();
