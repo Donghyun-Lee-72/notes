@@ -111,6 +111,7 @@ function makeDrawerKeyboardAccessible() {
   if (!primaryNavigation.id) primaryNavigation.id = "site-navigation";
   trigger.setAttribute("role", "button");
   trigger.setAttribute("tabindex", "0");
+  trigger.setAttribute("aria-label", "Navigation menu");
   trigger.setAttribute("aria-controls", primaryNavigation.id);
 
   const syncExpanded = () => {
