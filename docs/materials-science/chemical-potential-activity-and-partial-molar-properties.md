@@ -265,9 +265,9 @@ state may persist even when a lower-`G` state exists.
 ## Related notes
 
 - [Thermodynamic Systems, Laws, and Potentials](thermodynamic-systems-laws-potentials.md)
+- [Unary Phase Equilibria](unary-phase-equilibria.md)
 - [Diffusion and Transport in Solids](diffusion-and-transport-in-solids.md)
 - [Chemical Equilibrium, Acids and Bases, and Solubility](chemical-equilibrium-acids-bases-solubility.md)
-- [Chemical Kinetics and Reaction Mechanisms](chemical-kinetics-reaction-mechanisms.md)
 
 ## References
 

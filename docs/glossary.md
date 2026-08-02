@@ -100,6 +100,18 @@ fixed temperature, pressure, and amounts of all other components. See [Chemical
 Potential, Activity, and Partial Molar
 Properties](materials-science/chemical-potential-activity-and-partial-molar-properties.md).
 
+## Phase
+
+A bulk region that retains the same state and composition when sampled within
+it and is separated from another phase by a change in state or structure. See
+[Unary Phase Equilibria](materials-science/unary-phase-equilibria.md).
+
+## Phase Rule
+
+A constraint count relating components, coexisting phases, and independent
+intensive variables at equilibrium. See [Unary Phase
+Equilibria](materials-science/unary-phase-equilibria.md).
+
 ## Prompt
 
 The instructions, data, examples, and output requirements supplied to a model
@@ -139,6 +151,12 @@ represent a word, subword, symbol, whitespace, or bytes. See
 A controlled interface through which a model-backed application requests an
 external function or service. See
 [Tool Use and Function Calling](build/tool-use-and-function-calling.md).
+
+## Unary System
+
+A thermodynamic system with one chemically independent component, even when
+that component occupies more than one phase. See [Unary Phase
+Equilibria](materials-science/unary-phase-equilibria.md).
 
 ## Vector Database
 

@@ -228,7 +228,7 @@ and whether the candidate is a global or only local extremum.
 
 - [Thermochemistry, Entropy, and Gibbs Energy](thermochemistry-entropy-gibbs-energy.md)
 - [Chemical Potential, Activity, and Partial Molar Properties](chemical-potential-activity-and-partial-molar-properties.md)
-- [Chemical Equilibrium, Acids and Bases, and Solubility](chemical-equilibrium-acids-bases-solubility.md)
+- [Unary Phase Equilibria](unary-phase-equilibria.md)
 - [Diffusion and Transport in Solids](diffusion-and-transport-in-solids.md)
 
 ## References
