@@ -29,7 +29,8 @@ The equation image uses the angular-wavevector convention, in which reciprocal
 vectors contain a factor of 2π. A common crystallographic convention omits that
 factor: its reciprocal-vector magnitude is 1/*d* and its Ewald-sphere radius is
 1/λ. Both conventions describe the same geometry when used consistently
-([Engineering LibreTexts, “Reciprocal Space”](https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/20%3A_Reciprocal_Space/20.2%3A_Reciprocal_Space)).
+([Engineering LibreTexts, “Reciprocal Space”](https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/20%3A_Reciprocal_Space/20.2%3A_Reciprocal_Space)
+and [“Ewald Sphere”](https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/20%3A_Reciprocal_Space/20.4%3A_Ewald_Sphere)).
 
 ## Incident and scattered wavevectors
 

@@ -45,7 +45,8 @@ the familiar cubic conventional cells for body-centred and face-centred
 lattices contain two and four lattice points, respectively. Both choices
 describe the same infinite lattice when their vectors and contents are stated
 consistently. “Unit cell” therefore does not always mean “smallest cell”
-(Callister and Rethwisch, 2015, Ch. 3, §§3.2–3.4, pp. 49–56).
+([Chemistry LibreTexts, “The Arrangement of Atoms in Crystalline
+Solids”](https://chem.libretexts.org/Bookshelves/General_Chemistry/Book%253A_General_Chemistry%253A_Principles_Patterns_and_Applications_%28Averill%29/12%253A_Solids/12.02%253A_The_Arrangement_of_Atoms_in_Crystalline_Solids)).
 
 ## Count particles by ownership, not by appearance
 
@@ -160,7 +161,8 @@ using constraints on `a`, `b`, `c`, `α`, `β`, and `γ`. Combining the allowed
 symmetries with primitive and permitted centring choices gives the 14
 three-dimensional **Bravais lattice types**. A Bravais lattice classifies
 translation symmetry, not the chemical basis and not the complete crystal
-structure (Callister and Rethwisch, 2015, Ch. 3, §3.11, pp. 69–71).
+structure ([MIT OCW 3.091SC, “Introduction to
+Crystallography”](https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/pages/crystalline-materials/15-introduction-to-crystallography/)).
 
 At this depth, the important point is hierarchy:
 
@@ -231,8 +233,13 @@ properties without changing the overall composition
   89–94. Wiley.
 - Bureau International des Poids et Mesures (BIPM). “SI base unit: mole.”
   <https://www.bipm.org/en/si-base-units/mole>
-- Massachusetts Institute of Technology OpenCourseWare. “Crystallography,”
-  Lecture 16, 3.091SC *Introduction to Solid State Chemistry*, Fall 2010.
+- Massachusetts Institute of Technology OpenCourseWare. “Introduction to
+  Crystallography,” Lecture 15, 3.091SC *Introduction to Solid State
+  Chemistry*, Fall 2010.
+  <https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/pages/crystalline-materials/15-introduction-to-crystallography/>
+- Massachusetts Institute of Technology OpenCourseWare. “Crystallographic
+  Notation & X-Rays,” Lecture 16, 3.091SC *Introduction to Solid State
+  Chemistry*, Fall 2010.
   <https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/dcdd374fa5d1eea537e08f2148b90cda_MIT3_091SCF09_lec16.pdf>
 - International Union of Pure and Applied Chemistry (IUPAC). “Allotropes,”
   *Compendium of Chemical Terminology (Gold Book)*.
