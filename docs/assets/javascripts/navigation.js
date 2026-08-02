@@ -133,6 +133,12 @@ function makeDrawerKeyboardAccessible() {
       )
     ).filter((element) => element.getClientRects().length > 0);
 
+  let drawerFocusables = [];
+  const refreshDrawerFocusables = () => {
+    drawerFocusables = visibleNavigationFocusables();
+    return drawerFocusables;
+  };
+
   trigger.addEventListener("keydown", (event) => {
     if (event.key !== "Enter" && event.key !== " ") return;
     event.preventDefault();
@@ -142,10 +148,7 @@ function makeDrawerKeyboardAccessible() {
 
     if (toggle.checked) {
       window.setTimeout(() => {
-        const firstVisibleLink = Array.from(
-          primaryNavigation.querySelectorAll("a.md-nav__link")
-        ).find((link) => link.getClientRects().length > 0);
-        firstVisibleLink?.focus();
+        refreshDrawerFocusables()[0]?.focus();
       }, 50);
     }
   });
@@ -154,29 +157,56 @@ function makeDrawerKeyboardAccessible() {
     if (event.key === "Escape" && closeDrawer()) event.preventDefault();
 
     if (event.key !== "Tab" || !toggle.checked) return;
-    const focusables = [trigger, ...visibleNavigationFocusables()];
-    if (!focusables.length) return;
+    if (!drawerFocusables.length) refreshDrawerFocusables();
+    const cycle = [trigger, ...drawerFocusables];
+    if (cycle.length === 1) {
+      event.preventDefault();
+      trigger.focus();
+      return;
+    }
 
     event.preventDefault();
-    const currentIndex = focusables.indexOf(document.activeElement);
     const step = event.shiftKey ? -1 : 1;
-    const nextIndex = currentIndex === -1
-      ? 1 % focusables.length
-      : (currentIndex + step + focusables.length) % focusables.length;
-    focusables[nextIndex].focus();
+    let index = cycle.indexOf(document.activeElement);
+    if (index === -1) index = 0;
+    for (let attempts = 0; attempts < cycle.length; attempts += 1) {
+      index = (index + step + cycle.length) % cycle.length;
+      const candidate = cycle[index];
+      const currentlyFocusable = candidate === trigger || (
+        candidate.getClientRects().length > 0 &&
+        candidate.matches(
+          'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        )
+      );
+      if (!currentlyFocusable) continue;
+      candidate.focus();
+      if (document.activeElement === candidate) return;
+    }
+    trigger.focus();
+  });
+
+  document.addEventListener("focusin", (event) => {
+    if (!toggle.checked) return;
+    if (event.target === trigger || primaryNavigation.contains(event.target)) return;
+    (drawerFocusables[0] || refreshDrawerFocusables()[0])?.focus();
   });
 
   const desktopQuery = window.matchMedia("(min-width: 76.25em)");
   const closeOnDesktop = (event) => {
-    if (!event.matches || !toggle.checked) return;
-    const focusWasInDrawer = primaryNavigation.contains(document.activeElement);
-    closeDrawer({ returnFocus: false });
-    if (focusWasInDrawer) {
+    const wasOpen = trigger.getAttribute("aria-expanded") === "true";
+    if (!event.matches || !wasOpen) return;
+    if (toggle.checked) closeDrawer({ returnFocus: false });
+    else syncExpanded();
+    window.requestAnimationFrame(() => {
       document.querySelector("a.md-header__button.md-logo")?.focus();
-    }
+    });
   };
   desktopQuery.addEventListener("change", closeOnDesktop);
-  toggle.addEventListener("change", syncExpanded);
+  toggle.addEventListener("change", () => {
+    if (toggle.checked) refreshDrawerFocusables();
+    else drawerFocusables = [];
+    syncExpanded();
+  });
   syncExpanded();
 }
 
