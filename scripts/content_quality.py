@@ -14,6 +14,8 @@ IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 HEADING = re.compile(r"^(#{1,6})\s+\S", re.M)
 BLOCKQUOTE = re.compile(r"^\s*>\s", re.M)
 NAV_MD = re.compile(r"(?:^|:\s+|-\s+)([A-Za-z0-9_./-]+\.md)\s*$", re.M)
+KOREAN_LOCALE = re.compile(r"(?:^|[.-])ko(?:[.-]|$)", re.I)
+HANGUL = re.compile(r"[\uac00-\ud7a3]")
 EXPECTED = {
     "site_name": "Notes",
     "site_url": "https://notes.donghyunlee.me/",
@@ -60,10 +62,25 @@ def main() -> int:
         errors.append("docs/CNAME: expected notes.donghyunlee.me")
 
     pages = sorted(docs.rglob("*.md"))
-    english = {p.relative_to(docs).as_posix() for p in pages if not p.name.endswith(".ko.md")}
+    locale_files = sorted(
+        p.relative_to(docs).as_posix()
+        for p in docs.rglob("*")
+        if p.is_file() and KOREAN_LOCALE.search(p.name)
+    )
+    if locale_files:
+        errors.append("docs: Korean locale files are not part of the English-only site: " + ", ".join(locale_files))
+    text_extensions = {".css", ".html", ".js", ".json", ".md", ".svg", ".txt", ".yaml", ".yml"}
+    hangul_files = sorted(
+        p.relative_to(docs).as_posix()
+        for p in docs.rglob("*")
+        if p.is_file() and p.suffix.lower() in text_extensions and HANGUL.search(p.read_text(errors="replace"))
+    )
+    if hangul_files:
+        errors.append("docs: Hangul text is not part of the English-only site: " + ", ".join(hangul_files))
+    canonical = {p.relative_to(docs).as_posix() for p in pages}
     nav = set(NAV_MD.findall(config))
     redirects = set(re.findall(r"^\s{8}([A-Za-z0-9_./-]+\.md):", config, re.M))
-    missing_nav = sorted(english - nav - redirects)
+    missing_nav = sorted(canonical - nav - redirects)
     if missing_nav:
         errors.append("mkdocs.yml: canonical pages missing from nav: " + ", ".join(missing_nav))
 
@@ -100,7 +117,7 @@ def main() -> int:
         print("\n".join(errors), file=sys.stderr)
         print(f"Content-quality check failed: {len(errors)} issue(s)", file=sys.stderr)
         return 1
-    print(f"Content-quality check passed: {len(pages)} pages, {len(english)} canonical")
+    print(f"Content-quality check passed: {len(pages)} English pages")
     return 0
 
 

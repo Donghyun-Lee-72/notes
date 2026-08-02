@@ -126,17 +126,16 @@ to every current page in the section.
 
 ## Language and publication
 
-English is the canonical and currently published language. Korean source files
-are retained but excluded from the build. Do not block an English correction on
-a Korean update. If Korean publication is re-enabled, review its structure,
-links, terminology, and claims against the current English page first.
+Write and publish Notes in English only. Do not create or maintain Korean
+counterparts. A future multilingual edition requires a separate owner decision
+and a fresh review of its structure, links, terminology, claims, and build.
 
 ## Dual-model publication gate
 
 Every new page and every material revision must pass independent review by
 both ChatGPT and Claude Code before it is added to the website. A material
 revision changes a claim, definition, number, mechanism, example, instruction,
-scope, limitation, citation, translation meaning, navigation, or rendered
+scope, limitation, citation, navigation, or rendered
 output. Typographic, formatting, and equivalent-link corrections that cannot
 change meaning are exempt from the model reviews, but still require the
 automated checks below. A series of small edits that changes meaning is
@@ -150,7 +149,7 @@ force different kinds of scrutiny:
 - **ChatGPT lead:** claim-to-source accuracy, citation quality, completeness,
   conceptual clarity, readability, and usefulness to the intended reader.
 - **Claude Code lead:** technical operability, assumptions and failure modes,
-  privacy and public-scope safety, bilingual and cross-page consistency,
+  privacy and public-scope safety, cross-page consistency,
   navigation, links, and build or render evidence.
 
 Each review must report `pass`, `fail`, `unverifiable`, or `not applicable`
@@ -173,8 +172,8 @@ for every dimension. A `not applicable` verdict must include a reason.
 5. **Scope and publication safety:** the note belongs in the public site and
    contains no private provenance, personal data, unpublished material,
    internal path, sensitive authentication material, or operational detail.
-6. **Consistency:** terminology, claims, numbers, caveats, related pages, and
-   any Korean counterpart do not conflict with the canonical English page.
+6. **Consistency:** terminology, claims, numbers, caveats, and related pages do
+   not conflict across the English site.
 7. **Information architecture:** the page is in the correct section, is linked
    from the relevant overview or navigation, has useful related links, and
    does not create avoidable duplication or an orphan page.

@@ -29,7 +29,7 @@ PATTERNS = {
     ),
 }
 
-EXTENSIONS = {".md", ".yml", ".yaml", ".json", ".js", ".css", ".html", ".txt"}
+EXTENSIONS = {".md", ".yml", ".yaml", ".json", ".js", ".css", ".html", ".svg", ".txt"}
 SKIP = {"site", ".git", ".venv", ".omd", "__pycache__"}
 
 
