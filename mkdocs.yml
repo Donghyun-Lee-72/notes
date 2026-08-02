@@ -85,7 +85,11 @@ nav:
       - "Materials Classification and Selection": materials-science/materials-classification-and-selection.md
       - "Atomic Structure and Interatomic Bonding in Materials": materials-science/atomic-structure-and-interatomic-bonding.md
       - "Crystal Structures and Unit Cells": materials-science/crystal-structures-unit-cells.md
+      - "Crystallographic Directions and Planes": materials-science/crystallographic-directions-and-planes.md
+      - "Imperfections and Defects in Solids": materials-science/imperfections-and-defects-in-solids.md
       - "Thermodynamic Systems, Laws, and Potentials": materials-science/thermodynamic-systems-laws-potentials.md
+      - "Chemical Potential, Activity, and Partial Molar Properties": materials-science/chemical-potential-activity-and-partial-molar-properties.md
+      - "Diffusion and Transport in Solids": materials-science/diffusion-and-transport-in-solids.md
       - "Electron Microscopy: SEM and TEM": materials-science/electron-microscopy-sem-tem.md
       - "Crystal Diffraction, Reciprocal Space, and Disorder": materials-science/crystal-diffraction-reciprocal-space.md
       - "Powder X-ray Diffraction": materials-science/powder-x-ray-diffraction.md

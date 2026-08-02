@@ -227,9 +227,9 @@ and whether the candidate is a global or only local extremum.
 ## Related notes
 
 - [Thermochemistry, Entropy, and Gibbs Energy](thermochemistry-entropy-gibbs-energy.md)
+- [Chemical Potential, Activity, and Partial Molar Properties](chemical-potential-activity-and-partial-molar-properties.md)
 - [Chemical Equilibrium, Acids and Bases, and Solubility](chemical-equilibrium-acids-bases-solubility.md)
-- [Chemical Kinetics and Reaction Mechanisms](chemical-kinetics-reaction-mechanisms.md)
-- [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
+- [Diffusion and Transport in Solids](diffusion-and-transport-in-solids.md)
 
 ## References
 

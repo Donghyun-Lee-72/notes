@@ -230,9 +230,9 @@ properties without changing the overall composition
 ## Related notes
 
 - [Atomic Structure and Interatomic Bonding in Materials](atomic-structure-and-interatomic-bonding.md)
-- [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
+- [Crystallographic Directions and Planes](crystallographic-directions-and-planes.md)
+- [Imperfections and Defects in Solids](imperfections-and-defects-in-solids.md)
 - [Crystal Diffraction, Reciprocal Space, and Disorder](crystal-diffraction-reciprocal-space.md)
-- [Powder X-Ray Diffraction](powder-x-ray-diffraction.md)
 
 ## References
 

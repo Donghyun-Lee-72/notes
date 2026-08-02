@@ -376,8 +376,8 @@ changes equilibrium.
 
 - [Thermochemistry, Entropy, and Gibbs Energy](thermochemistry-entropy-gibbs-energy.md)
 - [Chemical Equilibrium, Acids and Bases, and Solubility](chemical-equilibrium-acids-bases-solubility.md)
+- [Diffusion and Transport in Solids](diffusion-and-transport-in-solids.md)
 - [Electrochemical Cells, Potentials, and Applications](electrochemical-cells-potentials-applications.md)
-- [Materials Science and Engineering Framework](materials-science-engineering-framework.md)
 
 ## References
 

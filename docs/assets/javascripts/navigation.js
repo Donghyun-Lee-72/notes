@@ -99,4 +99,57 @@ function buildTabMenus() {
   });
 }
 
-document.addEventListener("DOMContentLoaded", buildTabMenus);
+function makeDrawerKeyboardAccessible() {
+  const toggle = document.querySelector('input[data-md-toggle="drawer"]');
+  const trigger = document.querySelector('label.md-header__button[for="__drawer"]');
+  const primaryNavigation = document.querySelector(
+    '.md-sidebar--primary nav[data-md-level="0"]'
+  );
+
+  if (!toggle || !trigger || !primaryNavigation) return;
+
+  if (!primaryNavigation.id) primaryNavigation.id = "site-navigation";
+  trigger.setAttribute("role", "button");
+  trigger.setAttribute("tabindex", "0");
+  trigger.setAttribute("aria-controls", primaryNavigation.id);
+
+  const syncExpanded = () => {
+    trigger.setAttribute("aria-expanded", toggle.checked ? "true" : "false");
+  };
+
+  const closeDrawer = () => {
+    if (!toggle.checked) return false;
+    toggle.checked = false;
+    toggle.dispatchEvent(new Event("change", { bubbles: true }));
+    trigger.focus();
+    return true;
+  };
+
+  trigger.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+    event.stopPropagation();
+    toggle.checked = !toggle.checked;
+    toggle.dispatchEvent(new Event("change", { bubbles: true }));
+
+    if (toggle.checked) {
+      window.setTimeout(() => {
+        const firstVisibleLink = Array.from(
+          primaryNavigation.querySelectorAll("a.md-nav__link")
+        ).find((link) => link.getClientRects().length > 0);
+        firstVisibleLink?.focus();
+      }, 50);
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && closeDrawer()) event.preventDefault();
+  });
+  toggle.addEventListener("change", syncExpanded);
+  syncExpanded();
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  buildTabMenus();
+  makeDrawerKeyboardAccessible();
+});

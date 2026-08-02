@@ -1,5 +1,11 @@
 # Glossary
 
+## Activity
+
+A dimensionless measure that places a component's chemical potential on a
+specified standard-state scale. See [Chemical Potential, Activity, and Partial
+Molar Properties](materials-science/chemical-potential-activity-and-partial-molar-properties.md).
+
 ## Agent
 
 A system that pursues a goal through state, action selection, observations, and
@@ -21,9 +27,9 @@ Materials](materials-science/atomic-structure-and-interatomic-bonding.md).
 
 The partial molar Gibbs energy of a component at stated temperature, pressure,
 and composition. It measures the marginal change in Gibbs energy when that
-component's amount changes under the declared constraints. See [Thermodynamic
-Systems, Laws, and
-Potentials](materials-science/thermodynamic-systems-laws-potentials.md).
+component's amount changes under the declared constraints. See [Chemical
+Potential, Activity, and Partial Molar
+Properties](materials-science/chemical-potential-activity-and-partial-molar-properties.md).
 
 ## Chunk
 
@@ -35,11 +41,31 @@ retrieval precision and the amount of surrounding context preserved.
 The tokenized information a model can process for one generation, including
 input and reserved output. See [Context Windows](learn/context-windows.md).
 
+## Crystallographic Direction
+
+A lattice direction represented by a reduced integer index set such as
+`[uvw]`, interpreted in a declared crystallographic basis. See
+[Crystallographic Directions and
+Planes](materials-science/crystallographic-directions-and-planes.md).
+
 ## Crystal Structure
 
 A description that combines a translational lattice with the basis attached to
 each lattice point. See [Crystal Structures and Unit
 Cells](materials-science/crystal-structures-unit-cells.md).
+
+## Defect
+
+A departure from a declared ideal reference structure, classified by site,
+species, geometry, and dimensionality. See [Imperfections and Defects in
+Solids](materials-science/imperfections-and-defects-in-solids.md).
+
+## Diffusivity
+
+The transport coefficient that relates flux to a declared gradient under a
+specified model, species, reference frame, and set of conditions. See
+[Diffusion and Transport in
+Solids](materials-science/diffusion-and-transport-in-solids.md).
 
 ## Embedding
 
@@ -66,6 +92,13 @@ A measured or modeled response to a specified stimulus under stated material
 and test conditions. It is not the same as the performance of a manufactured
 part. See [Materials Classification and
 Selection](materials-science/materials-classification-and-selection.md).
+
+## Partial Molar Property
+
+The change in an extensive property per incremental amount of one component at
+fixed temperature, pressure, and amounts of all other components. See [Chemical
+Potential, Activity, and Partial Molar
+Properties](materials-science/chemical-potential-activity-and-partial-molar-properties.md).
 
 ## Prompt
 

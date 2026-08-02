@@ -33,28 +33,43 @@ framework, then follow the route that matches your question.
 8. [Crystal Structures and Unit Cells](crystal-structures-unit-cells.md)
    connects lattices and bases to common unit cells, packing, density, and
    directional properties.
-9. [Aqueous Reactions and Net Ionic
+9. [Crystallographic Directions and
+   Planes](crystallographic-directions-and-planes.md) turns displacements and
+   plane intercepts into auditable indices without assuming a cubic metric.
+10. [Imperfections and Defects in
+    Solids](imperfections-and-defects-in-solids.md) classifies point, line,
+    interfacial, and volume defects while separating equilibrium populations
+    from processing history.
+11. [Aqueous Reactions and Net Ionic
    Equations](aqueous-reactions-net-ionic-equations.md) identifies species in
    water and isolates the chemical change represented by an equation.
-10. [Redox Foundations and Half-Reaction
+12. [Redox Foundations and Half-Reaction
    Balancing](redox-foundations-half-reaction-balancing.md) develops oxidation
    states, electron bookkeeping, and mass-and-charge balancing.
-11. [Thermochemistry, Entropy, and Gibbs
+13. [Thermochemistry, Entropy, and Gibbs
    Energy](thermochemistry-entropy-gibbs-energy.md) connects heat and enthalpy
    to entropy, Gibbs energy, and thermodynamic direction.
-12. [Thermodynamic Systems, Laws, and
+14. [Thermodynamic Systems, Laws, and
     Potentials](thermodynamic-systems-laws-potentials.md) selects equilibrium
     criteria by boundary, controlled variables, composition, and work modes.
-13. [Chemical Equilibrium, Acids and Bases, and
+15. [Chemical Potential, Activity, and Partial Molar
+    Properties](chemical-potential-activity-and-partial-molar-properties.md)
+    connects composition to component-wise thermodynamic tendency and makes
+    standard-state choices explicit.
+16. [Chemical Equilibrium, Acids and Bases, and
    Solubility](chemical-equilibrium-acids-bases-solubility.md) applies reaction
    quotients and equilibrium constants to coupled solution chemistry.
-14. [Chemical Kinetics and Reaction
+17. [Chemical Kinetics and Reaction
     Mechanisms](chemical-kinetics-reaction-mechanisms.md) separates reaction
     rate and pathway from thermodynamic favorability.
-15. [Electrochemical Cells, Potentials, and
+18. [Diffusion and Transport in
+    Solids](diffusion-and-transport-in-solids.md) connects atomic jumps to flux,
+    transient profiles, temperature dependence, and microstructural transport
+    paths.
+19. [Electrochemical Cells, Potentials, and
     Applications](electrochemical-cells-potentials-applications.md) combines
     redox, thermodynamics, equilibrium, and kinetics in cells and corrosion.
-16. Choose a characterization route below when you need to determine structure,
+20. Choose a characterization route below when you need to determine structure,
     composition, or response experimentally.
 
 ## Characterization routes
@@ -94,8 +109,8 @@ checkout. Broader chemistry coverage can still add states of matter, solution
 properties, descriptive inorganic chemistry, introductory organic and nuclear
 chemistry, synthesis, and analytical measurement.
 
-The next materials-science foundations include crystallographic directions and
-planes, defects and diffusion, phase equilibria, structure–property relations,
-degradation, processing, and later lifecycle-aware selection. The links above
-describe repository availability; they do not assert that an external public
-deployment already contains every page.
+The next materials-science foundations include phase equilibria,
+structure–property relations, degradation, processing, and later
+lifecycle-aware selection. The links above describe repository availability;
+they do not assert that an external public deployment already contains every
+page.

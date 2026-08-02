@@ -124,6 +124,6 @@ local order that an average crystallographic model does not retain.
 ## Related notes
 
 - [Crystal Structures and Unit Cells](crystal-structures-unit-cells.md)
+- [Crystallographic Directions and Planes](crystallographic-directions-and-planes.md)
 - [Powder X-ray Diffraction](powder-x-ray-diffraction.md)
 - [PXRD Simulation and Rietveld Refinement](pxrd-simulation-and-refinement.md)
-- [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md)

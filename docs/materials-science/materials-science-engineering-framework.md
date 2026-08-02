@@ -176,9 +176,20 @@ properties, processing, degradation, and characterization.
   models constrain structure and property trends.
 - [Crystal Structures and Unit Cells](crystal-structures-unit-cells.md) — how
   periodic geometry supports atom counting, packing, density, and anisotropy.
+- [Crystallographic Directions and
+  Planes](crystallographic-directions-and-planes.md) — how declared bases turn
+  directions and planes into auditable indices.
+- [Imperfections and Defects in
+  Solids](imperfections-and-defects-in-solids.md) — how departures from an
+  ideal reference connect processing history to structure and properties.
 - [Thermodynamic Systems, Laws, and
   Potentials](thermodynamic-systems-laws-potentials.md) — how boundaries and
   controlled variables select an equilibrium criterion.
+- [Chemical Potential, Activity, and Partial Molar
+  Properties](chemical-potential-activity-and-partial-molar-properties.md) —
+  how composition changes component-wise thermodynamic tendency.
+- [Diffusion and Transport in Solids](diffusion-and-transport-in-solids.md) —
+  how atomic mobility and driving gradients develop concentration profiles.
 - [General Chemistry Map and Learning Path](chemistry.md) — composition,
   bonding, energy, and transformation.
 - [Electron Microscopy: SEM and TEM](electron-microscopy-sem-tem.md) — how

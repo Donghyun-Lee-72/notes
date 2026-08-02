@@ -373,8 +373,8 @@ as a problem-solving chain
 
 - [Aqueous Reactions and Net Ionic Equations](aqueous-reactions-net-ionic-equations.md)
 - [Thermochemistry, Entropy, and Gibbs Energy](thermochemistry-entropy-gibbs-energy.md)
+- [Chemical Potential, Activity, and Partial Molar Properties](chemical-potential-activity-and-partial-molar-properties.md)
 - [Chemical Kinetics and Reaction Mechanisms](chemical-kinetics-reaction-mechanisms.md)
-- [Electrochemical Cells, Potentials, and Applications](electrochemical-cells-potentials-applications.md)
 
 ## References
 
