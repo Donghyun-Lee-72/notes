@@ -4,6 +4,22 @@ Use this section to move from **what matter is**, through **how we measure and
 change it**, to **whether a material works in practice**. Start with the shared
 framework, then follow the route that matches your question.
 
+## See the knowledge map
+
+<figure class="concept-figure">
+  <picture>
+    <source media="(max-width: 719px)"
+            srcset="../assets/images/materials-knowledge-map-mobile.svg">
+    <img src="../assets/images/materials-knowledge-map.svg"
+         alt="Navigation map of the published materials science and chemistry notes. Shared foundations branch into chemistry, structure and defects, and thermodynamic state. Those routes connect to kinetics and transport, characterization, and engineering decisions.">
+  </picture>
+  <figcaption>
+    A navigation map of published notes, not a claim that every topic has one
+    prerequisite or one physical cause. The numbered list below remains the
+    complete route through the section.
+  </figcaption>
+</figure>
+
 ## Start here
 
 1. [Materials Science and Engineering Framework](materials-science-engineering-framework.md)

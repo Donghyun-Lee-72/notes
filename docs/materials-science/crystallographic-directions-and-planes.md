@@ -64,16 +64,14 @@ otherwise a zero intercept would make the reciprocal step undefined.
 
 1. Express the intercepts in lattice units: `(p, q, r)` means `pa`, `qb`, and
    `rc`.
-2. Take reciprocals: `(1/p, 1/q, 1/r)`. An axis parallel to the plane has an
-   infinite intercept and therefore a zero reciprocal.
+2. Take reciprocals: `(1/p, 1/q, 1/r)`. A plane that never meets an axis has
+   an intercept at infinity, so its reciprocal is zero.
 3. Clear fractions together and reduce to the smallest integer triple.
 4. Write the result in parentheses: `(hkl)`.
 
-For a primitive basis, reduced Miller indices are relatively prime. Centred
-conventional cells require care: diffraction reflection labels and lattice-plane
-families can retain non-coprime indices because centring changes which indexed
-planes contain lattice points
-([IUCr, “Miller indices”](https://dictionary.iucr.org/Miller_indices)).
+For the geometric indexing procedure used here, reduce the final triple to
+relatively prime integers
+([MIT OCW 12.108, Lecture 8](https://ocw.mit.edu/courses/12-108-structure-of-earth-materials-fall-2004/a1299436a8453f450d1e4752191147b1_lec8.pdf)).
 
 ### Original plane example
 
@@ -90,10 +88,10 @@ axis**, not an intercept at zero.
 `(hkl)` identifies the orientation of a parallel-plane family. Braces,
 `{hkl}`, collect plane orientations related by the crystal's point symmetry.
 Individual translated planes have the same orientation indices, whereas members
-of a brace family need not be parallel. IUCr expresses planes of one indexed
-family in fractional coordinates as `hx + ky + lz = C`, with the integer `C`
-selecting parallel members
-([IUCr, “Miller indices”](https://dictionary.iucr.org/Miller_indices)).
+of a brace family need not be parallel. In fractional coordinates, one indexed
+family can be written as `hx + ky + lz = C`, with `C` selecting parallel
+members
+([MIT OCW 12.108, Lecture 8](https://ocw.mit.edu/courses/12-108-structure-of-earth-materials-fall-2004/a1299436a8453f450d1e4752191147b1_lec8.pdf)).
 
 ## Keep three kinds of parallelism separate
 
@@ -110,7 +108,7 @@ The reciprocal vector `g_hkl = h a* + k b* + l c*` is normal to `(hkl)`, where
 the direct-space direction `[hkl]` is parallel to that normal. Outside the cubic
 case, `[hkl]` and the normal to `(hkl)` generally differ because lengths and
 angles in the direct metric are not all equal and orthogonal
-([IUCr, “Reciprocal lattice”](https://dictionary.iucr.org/Reciprocal_lattice)).
+([MIT OCW 12.108, Lecture 8](https://ocw.mit.edu/courses/12-108-structure-of-earth-materials-fall-2004/a1299436a8453f450d1e4752191147b1_lec8.pdf)).
 
 ## Introduce four-index hexagonal notation carefully
 
@@ -130,7 +128,7 @@ Plane conversion only adds `i=-(h+k)`, but direction conversion changes three
 basal components and must not be done by merely inserting a digit. This
 introduction assumes the standard hexagonal setting; rhombohedral axes and
 alternative settings require an explicit basis transformation
-([IUCr, “Miller indices”](https://dictionary.iucr.org/Miller_indices);
+(Callister and Rethwisch, 2015, Ch. 3, §3.14, pp. 81–87;
 [University of Strathclyde crystallographic calculator](https://ssd.phys.strath.ac.uk/resources/crystallography/crystallographic-direction-calculator/)).
 
 ## Audit linear and planar density independently
@@ -197,9 +195,10 @@ it is not a tabulated density result.
 - Callister, W. D., Jr., and Rethwisch, D. G. (2015).
   *Fundamentals of Materials Science and Engineering: An Integrated Approach*,
   5th ed., Ch. 3, §§3.12–3.15, pp. 72–88. Wiley.
-- International Union of Crystallography (IUCr). “Miller indices” and
-  “Reciprocal lattice,” *Online Dictionary of Crystallography*.
-  <https://dictionary.iucr.org/>
+- Massachusetts Institute of Technology OpenCourseWare. “Planes, Forms, and
+  Reciprocal Lattice,” Lecture 8, 12.108 *Structure of Earth Materials*, Fall
+  2004.
+  <https://ocw.mit.edu/courses/12-108-structure-of-earth-materials-fall-2004/a1299436a8453f450d1e4752191147b1_lec8.pdf>
 - University of Strathclyde, Semiconductor Spectroscopy and Devices.
   “Crystallographic calculator.”
   <https://ssd.phys.strath.ac.uk/resources/crystallography/crystallographic-direction-calculator/>

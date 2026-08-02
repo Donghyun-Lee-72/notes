@@ -210,8 +210,6 @@ populations supply the mobility. The [thermodynamics note](thermodynamic-systems
 defines chemical potential, while the [kinetics note](chemical-kinetics-reaction-mechanisms.md)
 explains why a favorable tendency does not specify a rate.
 
-## Expect microstructure to matter
-
 Grain boundaries, dislocation cores, and free surfaces often offer faster
 paths than the lattice because their local structures and defect populations
 are different
