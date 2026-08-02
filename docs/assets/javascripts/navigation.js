@@ -126,6 +126,15 @@ function makeDrawerKeyboardAccessible() {
     return true;
   };
 
+  const visibleDrawerFocusables = () => [
+    trigger,
+    ...Array.from(
+      primaryNavigation.querySelectorAll(
+        'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+      )
+    ).filter((element) => element.getClientRects().length > 0),
+  ];
+
   trigger.addEventListener("keydown", (event) => {
     if (event.key !== "Enter" && event.key !== " ") return;
     event.preventDefault();
@@ -145,6 +154,20 @@ function makeDrawerKeyboardAccessible() {
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && closeDrawer()) event.preventDefault();
+
+    if (event.key !== "Tab" || !toggle.checked) return;
+    const focusables = visibleDrawerFocusables();
+    if (!focusables.length) return;
+
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
   });
   toggle.addEventListener("change", syncExpanded);
   syncExpanded();
