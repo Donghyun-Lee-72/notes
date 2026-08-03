@@ -102,9 +102,12 @@ Properties](materials-science/chemical-potential-activity-and-partial-molar-prop
 
 ## Phase
 
-A bulk region that retains the same state and composition when sampled within
-it and is separated from another phase by a change in state or structure. See
-[Unary Phase Equilibria](materials-science/unary-phase-equilibria.md).
+A macroscopic region whose representative samples have the same relevant
+physical and chemical characteristics. A phase boundary is marked by a
+discontinuous change in one or more of those characteristics, which can
+include composition or another thermodynamic property rather than only state
+or structure. See [Unary Phase
+Equilibria](materials-science/unary-phase-equilibria.md).
 
 ## Phase Rule
 

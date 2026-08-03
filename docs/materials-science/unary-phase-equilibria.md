@@ -5,12 +5,14 @@ component. Its amount may change and it may occupy several phases, but its
 overall composition has no independent composition coordinate. Pure water is
 a unary system even when ice, liquid water, and water vapor are all present.
 
-A **phase** can be recognized by sampling a bulk region on a sufficiently
-small scale: samples taken without leaving that region have the same state and
-composition. Crossing into another phase instead produces a discontinuous
-change in state or structure, even when the chemical identity stays the same.
-Ice and liquid water are therefore two phases; two crystalline forms of one
-element are also two phases. This distinction matters because a
+A **phase** is a macroscopic region whose representative samples have the same
+relevant physical and chemical characteristics within the resolution of the
+thermodynamic description. At a boundary between phases, at least one such
+characteristic changes discontinuously. The distinction can therefore follow
+a difference in composition or in a property such as density, atomic order,
+or magnetization; it is not limited to a change of physical state or crystal
+structure. Ice and liquid water are two phases, as are two crystalline forms
+of one element. This distinction matters because a
 pressure–temperature phase diagram says which phases are thermodynamically
 stable at equilibrium (Callister and Rethwisch, 2015, Ch. 10, §§10.3,
 10.5–10.6, pp. 383–385; [IUPAC Gold Book, “phase”](https://goldbook.iupac.org/terms/view/P04528)).
