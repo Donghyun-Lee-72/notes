@@ -121,8 +121,9 @@ Here `Delta H = H_m^beta - H_m^alpha` and
 transformation changes both deltas' signs, leaving their ratio unchanged.
 The equation gives pressure per temperature, such as `Pa K^-1`.
 
-For melting, define the direction solid `->` liquid. The enthalpy of fusion is
-positive. Most substances expand on melting, so `Delta V_fus > 0` and the
+For melting, define the direction solid `->` liquid. For most familiar
+substances under ordinary melting conditions, the enthalpy of fusion is
+positive and the substance expands on melting. Then `Delta V_fus > 0`, and the
 solid–liquid boundary has positive slope. Water is the familiar exception near
 ordinary pressures: liquid water occupies less molar volume than ice, so
 `Delta V_fus < 0`; with `Delta H_fus > 0` and `T > 0`, the slope is negative.
