@@ -113,8 +113,7 @@ Along a two-phase boundary, equality of molar Gibbs energies must persist as
 dp/dT = Delta H / (T Delta V)
 ```
 
-This exact slope formula is the Clapeyron relation; Chang and Oates label it
-the Clausius–Clapeyron equation.
+This exact slope formula is the Clapeyron relation.
 
 Here `Delta H = H_m^beta - H_m^alpha` and
 `Delta V = V_m^beta - V_m^alpha` refer to the same directed transformation
