@@ -75,20 +75,23 @@ framework, then follow the route that matches your question.
 16. [Unary Phase Equilibria](unary-phase-equilibria.md) connects equilibrium
     conditions, phase-rule geometry, and the Clapeyron relation to practical
     reading of one-component pressure–temperature diagrams.
-17. [Chemical Equilibrium, Acids and Bases, and
+17. [Binary Solutions and Phase Diagrams](binary-solutions-and-phase-diagrams.md)
+    connects composition coordinates, tie lines, the lever rule, and eutectic
+    cooling paths to phase amounts and equilibrium microstructure inference.
+18. [Chemical Equilibrium, Acids and Bases, and
     Solubility](chemical-equilibrium-acids-bases-solubility.md) applies reaction
     quotients and equilibrium constants to coupled solution chemistry.
-18. [Chemical Kinetics and Reaction
+19. [Chemical Kinetics and Reaction
     Mechanisms](chemical-kinetics-reaction-mechanisms.md) separates reaction
     rate and pathway from thermodynamic favorability.
-19. [Diffusion and Transport in
+20. [Diffusion and Transport in
     Solids](diffusion-and-transport-in-solids.md) connects atomic jumps to flux,
     transient profiles, temperature dependence, and microstructural transport
     paths.
-20. [Electrochemical Cells, Potentials, and
+21. [Electrochemical Cells, Potentials, and
     Applications](electrochemical-cells-potentials-applications.md) combines
     redox, thermodynamics, equilibrium, and kinetics in cells and corrosion.
-21. Choose a characterization route below when you need to determine structure,
+22. Choose a characterization route below when you need to determine structure,
     composition, or response experimentally.
 
 ## Characterization routes
@@ -128,8 +131,8 @@ checkout. Broader chemistry coverage can still add states of matter, solution
 properties, descriptive inorganic chemistry, introductory organic and nuclear
 chemistry, synthesis, and analytical measurement.
 
-The next materials-science foundations include binary and multicomponent phase
-equilibria, structure–property relations, degradation, processing, and later
+The next materials-science foundations include multicomponent phase equilibria,
+structure–property relations, degradation, processing, and later
 lifecycle-aware selection. The links above describe repository availability;
 they do not assert that an external public deployment already contains every
 page.

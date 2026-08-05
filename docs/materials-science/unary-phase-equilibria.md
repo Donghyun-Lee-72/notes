@@ -230,8 +230,8 @@ separately (Callister and Rethwisch, 2015, Ch. 10, §10.5, pp. 383–384;
 
 - [Thermodynamic Systems, Laws, and Potentials](thermodynamic-systems-laws-potentials.md)
 - [Chemical Potential, Activity, and Partial Molar Properties](chemical-potential-activity-and-partial-molar-properties.md)
+- [Binary Solutions and Phase Diagrams](binary-solutions-and-phase-diagrams.md)
 - [Thermochemistry, Entropy, and Gibbs Energy](thermochemistry-entropy-gibbs-energy.md)
-- [Crystal Structures and Unit Cells](crystal-structures-unit-cells.md)
 
 ## References
 

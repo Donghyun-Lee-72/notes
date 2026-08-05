@@ -191,6 +191,9 @@ properties, processing, degradation, and characterization.
 - [Unary Phase Equilibria](unary-phase-equilibria.md) — how equilibrium
   conditions, phase-rule geometry, and boundary slopes organize a pure
   substance's pressure–temperature diagram.
+- [Binary Solutions and Phase Diagrams](binary-solutions-and-phase-diagrams.md)
+  — how composition, tie lines, and phase balances organize two-component
+  equilibria and cooling paths.
 - [Diffusion and Transport in Solids](diffusion-and-transport-in-solids.md) —
   how atomic mobility and driving gradients develop concentration profiles.
 - [General Chemistry Map and Learning Path](chemistry.md) — composition,

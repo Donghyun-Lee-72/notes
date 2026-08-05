@@ -143,6 +143,13 @@ energy, organized so its natural variables match a useful set of constraints.
 See [Thermodynamic Systems, Laws, and
 Potentials](materials-science/thermodynamic-systems-laws-potentials.md).
 
+## Tie Line
+
+A line joining the equilibrium compositions of coexisting phases at fixed
+temperature and pressure. On a binary temperature–composition diagram it is
+horizontal, and its endpoints give phase compositions. See [Binary Solutions
+and Phase Diagrams](materials-science/binary-solutions-and-phase-diagrams.md).
+
 ## Token
 
 A discrete identifier produced by a tokenizer and processed by a model. It may
