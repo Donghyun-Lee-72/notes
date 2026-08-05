@@ -165,14 +165,16 @@ the eutectic tie line. Heating reverses the reaction. IUPAC states the formal
 definition in the heating direction; the cooling expression above is its
 reverse ([IUPAC, “eutectic reaction”](https://goldbook.iupac.org/terms/view/E02225)).
 
-An alloy left of `C_E` that crosses `alpha + L` first forms **primary alpha**.
-In the equilibrium limit approaching `T_E` from above, the remaining liquid
-has composition `C_E`; it becomes
-the two-phase eutectic microconstituent on cooling through `T_E`. An alloy right
-of `C_E` analogously forms primary beta. At exactly `C_E`, no primary phase
-forms in the equilibrium path: all liquid transforms into the eutectic
-microconstituent (Callister and Rethwisch, 2015, Ch. 10, §§10.11–10.12,
-pp. 395–408).
+For an alloy between the maximum alpha solubility at `T_E` and `C_E`, cooling
+through `alpha + L` first forms **primary alpha**. In the equilibrium limit
+approaching `T_E` from above, the remaining liquid has composition `C_E`; it
+becomes the two-phase eutectic microconstituent on cooling through `T_E`. An
+alloy in the corresponding interval on the beta-rich side analogously forms
+primary beta. At exactly `C_E`, no primary phase forms in the equilibrium path:
+all liquid transforms into the eutectic microconstituent. Outside those
+intervals, the liquid may disappear above `T_E`, so no eutectic
+microconstituent forms (Callister and Rethwisch, 2015, Ch. 10,
+§§10.11–10.12, pp. 395–408).
 
 ### Distinguish phases from microconstituents
 
@@ -222,10 +224,13 @@ change.
   composition is read at the opposite tie-line end. With further cooling, the
   solid fraction grows, both phase compositions track their boundaries, and
   solidification ends at the solidus.
-- In a hypoeutectic composition (`C_0 < C_E` on an axis increasing in B),
-  primary alpha forms before the remaining liquid transforms eutectically.
-  For `C_0 > C_E`, primary beta forms first. “Hypo” and “hyper” are positions
-  relative to `C_E`, not statements about absolute solute content.
+- For a hypoeutectic composition (`C_0 < C_E` on an axis increasing in B)
+  that lies above alpha's maximum solubility at `T_E`, primary alpha forms
+  before the remaining liquid transforms eutectically. The beta-rich case is
+  analogous. Below that alpha limit, solidification can finish above `T_E`;
+  a second solid phase then appears only if later cooling crosses the solvus.
+  “Hypo” and “hyper” locate a composition relative to `C_E`; by themselves
+  they do not prove that a eutectic microconstituent will form.
 - If a **solvus**—the solid-state solubility-limit boundary—is crossed, a
   second solid phase becomes stable. The diagram predicts its equilibrium
   amount and composition, but not its particle size or distribution.
