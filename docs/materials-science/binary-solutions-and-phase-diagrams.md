@@ -270,9 +270,9 @@ nucleation barriers may preserve metastable states (Callister and Rethwisch,
 ## Related notes
 
 - [Unary Phase Equilibria](unary-phase-equilibria.md)
+- [Ternary Systems and Phase Diagrams](ternary-systems-and-phase-diagrams.md)
 - [Chemical Potential, Activity, and Partial Molar Properties](chemical-potential-activity-and-partial-molar-properties.md)
 - [Imperfections and Defects in Solids](imperfections-and-defects-in-solids.md)
-- [Diffusion and Transport in Solids](diffusion-and-transport-in-solids.md)
 
 ## References
 

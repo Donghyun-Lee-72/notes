@@ -143,12 +143,26 @@ energy, organized so its natural variables match a useful set of constraints.
 See [Thermodynamic Systems, Laws, and
 Potentials](materials-science/thermodynamic-systems-laws-potentials.md).
 
+## Ternary System
+
+A thermodynamic system with three chemically independent components. At fixed
+temperature and pressure, two independent composition coordinates locate an
+overall composition in a Gibbs triangle. See [Ternary Systems and Phase
+Diagrams](materials-science/ternary-systems-and-phase-diagrams.md).
+
 ## Tie Line
 
 A line joining the equilibrium compositions of coexisting phases at fixed
 temperature and pressure. On a binary temperature–composition diagram it is
 horizontal, and its endpoints give phase compositions. See [Binary Solutions
 and Phase Diagrams](materials-science/binary-solutions-and-phase-diagrams.md).
+
+## Tie Triangle
+
+The triangle whose vertices are the equilibrium compositions of three
+coexisting phases at fixed temperature and pressure. An overall composition
+inside it is a barycentric balance of those phase compositions. See [Ternary
+Systems and Phase Diagrams](materials-science/ternary-systems-and-phase-diagrams.md).
 
 ## Token
 

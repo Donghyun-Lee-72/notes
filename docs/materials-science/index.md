@@ -78,20 +78,23 @@ framework, then follow the route that matches your question.
 17. [Binary Solutions and Phase Diagrams](binary-solutions-and-phase-diagrams.md)
     connects composition coordinates, tie lines, the lever rule, and eutectic
     cooling paths to phase amounts and equilibrium microstructure inference.
-18. [Chemical Equilibrium, Acids and Bases, and
+18. [Ternary Systems and Phase Diagrams](ternary-systems-and-phase-diagrams.md)
+    extends composition balance to Gibbs triangles, tie-line families, tie
+    triangles, and fixed-temperature three-component sections.
+19. [Chemical Equilibrium, Acids and Bases, and
     Solubility](chemical-equilibrium-acids-bases-solubility.md) applies reaction
     quotients and equilibrium constants to coupled solution chemistry.
-19. [Chemical Kinetics and Reaction
+20. [Chemical Kinetics and Reaction
     Mechanisms](chemical-kinetics-reaction-mechanisms.md) separates reaction
     rate and pathway from thermodynamic favorability.
-20. [Diffusion and Transport in
+21. [Diffusion and Transport in
     Solids](diffusion-and-transport-in-solids.md) connects atomic jumps to flux,
     transient profiles, temperature dependence, and microstructural transport
     paths.
-21. [Electrochemical Cells, Potentials, and
+22. [Electrochemical Cells, Potentials, and
     Applications](electrochemical-cells-potentials-applications.md) combines
     redox, thermodynamics, equilibrium, and kinetics in cells and corrosion.
-22. Choose a characterization route below when you need to determine structure,
+23. Choose a characterization route below when you need to determine structure,
     composition, or response experimentally.
 
 ## Characterization routes
