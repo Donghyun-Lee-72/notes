@@ -57,9 +57,14 @@ confused:
   pressure and temperature. Its regions report the equilibrium phases under
   those fixed conditions.
 - A **liquidus projection** views liquidus-surface information on the
-  composition triangle, often with liquidus-temperature contours and primary
-  crystallization fields. It is a projection across temperatures, not the
-  phase assemblage in one isothermal slice.
+  composition triangle. At fixed pressure, a **liquidus surface** gives, for
+  each composition that has an all-liquid region above it, the boundary
+  temperature at which liquid first coexists with solid at equilibrium. A
+  **primary crystallization field** is the composition region whose labeled
+  solid phase is the first equilibrium solid to appear on cooling from liquid.
+  Such a projection often includes liquidus-temperature contours and primary
+  crystallization fields. It combines information across temperatures; it is
+  not the phase assemblage in one isothermal slice.
 
 A vertical section at a selected composition path is another possible view;
 it is not the complete fixed-pressure ternary diagram. Always read the title,
