@@ -136,19 +136,19 @@ initial retriever. See [Reranking](build/reranking.md).
 Model output constrained to a machine-readable contract such as JSON Schema or
 a typed record. See [Structured Output](build/structured-output.md).
 
-## Thermodynamic Potential
-
-A state function, such as internal energy, enthalpy, Helmholtz energy, or Gibbs
-energy, organized so its natural variables match a useful set of constraints.
-See [Thermodynamic Systems, Laws, and
-Potentials](materials-science/thermodynamic-systems-laws-potentials.md).
-
 ## Ternary System
 
 A thermodynamic system with three chemically independent components. At fixed
 temperature and pressure, two independent composition coordinates locate an
 overall composition in a Gibbs triangle. See [Ternary Systems and Phase
 Diagrams](materials-science/ternary-systems-and-phase-diagrams.md).
+
+## Thermodynamic Potential
+
+A state function, such as internal energy, enthalpy, Helmholtz energy, or Gibbs
+energy, organized so its natural variables match a useful set of constraints.
+See [Thermodynamic Systems, Laws, and
+Potentials](materials-science/thermodynamic-systems-laws-potentials.md).
 
 ## Tie Line
 

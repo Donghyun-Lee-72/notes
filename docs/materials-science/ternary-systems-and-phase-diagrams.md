@@ -106,6 +106,12 @@ ordinary ternary section at fixed pressure and temperature:
 | Two phases | 2 | 1 | One intensive composition parameter selects a tie line. |
 | Three phases | 3 | 0 | The three equilibrium phase compositions are fixed vertices of a tie triangle. |
 
+This three-phase maximum assumes that pressure and temperature are independent
+conditions chosen for an ordinary section. At a ternary invariant temperature,
+temperature is instead fixed by the equilibrium itself. With pressure fixed,
+`F_p = 4 - P`, so four phases can coexist at `F_p = 0`; check the diagram's
+conditions before treating the table as exhaustive.
+
 The overall composition may still move within a two- or three-phase region by
 changing phase amounts. Those amounts are extensive and are not counted by
 `F`. The general rule is given by the
@@ -218,8 +224,10 @@ line, and arithmetic.
   finite processing time can retain metastable phases or composition
   gradients.
 - **The section has stated conditions.** A phase field at one temperature and
-  pressure need not persist in another slice. Pressure, fields, or constrained
-  reactions can also change the applicable phase-rule count.
+  pressure need not persist in another slice. An invariant temperature,
+  pressure, other applied fields, or constrained reactions can change which
+  variables are independently selectable and therefore the applicable
+  phase-rule count.
 - **Boundaries depend on evidence and models.** Experimental uncertainty,
   thermodynamic database assessments, and model choices can shift calculated
   boundaries and tie lines. A smooth curve is not proof of exactness.
