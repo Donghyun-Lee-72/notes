@@ -1,11 +1,12 @@
 # Ternary Systems and Phase Diagrams
 
-A **ternary system** has three chemically independent components. At a stated
-pressure and temperature, a ternary phase diagram maps which equilibrium
-phase or phases are stable across all overall compositions in scope. Its
-triangle contains the same three kinds of information as a binary diagram:
-the phases present, the composition of each phase, and their amounts. The
-extra component makes the geometry two-dimensional rather than linear.
+A **ternary system** has three chemically independent components. At fixed
+pressure, its complete temperature–composition phase diagram is a
+three-dimensional prism: two coordinates specify composition, and the third
+is temperature. A triangular **isothermal section** is a slice through that
+prism at fixed pressure and temperature. It shows the equilibrium phases and
+their compositions; phase amounts are derived from those phase compositions,
+the overall composition, and mass balance.
 
 This note continues from [Unary Phase Equilibria](unary-phase-equilibria.md)
 and [Binary Solutions and Phase Diagrams](binary-solutions-and-phase-diagrams.md).
@@ -44,24 +45,26 @@ for each component, and follow the tick labels on the actual diagram. The
 demonstrates vertices, edges, parallel grid lines, and both common direction
 conventions.
 
-## Identify which two-dimensional diagram you have
+## Identify which ternary representation you have
 
-At fixed pressure, the complete equilibrium description needs two composition
-coordinates plus temperature. It is therefore a three-dimensional
-temperature–composition **prism** with a triangular composition base. Two
-different ways of reducing that object to a page must not be confused:
+At fixed pressure, the complete ternary temperature–composition phase diagram
+needs two composition coordinates plus temperature. It is therefore a
+three-dimensional **prism** with a triangular composition base. Two different
+ways of reducing that complete fixed-pressure diagram to a page must not be
+confused:
 
-- An **isothermal section** is a horizontal slice at one specified
-  temperature and pressure. Its regions report the equilibrium phases at that
-  temperature.
+- A triangular **isothermal section** is a horizontal slice at one specified
+  pressure and temperature. Its regions report the equilibrium phases under
+  those fixed conditions.
 - A **liquidus projection** views liquidus-surface information on the
   composition triangle, often with liquidus-temperature contours and primary
   crystallization fields. It is a projection across temperatures, not the
   phase assemblage in one isothermal slice.
 
 A vertical section at a selected composition path is another possible view;
-it is not the whole ternary system. Always read the title, fixed conditions,
-axes, contour labels, and legend before interpreting fields. Northwestern's
+it is not the complete fixed-pressure ternary diagram. Always read the title,
+fixed conditions, axes, contour labels, and legend before interpreting fields.
+Northwestern's
 [Phase Equilibria and Diffusion in Materials, Ch. 8](https://msecore.northwestern.edu/315/315text.pdf)
 compares the Gibbs triangle, the three-dimensional construction, isothermal
 sections, and liquidus projections.
