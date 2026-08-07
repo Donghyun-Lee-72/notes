@@ -134,8 +134,8 @@ checkout. Broader chemistry coverage can still add states of matter, solution
 properties, descriptive inorganic chemistry, introductory organic and nuclear
 chemistry, synthesis, and analytical measurement.
 
-The next materials-science foundations include multicomponent phase equilibria,
-structure–property relations, degradation, processing, and later
-lifecycle-aware selection. The links above describe repository availability;
-they do not assert that an external public deployment already contains every
-page.
+The next materials-science foundations include higher-order multicomponent
+equilibria beyond ternary systems, structure–property relations, degradation,
+processing, and later lifecycle-aware selection. The links above describe
+repository availability; they do not assert that an external public deployment
+already contains every page.
